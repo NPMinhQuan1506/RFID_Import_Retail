@@ -1,0 +1,1224 @@
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\RFID_Import_Retail.exe.config
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\RFID_Import_Retail.exe
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\RFID_Import_Retail.pdb
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Charts.Designer.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Charts.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.CodeConverter.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.CodeParser.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Win.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Drawing.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.RichEdit.v19.2.Export.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.SharePoint.2016.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.TreeMap.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.UI.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.Extensions.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.UI.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraDiagram.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraDialogs.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraGantt.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Win.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraMap.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraNavBar.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraPdfViewer.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.CodeCompletion.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Service.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraRichEdit.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Extensions.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.GoogleCalendar.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.Extensions.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpellChecker.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpreadsheet.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeMap.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraWizard.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\EPPlus.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Charts.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Core.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Docking.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Mvvm.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.PropertyGrid.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Ribbon.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpo.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Map.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.UI.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Web.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxHtmlEditor.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxSpellChecker.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Diagram.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Dialogs.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.SpellChecker.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Spreadsheet.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Printing.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Layout.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.DocumentViewer.v19.2.Core.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.LayoutControl.v19.2.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Charts.Designer.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Win.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Drawing.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.TreeMap.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.UI.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.UI.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraDiagram.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraDialogs.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraGantt.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Win.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraMap.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraNavBar.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraPdfViewer.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Service.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Extensions.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.GoogleCalendar.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.Extensions.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpellChecker.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpreadsheet.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeMap.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.XtraWizard.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\EPPlus.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Charts.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Core.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Docking.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Mvvm.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.PropertyGrid.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Ribbon.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpo.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Map.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.UI.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Web.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxHtmlEditor.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxSpellChecker.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Diagram.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.SpellChecker.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Spreadsheet.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Printing.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Layout.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.DocumentViewer.v19.2.Core.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.LayoutControl.v19.2.xml
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csprojAssemblyReference.cache
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.frmMenu.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.Properties.Resources.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Authority.frmLogin.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Authority.frmSplashScreen.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Author.ctrAuthorList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Author.frmAuthorDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Categories.ctrCategoriesList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Categories.frmCategoriesDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Customer.ctrCustomerList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Customer.frmCustomerDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Dashboard.ctrDashboard.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Department.ctrDepartmentList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Department.frmDepartmentDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Discount.ctrDiscountList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Discount.frmDiscountDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.EmployeeLog.ctrEmployeeLog.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Employee.ctrEmployeeList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Employee.frmEmployeeDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Imports.ctrImportsList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Imports.frmImportsDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Notification.frmMessageOK.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Notification.frmMessageYesNo.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Order.ctrOrderList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Order.frmOrderDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Order.frmPrintOrder.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Order.InvoiceReport.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Product.ctrProductList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Product.frmProductDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Publisher.ctrPublisherList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Publisher.frmPublisherDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Revenue.ctrDetailStatistics.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Revenue.ctrOverviewStatistics.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Revenue.ctrRevenueStatistics.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Sale.ctrSale.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Sale.frmSaleMenu.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Stock.ctrStockStatistics.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Supplier.ctrSupplierList.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.Supplier.frmSupplierDetail.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.View.ThemeSetting.ctrThemeSetting.resources
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csproj.GenerateResource.cache
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.exe.licenses
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csproj.CoreCompileInputs.cache
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csproj.CopyComplete
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.exe
+C:\Users\Mou\Desktop\Desktop-Application-BaoBei-Bookstore-Management\Desktop-Application-BaoBei-Bookstore-Management - Copy\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.pdb
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Product.ctrProductList.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.frmMenu.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Product.frmProductDetail.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.Properties.Resources.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Authority.frmSplashScreen.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Imports.ctrImportsList.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Imports.frmImportsDetail.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Notification.frmMessageOK.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Notification.frmMessageYesNo.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csproj.GenerateResource.cache
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.exe.licenses
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csproj.CoreCompileInputs.cache
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\RFID_Import_Retail.exe.config
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\RFID_Import_Retail.exe
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\RFID_Import_Retail.pdb
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Charts.Designer.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Charts.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.CodeConverter.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.CodeParser.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Win.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Drawing.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.RichEdit.v19.2.Export.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.SharePoint.2016.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.TreeMap.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.UI.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.Extensions.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.UI.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraDiagram.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraDialogs.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraGantt.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Win.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraMap.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraNavBar.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraPdfViewer.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.CodeCompletion.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Service.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraRichEdit.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Extensions.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.GoogleCalendar.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.Extensions.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpellChecker.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpreadsheet.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeMap.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraWizard.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\EPPlus.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\FireSharp.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\FireSharp.Serialization.JsonNet.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\RestSharp.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Charts.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Core.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Docking.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Mvvm.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.PropertyGrid.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Ribbon.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpo.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Map.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.UI.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Web.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxHtmlEditor.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxSpellChecker.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Diagram.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Dialogs.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.SpellChecker.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Spreadsheet.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Printing.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Layout.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.DocumentViewer.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.LayoutControl.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Charts.Designer.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Win.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Drawing.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.TreeMap.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.UI.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.UI.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraDiagram.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraDialogs.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraGantt.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Win.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraMap.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraNavBar.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraPdfViewer.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Service.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Extensions.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.GoogleCalendar.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.Extensions.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpellChecker.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpreadsheet.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeMap.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.XtraWizard.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\EPPlus.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\RestSharp.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Charts.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Core.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Docking.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Mvvm.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.PropertyGrid.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Ribbon.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpo.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Map.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.UI.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Web.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxHtmlEditor.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxSpellChecker.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Diagram.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.SpellChecker.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Spreadsheet.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Printing.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Layout.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.DocumentViewer.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.LayoutControl.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csproj.CopyComplete
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.exe
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.pdb
+C:\Users\Mou\Desktop\RFID_Import_Retail\RFID_Import_Retail\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csprojAssemblyReference.cache
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\RFID_Import_Retail.exe.config
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\RFID_Import_Retail.exe
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\RFID_Import_Retail.pdb
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.BonusSkins.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Charts.Designer.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Charts.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.CodeConverter.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.CodeParser.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Win.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Data.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Office.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Drawing.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.PivotGrid.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.RichEdit.v19.2.Export.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.SharePoint.2016.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.TreeMap.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.UI.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraBars.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.Extensions.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.UI.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraDiagram.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraDialogs.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraGantt.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Win.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraMap.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraNavBar.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraPdfViewer.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraPivotGrid.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.CodeCompletion.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Service.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraRichEdit.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Extensions.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.GoogleCalendar.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.Extensions.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpellChecker.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpreadsheet.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeMap.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraWizard.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\EPPlus.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\FireSharp.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\FireSharp.Serialization.JsonNet.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\RestSharp.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Charts.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Core.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Docking.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Mvvm.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.PropertyGrid.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Ribbon.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpo.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Map.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.UI.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Images.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Web.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxHtmlEditor.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxSpellChecker.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Diagram.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Dialogs.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.SpellChecker.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Spreadsheet.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Printing.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Layout.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.DocumentViewer.v19.2.Core.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.LayoutControl.v19.2.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Charts.Designer.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Dashboard.v19.2.Win.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Data.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Office.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Pdf.v19.2.Drawing.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.PivotGrid.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.TreeMap.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Utils.v19.2.UI.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraBars.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.UI.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraCharts.v19.2.Wizard.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraDiagram.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraDialogs.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraGantt.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Presets.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraGauges.v19.2.Win.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraMap.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraNavBar.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraPdfViewer.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraPivotGrid.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Extensions.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraReports.v19.2.Service.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraRichEdit.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Extensions.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.GoogleCalendar.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraScheduler.v19.2.Reporting.Extensions.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpellChecker.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraSpreadsheet.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraTreeMap.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraVerticalGrid.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.XtraWizard.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\EPPlus.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\RestSharp.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Charts.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Core.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Docking.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Grid.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Mvvm.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.PropertyGrid.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Ribbon.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpo.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Map.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.DataAccess.v19.2.UI.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Web.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxHtmlEditor.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Web.ASPxSpellChecker.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Diagram.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.SpellChecker.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Spreadsheet.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Printing.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.Layout.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.DocumentViewer.v19.2.Core.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\DevExpress.Xpf.LayoutControl.v19.2.xml
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Charts.Designer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Dashboard.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Dashboard.v19.2.Win.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.PivotGrid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Utils.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraCharts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraCharts.v19.2.Wizard.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraGauges.v19.2.Presets.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraNavBar.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraPdfViewer.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraPivotGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraReports.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraReports.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraRichEdit.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraSpreadsheet.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraVerticalGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.XtraWizard.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Charts.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Core.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Docking.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Grid.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Ribbon.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.DataAccess.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpo.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Map.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.DataAccess.v19.2.UI.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Web.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Diagram.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Dialogs.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Spreadsheet.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.Printing.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\de\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\es\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v19.2.resources.dll
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csprojAssemblyReference.cache
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Product.ctrProductList.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.frmMenu.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Product.frmProductDetail.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.Properties.Resources.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Authority.frmSplashScreen.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Imports.ctrImportsList.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Imports.frmImportsDetail.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Notification.frmMessageOK.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.GUI.Notification.frmMessageYesNo.resources
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csproj.GenerateResource.cache
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.exe.licenses
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csproj.CoreCompileInputs.cache
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.csproj.CopyComplete
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.exe
+C:\Users\Mou\Desktop\RFID_Import_Retail\WinformApplication\RFID_Import_Retail\obj\Debug\RFID_Import_Retail.pdb
