@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_larger">23sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_small1">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="size_button">16sp</dimen>
+    <dimen name="size_button_small">14sp</dimen>
+    <dimen name="size_text_edit">16sp</dimen>
+    <dimen name="size_text_view">16sp</dimen>
+    <dimen name="width_button_help">0dp</dimen>
+    <dimen name="main_button_height">70dp</dimen>
+    <dimen name="main_button_height1">60dp</dimen>
+
+    <dimen name="linear_layout_height">35dp</dimen>
+    <dimen name="linear_layout_height_1">38dp</dimen>
+    <dimen name="linear_layout_height_2">42dp</dimen>
+    <dimen name="linear_layout_height_21">43dp</dimen>
+    <dimen name="linear_layout_height_3">60dp</dimen>
+    <dimen name="linear_layout_height_4">50dp</dimen>
+    <dimen name="linear_layout_height_5">66dp</dimen>
+    <dimen name="linear_layout_height_spinner">46dp</dimen>
+
+    <dimen name="layout_margin_padding">1dp</dimen>
+    <dimen name="layout_margin_padding_medium">3dp</dimen>
+    <dimen name="layout_margin_padding_large">5dp</dimen>
+    <dimen name="layout_margin_text_view">2dp</dimen>
+    <dimen name="layout_margin_layout">2dp</dimen>
+    <dimen name="layout_margin_layout_large">5dp</dimen>
+    <dimen name="layout_margin_bottom">-5dp</dimen>
+    <dimen name="layout_margin_left">-3dp</dimen>
+    <dimen name="layout_margin_left2">-6dp</dimen>
+    <dimen name="layout_margin_top">-3dp</dimen>
+    <dimen name="layout_margin_right">-3dp</dimen>
+</resources>

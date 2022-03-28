@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutHead"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_height_2"
+        android:layout_marginTop="@dimen/layout_margin_layout"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg"
+            android:text="@string/button_back"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_chooseFile"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/btn_choose_file"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_margin_layout"
+        android:background="@color/gray1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_height"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textViewHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorInfo"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/form_scan_detail"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutEdit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:padding="@dimen/layout_margin_padding"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="@dimen/text_size_small" />
+
+    </LinearLayout>
+
+</LinearLayout>

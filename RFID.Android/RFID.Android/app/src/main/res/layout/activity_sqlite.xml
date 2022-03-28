@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_height_2"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginRight="@dimen/layout_margin_left"
+            android:layout_marginBottom="@dimen/layout_margin_bottom"
+            android:textSize="@dimen/size_button"
+            android:text="@string/button_back"/>
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginRight="@dimen/layout_margin_left"
+            android:layout_marginBottom="@dimen/layout_margin_bottom"
+            android:textSize="@dimen/size_button"
+            android:text="@string/button_load"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/layout_margin_left"
+            android:layout_marginRight="@dimen/layout_margin_left"
+            android:layout_marginBottom="@dimen/layout_margin_bottom"
+            android:textSize="@dimen/size_button"
+            android:text="@string/button_delete_all"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDetail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_height_1"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewSearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/colorInfo"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/form_scan_detail" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutEdit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_height_2"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/edtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/form_find"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="false"
+        android:padding="@dimen/layout_margin_padding"
+        android:listSelector="#1100ff">
+        <requestFocus></requestFocus>
+    </ListView>
+
+</LinearLayout>
