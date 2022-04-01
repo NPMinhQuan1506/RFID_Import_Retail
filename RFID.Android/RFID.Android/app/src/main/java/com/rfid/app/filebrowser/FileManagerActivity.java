@@ -40,7 +40,6 @@ public class FileManagerActivity extends ListActivity {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        //get url file from <?> class
         fCurrentFile = getIntent().getStringExtra("IntentObject");
         browseToDownDirectory(fCurrentFile);
 

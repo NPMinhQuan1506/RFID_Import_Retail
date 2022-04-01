@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "5398681013",
+    "firebase_url": "https://rfid-import-retail-180322-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "rfid-import-retail-180322",
+    "storage_bucket": "rfid-import-retail-180322.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5398681013:android:e6ca3ca39a0a4fa05475fc",
+        "android_client_info": {
+          "package_name": "com.example.testfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5398681013-ojh12fmeuh4j169bp5sff84fci24fm74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtDVxymPLdqMcxhzdOQbjDAc4_pytZvYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5398681013-ojh12fmeuh4j169bp5sff84fci24fm74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5398681013:android:f2ec6172f95d91e75475fc",
+        "android_client_info": {
+          "package_name": "com.rfid.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5398681013-ojh12fmeuh4j169bp5sff84fci24fm74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtDVxymPLdqMcxhzdOQbjDAc4_pytZvYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5398681013-ojh12fmeuh4j169bp5sff84fci24fm74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
