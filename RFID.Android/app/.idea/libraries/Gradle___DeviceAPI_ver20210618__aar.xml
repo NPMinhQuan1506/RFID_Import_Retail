@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: :DeviceAPI_ver20210618:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21d6583394aef27a54e04e652aa88e92/jetified-DeviceAPI_ver20210618/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21d6583394aef27a54e04e652aa88e92/jetified-DeviceAPI_ver20210618/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21d6583394aef27a54e04e652aa88e92/jetified-DeviceAPI_ver20210618/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21d6583394aef27a54e04e652aa88e92/jetified-DeviceAPI_ver20210618/jars/libs/android.hidl.base-V1.0-java.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21d6583394aef27a54e04e652aa88e92/jetified-DeviceAPI_ver20210618/jars/libs/vendor.mediatek.hardware.zebra-V1.0-java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
