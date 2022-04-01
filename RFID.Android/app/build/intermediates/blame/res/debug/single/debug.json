@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_importlist_items.xml.flat",
+        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\importlist_items.xml"
+    },
+    {
         "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg.xml.flat",
         "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg.xml"
     },

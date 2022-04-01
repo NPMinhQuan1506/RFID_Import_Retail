@@ -126,6 +126,7 @@
     <string name="btView">View</string>
     <string name="tvTag">Tag</string>
     <string name="btMapping">Mapping</string>
+    <string name="btCheck">Check</string>
     <string-array name="arrayAntiQ">
         <item>0</item>
         <item>1</item>

@@ -16,15 +16,28 @@
             android:orientation="vertical">
 
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Mapping New Product With RFID"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black1"
+                android:textAlignment="center"/>
 
             <Button
                 android:id="@+id/btMapping"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="75dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
-                android:minHeight="30dp"
+                android:minHeight="50dp"
                 android:text="@string/btMapping"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -35,12 +48,25 @@
             android:orientation="vertical"
             android:layout_marginTop="5dp">
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Import List"
+                android:textAlignment="center"
+                android:textColor="@color/black1"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <ListView
                 android:id="@+id/list"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="566dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"/>
+                android:layout_marginBottom="5dp" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

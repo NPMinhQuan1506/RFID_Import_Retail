@@ -2679,6 +2679,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btCheck
 id btMapping
 id btnBack
 id btnDelete
@@ -2721,6 +2722,7 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id create_date
 id currentState
 id custom
 id customPanel
@@ -2804,6 +2806,7 @@ id ignore
 id ignoreRequest
 id image
 id immediateStop
+id import_id
 id included
 id info
 id invisible
@@ -2820,6 +2823,7 @@ id labeled
 id layout
 id layout12
 id layout4
+id lb_total_import
 id left
 id leftToRight
 id legacy
@@ -2836,6 +2840,7 @@ id list
 id listMode
 id listView
 id list_item
+id ly_total_import
 id masked
 id match_constraint
 id match_parent
@@ -2998,6 +3003,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status
 id stop
 id stretch
 id submenuarrow
@@ -3029,6 +3035,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
+id textView3
 id textViewHeader
 id textViewSearch
 id text_input_end_icon
@@ -3047,6 +3055,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id total_import
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3201,6 +3210,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout importlist_items
 layout listtag_items
 layout listview_columns
 layout material_chip_input_combo
@@ -3416,6 +3426,7 @@ string btAdd_Select
 string btBack1
 string btCalRange
 string btCancel
+string btCheck
 string btChoose_Select
 string btClear
 string btCreateCode

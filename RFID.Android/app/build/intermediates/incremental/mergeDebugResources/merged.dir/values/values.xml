@@ -2206,6 +2206,7 @@
     <string name="btBack1">Back</string>
     <string name="btCalRange">Calculation</string>
     <string name="btCancel">Cancel</string>
+    <string name="btCheck">Check</string>
     <string name="btChoose_Select">Select</string>
     <string name="btClear">Clear</string>
     <string name="btCreateCode">Create Code</string>
