@@ -148,6 +148,12 @@
     <Compile Include="DTO\ImportDetailDTO.cs" />
     <Compile Include="DTO\ImportsDTO.cs" />
     <Compile Include="DTO\ProductDTO.cs" />
+    <Compile Include="GUI\Imports\frmCheckImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Imports\frmCheckImport.Designer.cs">
+      <DependentUpon>frmCheckImport.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Product\ctrProductList.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -204,6 +210,9 @@
       <DependentUpon>frmMessageYesNo.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Notification\MyMessageBox.cs" />
+    <EmbeddedResource Include="GUI\Imports\frmCheckImport.resx">
+      <DependentUpon>frmCheckImport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Product\ctrProductList.resx">
       <DependentUpon>ctrProductList.cs</DependentUpon>
     </EmbeddedResource>

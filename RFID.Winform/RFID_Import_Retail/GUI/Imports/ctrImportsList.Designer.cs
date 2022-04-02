@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ctrImportsList));
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
@@ -67,12 +67,11 @@
             this.repositoryItemSpinEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
             this.colImportID = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colProductID = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.DetailDelete = new DevExpress.XtraGrid.Columns.GridColumn();
             this.btnDelete = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.gcImports = new DevExpress.XtraGrid.GridControl();
             this.gvImports = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.NO = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.ImportID = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.ImportId = new DevExpress.XtraGrid.Columns.GridColumn();
             this.EmployeeName = new DevExpress.XtraGrid.Columns.GridColumn();
             this.mmField = new DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit();
             this.TotalImport = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -96,6 +95,8 @@
             this.btnAdd = new DevExpress.XtraEditors.ButtonEdit();
             this.cbbField = new DevExpress.XtraEditors.ComboBoxEdit();
             this.txtSearch = new DevExpress.XtraEditors.TextEdit();
+            this.IsCheck = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.gvDetail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDelete)).BeginInit();
@@ -118,6 +119,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnAdd.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbbField.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtSearch.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             this.SuspendLayout();
             // 
             // gvDetail
@@ -126,9 +128,9 @@
             this.ImportProduct,
             this.Amount,
             this.BasePrice,
+            this.IsCheck,
             this.colImportID,
-            this.colProductID,
-            this.DetailDelete});
+            this.colProductID});
             this.gvDetail.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFullFocus;
             this.gvDetail.GridControl = this.gcImports;
             this.gvDetail.HorzScrollStep = 1;
@@ -212,10 +214,10 @@
             this.BasePrice.AppearanceHeader.Options.UseForeColor = true;
             this.BasePrice.AppearanceHeader.Options.UseTextOptions = true;
             this.BasePrice.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.BasePrice.Caption = "Giá Nhập";
+            this.BasePrice.Caption = "Giá Nhập (VNĐ)";
             this.BasePrice.ColumnEdit = this.repositoryItemSpinEdit1;
             this.BasePrice.FieldName = "ImportPrice";
-            this.BasePrice.MinWidth = 180;
+            this.BasePrice.MinWidth = 120;
             this.BasePrice.Name = "BasePrice";
             this.BasePrice.OptionsColumn.AllowEdit = false;
             this.BasePrice.OptionsColumn.AllowFocus = false;
@@ -248,26 +250,12 @@
             this.colProductID.FieldName = "ProductId";
             this.colProductID.Name = "colProductID";
             // 
-            // DetailDelete
-            // 
-            this.DetailDelete.ColumnEdit = this.btnDelete;
-            this.DetailDelete.MaxWidth = 70;
-            this.DetailDelete.MinWidth = 70;
-            this.DetailDelete.Name = "DetailDelete";
-            this.DetailDelete.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
-            this.DetailDelete.OptionsColumn.AllowMove = false;
-            this.DetailDelete.OptionsColumn.AllowSize = false;
-            this.DetailDelete.OptionsColumn.AllowSort = DevExpress.Utils.DefaultBoolean.False;
-            this.DetailDelete.OptionsFilter.AllowAutoFilter = false;
-            this.DetailDelete.OptionsFilter.AllowFilter = false;
-            this.DetailDelete.Width = 70;
-            // 
             // btnDelete
             // 
             this.btnDelete.AutoHeight = false;
-            editorButtonImageOptions1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions1.SvgImage")));
+            editorButtonImageOptions2.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions2.SvgImage")));
             this.btnDelete.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.btnDelete.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.btnDelete_ButtonClick);
@@ -292,7 +280,8 @@
             this.peAvartar,
             this.repositoryItemSpinEdit1,
             this.repositoryItemRatingControl1,
-            this.repositoryItemSpinEdit2});
+            this.repositoryItemSpinEdit2,
+            this.repositoryItemCheckEdit1});
             this.gcImports.Size = new System.Drawing.Size(955, 448);
             this.gcImports.TabIndex = 1;
             this.gcImports.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -338,7 +327,7 @@
             this.gvImports.AppearancePrint.OddRow.Options.UseFont = true;
             this.gvImports.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.NO,
-            this.ImportID,
+            this.ImportId,
             this.EmployeeName,
             this.TotalImport,
             this.TotalPrice,
@@ -397,32 +386,32 @@
             this.NO.VisibleIndex = 0;
             this.NO.Width = 50;
             // 
-            // ImportID
+            // ImportId
             // 
-            this.ImportID.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.ImportID.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.ImportID.AppearanceCell.Options.UseFont = true;
-            this.ImportID.AppearanceCell.Options.UseForeColor = true;
-            this.ImportID.AppearanceCell.Options.UseTextOptions = true;
-            this.ImportID.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.ImportID.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.ImportID.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            this.ImportID.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.ImportID.AppearanceHeader.Options.UseFont = true;
-            this.ImportID.AppearanceHeader.Options.UseForeColor = true;
-            this.ImportID.AppearanceHeader.Options.UseTextOptions = true;
-            this.ImportID.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.ImportID.Caption = "Mã Phiếu Nhập";
-            this.ImportID.FieldName = "ImportId";
-            this.ImportID.MinWidth = 150;
-            this.ImportID.Name = "ImportID";
-            this.ImportID.OptionsColumn.AllowEdit = false;
-            this.ImportID.OptionsColumn.AllowFocus = false;
-            this.ImportID.OptionsColumn.AllowMove = false;
-            this.ImportID.OptionsColumn.AllowSize = false;
-            this.ImportID.Visible = true;
-            this.ImportID.VisibleIndex = 1;
-            this.ImportID.Width = 150;
+            this.ImportId.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.ImportId.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.ImportId.AppearanceCell.Options.UseFont = true;
+            this.ImportId.AppearanceCell.Options.UseForeColor = true;
+            this.ImportId.AppearanceCell.Options.UseTextOptions = true;
+            this.ImportId.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.ImportId.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.ImportId.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.ImportId.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.ImportId.AppearanceHeader.Options.UseFont = true;
+            this.ImportId.AppearanceHeader.Options.UseForeColor = true;
+            this.ImportId.AppearanceHeader.Options.UseTextOptions = true;
+            this.ImportId.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.ImportId.Caption = "Mã Phiếu Nhập";
+            this.ImportId.FieldName = "ImportId";
+            this.ImportId.MinWidth = 150;
+            this.ImportId.Name = "ImportId";
+            this.ImportId.OptionsColumn.AllowEdit = false;
+            this.ImportId.OptionsColumn.AllowFocus = false;
+            this.ImportId.OptionsColumn.AllowMove = false;
+            this.ImportId.OptionsColumn.AllowSize = false;
+            this.ImportId.Visible = true;
+            this.ImportId.VisibleIndex = 1;
+            this.ImportId.Width = 150;
             // 
             // EmployeeName
             // 
@@ -658,9 +647,9 @@
             // btnCheck
             // 
             this.btnCheck.AutoHeight = false;
-            editorButtonImageOptions2.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions2.SvgImage")));
+            editorButtonImageOptions1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions1.SvgImage")));
             this.btnCheck.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.btnCheck.Name = "btnCheck";
             this.btnCheck.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.btnCheck.Click += new System.EventHandler(this.btnEdit_Click);
@@ -906,6 +895,42 @@
             this.txtSearch.TabIndex = 0;
             this.txtSearch.EditValueChanged += new System.EventHandler(this.txtSearch_EditValueChanged);
             // 
+            // IsCheck
+            // 
+            this.IsCheck.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.IsCheck.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.IsCheck.AppearanceCell.Options.UseFont = true;
+            this.IsCheck.AppearanceCell.Options.UseForeColor = true;
+            this.IsCheck.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.IsCheck.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.IsCheck.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.IsCheck.AppearanceHeader.Options.UseFont = true;
+            this.IsCheck.AppearanceHeader.Options.UseForeColor = true;
+            this.IsCheck.AppearanceHeader.Options.UseTextOptions = true;
+            this.IsCheck.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.IsCheck.Caption = "Duyệt";
+            this.IsCheck.ColumnEdit = this.repositoryItemCheckEdit1;
+            this.IsCheck.FieldName = "IsCheck";
+            this.IsCheck.MaxWidth = 70;
+            this.IsCheck.MinWidth = 70;
+            this.IsCheck.Name = "IsCheck";
+            this.IsCheck.OptionsColumn.AllowEdit = false;
+            this.IsCheck.OptionsColumn.AllowFocus = false;
+            this.IsCheck.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.IsCheck.OptionsColumn.AllowMove = false;
+            this.IsCheck.OptionsColumn.AllowSize = false;
+            this.IsCheck.Visible = true;
+            this.IsCheck.VisibleIndex = 3;
+            this.IsCheck.Width = 70;
+            // 
+            // repositoryItemCheckEdit1
+            // 
+            this.repositoryItemCheckEdit1.AutoHeight = false;
+            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
+            this.repositoryItemCheckEdit1.ReadOnly = true;
+            this.repositoryItemCheckEdit1.ValueChecked = ((short)(1));
+            this.repositoryItemCheckEdit1.ValueUnchecked = ((short)(0));
+            // 
             // ctrImportsList
             // 
             this.Appearance.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
@@ -941,6 +966,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnAdd.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbbField.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtSearch.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -952,7 +978,7 @@
         private DevExpress.XtraEditors.TextEdit txtSearch;
         private DevExpress.XtraGrid.GridControl gcImports;
         private DevExpress.XtraGrid.Views.Grid.GridView gvImports;
-        private DevExpress.XtraGrid.Columns.GridColumn ImportID;
+        private DevExpress.XtraGrid.Columns.GridColumn ImportId;
         private DevExpress.XtraGrid.Columns.GridColumn NO;
         private DevExpress.XtraGrid.Columns.GridColumn EmployeeName;
         private DevExpress.XtraGrid.Columns.GridColumn ModifiedDate;
@@ -979,9 +1005,10 @@
         private DevExpress.XtraGrid.Columns.GridColumn BasePrice;
         private DevExpress.XtraGrid.Columns.GridColumn Amount;
         private DevExpress.XtraGrid.Columns.GridColumn colImportID;
-        private DevExpress.XtraGrid.Columns.GridColumn DetailDelete;
         private DevExpress.XtraGrid.Columns.GridColumn colProductID;
         private DevExpress.XtraGrid.Columns.GridColumn TotalImport;
         private DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit repositoryItemSpinEdit2;
+        private DevExpress.XtraGrid.Columns.GridColumn IsCheck;
+        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
     }
 }

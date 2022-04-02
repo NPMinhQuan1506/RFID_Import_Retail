@@ -132,9 +132,9 @@ namespace RFID_Import_Retail.GUI.Imports
         // If Master don't have Detail, a plus is enable
         private void gvImports_MasterRowEmpty(object sender, DevExpress.XtraGrid.Views.Grid.MasterRowEmptyEventArgs e)
         {
-            if (gvImports.GetRowCellValue(e.RowHandle, ImportID) != null)
+            if (gvImports.GetRowCellValue(e.RowHandle, ImportId) != null)
             {
-                string ID = gvImports.GetRowCellValue(e.RowHandle, ImportID).ToString();
+                string ID = gvImports.GetRowCellValue(e.RowHandle, ImportId).ToString();
                 e.IsEmpty = !dtDetail.AsEnumerable().Any(x => x.Field<string>("ImportId") == ID);
             }
         }
@@ -142,9 +142,9 @@ namespace RFID_Import_Retail.GUI.Imports
         //LoadData Detail
         private void gvImports_MasterRowGetChildList(object sender, DevExpress.XtraGrid.Views.Grid.MasterRowGetChildListEventArgs e)
         {
-            if (gvImports.GetRowCellValue(e.RowHandle, ImportID) != null)
+            if (gvImports.GetRowCellValue(e.RowHandle, ImportId) != null)
             {
-                string ID = gvImports.GetRowCellValue(e.RowHandle, ImportID).ToString();
+                string ID = gvImports.GetRowCellValue(e.RowHandle, ImportId).ToString();
                 e.ChildList = GetBatchFromItem(ID);
                 gvDetail.ViewCaption = "Chi Tiết Phiếu Nhập " + ID;
             }
@@ -186,13 +186,13 @@ namespace RFID_Import_Retail.GUI.Imports
 
         private void update()
         {
-            //if (getID(gvImports, "MaPN") != "")
-            //{
-            //    string ID = getID(gvImports, "MaPN");
-            //    frmImportsDetail frm = new frmImportsDetail(ID);
-            //    frm.ShowDialog();
-            //    loadData();
-            //}
+            if (getID("ImportId") != "")
+            {
+                string ID = getID("ImportId");
+                frmCheckImport frm = new frmCheckImport(ID);
+                frm.ShowDialog();
+                loadData();
+            }
         }
 
         #endregion

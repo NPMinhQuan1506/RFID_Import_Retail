@@ -53,7 +53,30 @@ namespace RFID_Import_Retail.BUS
                 DataTable dt = func.LinqQueryToDataTable(result);
                 return dt;
             }
-            return await ImportsDAO.Instance.loadDataById(importId);
+            else
+            {
+                DataTable dtImport = new DataTable();
+                DataTable dtEmployee = new DataTable();
+                dtImport = await ImportsDAO.Instance.loadData();
+                dtEmployee = await EmployeeDAO.Instance.loadData();
+                var result = from import in dtImport.AsEnumerable()
+                             join emp in dtEmployee.AsEnumerable() on import.Field<string>("EmpId") equals emp.Field<string>("EmpId")
+                             where import.Field<string>("ImportId") == importId
+                             select new
+                             {
+                                 ImportId = import.Field<string>("ImportId"),
+                                 Employee = emp.Field<string>("Name"),
+                                 TotalImport = Convert.ToInt32(import.Field<string>("TotalImport")),
+                                 ActualNumber = Convert.ToInt32(import.Field<string>("ActualNumber")),
+                                 TotalPrice = Convert.ToDecimal(import.Field<string>("TotalPrice")),
+                                 Note = import.Field<string>("Note"),
+                                 CreatedDate = func.StringToDateTime(import.Field<string>("CreatedDate")),
+                                 ModifiedDate = func.StringToDateTime(import.Field<string>("ModifiedDate")),
+                                 IsEnable = Convert.ToInt16(import.Field<string>("IsEnable"))
+                             };
+                DataTable dt = func.LinqQueryToDataTable(result);
+                return dt;
+            }
         }
 
         public void create(string importId, string empId, int totalImport, int actualNumber, decimal totalPrice, string note)
@@ -72,6 +95,10 @@ namespace RFID_Import_Retail.BUS
             ImportsDAO.Instance.update(product);
         }
 
+        public void updateField(string importId, string field, dynamic value)
+        {
+            ImportsDAO.Instance.updateField(importId, field, value);
+        }
         public void delete(string importId)
         {
             ImportsDAO.Instance.delete(importId);

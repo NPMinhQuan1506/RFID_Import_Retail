@@ -51,7 +51,27 @@ namespace RFID_Import_Retail.BUS
                 DataTable dt = func.LinqQueryToDataTable(result);
                 return dt;
             }
-            return await ImportDetailDAO.Instance.loadDataById(importId);
+            else
+            {
+                DataTable dtImport = new DataTable();
+                DataTable dtProduct = new DataTable();
+                dtImport = await ImportDetailDAO.Instance.loadData();
+                dtProduct = await ProductDAO.Instance.loadData();
+                var result = from import in dtImport.AsEnumerable()
+                             join product in dtProduct.AsEnumerable() on import.Field<string>("ProductId") equals product.Field<string>("SKU")
+                             where import.Field<string>("ImportId") == importId
+                             select new
+                             {
+                                 ImportId = import.Field<string>("ImportId"),
+                                 Product = product.Field<string>("Name"),
+                                 ProductId = product.Field<string>("SKU"),
+                                 Amount = Convert.ToInt32(import.Field<string>("Amount")),
+                                 ImportPrice = Convert.ToDecimal(import.Field<string>("ImportPrice")),
+                                 IsCheck = Convert.ToInt16(import.Field<string>("IsCheck"))
+                             };
+                DataTable dt = func.LinqQueryToDataTable(result);
+                return dt;
+            }
         }
 
         public void create(string importId, string productId, int amount, decimal importPrice, int isCheck)

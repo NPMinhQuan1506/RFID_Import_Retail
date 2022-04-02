@@ -63,13 +63,20 @@ namespace RFID_Import_Retail.DAO
         public async void create(ImportsDTO import)
         {
             SetResponse response = await Client.SetTaskAsync(@"Import/" + import.importId, import);
-            ImportsDTO result = response.ResultAs<ImportsDTO>();
         }
 
         public async void update(ImportsDTO import)
         {
             FirebaseResponse response = await Client.UpdateTaskAsync(@"Import/" + import.importId, import);
-            ImportsDTO result = response.ResultAs<ImportsDTO>();
+        }
+
+        public async void updateField(string importId, string field, dynamic value)
+        {
+            Dictionary<string, dynamic> data = new Dictionary<string, dynamic>()
+            {
+                { field,value }
+            };
+            FirebaseResponse response = await Client.UpdateTaskAsync(@"Import/" + importId + @"/", data);
         }
 
         public async void delete(string importId)
