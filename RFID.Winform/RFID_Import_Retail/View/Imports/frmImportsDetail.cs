@@ -23,11 +23,12 @@ namespace RFID_Import_Retail.View.Imports
         #region //Define Class and Variable
 
         Controller.Common func = new Controller.Common();
+        Model.Database conn = new Model.Database();
         //Validation Rule
         Controller.Validation.Empty_Contain empty_ContainRule = new Controller.Validation.Empty_Contain();
         //defind variable
         String ImpID = "", dtNow = "";
-        string emptyGridText = "Không có dữ liệu";
+        string emptyGridText = "Empty Data";
         DataTable dtCart;
         //Move Panel
         Boolean dragging = false;
@@ -43,42 +44,14 @@ namespace RFID_Import_Retail.View.Imports
             ImpID = InitImportID();
             dtNow = func.DateTimeToString(DateTime.Now);
         }
-
-        //public frmImportsDetail(string _id) : this()
-        //{
-        //    this.id = _id;
-        //    loadData();
-
-        //}
-        #endregion
-
-        #region //Load Data For Updating Event
-        private void loadData()
-        {
-            //if (this.id != "")
-            //{
-            //    string query = String.Format(@"Select ct.*, sp.TenSP as SanPham,pn.MaNCC, pn.TongTien, pn.GhiChu from PhieuNhap as pn 
-            //                                   inner join ChiTietPhieuNhap as ct on pn.MaPN = ct.MaPN
-            //                                   inner join SanPham as sp on ct.SKU = sp.SKU Where pn.MaPN = '{0}'", this.id);
-            //    DataTable dtContent = new DataTable();
-            //    dtContent = conn.loadData(query);
-            //    if (dtContent.Rows.Count > 0)
-            //    {
-            //        gcImport.DataSource = dtContent;
-            //        dtCart = (DataTable)gcImport.DataSource;
-            //        luSupplier.EditValue = (dtContent.Rows[0]["MaNCC"]).ToString();
-            //        mmeNote.Text = (dtContent.Rows[0]["GhiChu"]).ToString();
-            //    }
-            //}
-        }
         #endregion
 
         #region //Load Product CardView
         private async void loadDataProduct()
         {
-           
+            string query = @"select * from productline";
             DataTable dtContent = new DataTable();
-            dtContent = await BUS.ProductBUS.Instance.loadData();
+            dtContent = conn.loadData();
             if (dtContent.Rows.Count > 0)
             {
                 gcProduct.DataSource = dtContent;

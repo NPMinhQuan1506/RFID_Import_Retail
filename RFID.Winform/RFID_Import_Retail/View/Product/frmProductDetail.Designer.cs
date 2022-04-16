@@ -90,7 +90,7 @@
             this.lbClear.Name = "lbClear";
             this.lbClear.Size = new System.Drawing.Size(30, 30);
             this.lbClear.TabIndex = 3;
-            this.lbClear.Click += new System.EventHandler(this.lbClear_Click_1);
+            this.lbClear.Click += new System.EventHandler(this.lbClear_Click);
             // 
             // lbClose
             // 
@@ -110,7 +110,7 @@
             this.lbClose.Name = "lbClose";
             this.lbClose.Size = new System.Drawing.Size(30, 30);
             this.lbClose.TabIndex = 2;
-            this.lbClose.Click += new System.EventHandler(this.lbClose_Click_1);
+            this.lbClose.Click += new System.EventHandler(this.lbClose_Click);
             // 
             // pnFooter
             // 

@@ -1,6 +1,7 @@
 package com.rfid.app;
 
 import android.content.Context;
+import android.os.AsyncTask;
 import android.os.Environment;
 
 import java.io.File;
@@ -24,7 +25,7 @@ import java.util.Set;
 public class FileImport {
     static String xlsFilePath = Environment.getExternalStorageDirectory() + "/RfidData/";
     static String FilePathTxt = "";
-
+    Database conn = new Database();
     public static List<String> LoadFileScan(String fileName){
         List<String> list = new ArrayList<>();
         if (fileName.endsWith("xls") || fileName.endsWith("xlsx")){
@@ -99,9 +100,9 @@ public class FileImport {
     }
 
     // save rfids to SQL
-    public static boolean SaveSQL(ArrayList<HashMap<String, String>> lists2, Context cont) throws Exception{
+    public boolean SaveSQL(ArrayList<HashMap<String, String>> lists2, Context cont, int deliveryOrderId) throws Exception{
         try {
-            SQLiteHelper db = new SQLiteHelper(cont);
+//            SQLiteHelper db = new SQLiteHelper(cont);
             List<RFID> list = new ArrayList<>();
 
             String id = "";
@@ -117,16 +118,42 @@ public class FileImport {
 
                         RFID item = new RFID();
                         item.EPC = id;
+                        String[] myTaskParams = { String.valueOf(deliveryOrderId), item.EPC };
+                        ConnectMySQL connectMySql = new ConnectMySQL();
+                        connectMySql.execute(myTaskParams);
                         list.add(item);
                     } else {
                     }
                 }
             }
-            db.addList(list);
+//            db.addList(list);
 
             return true;
         } catch (Exception ex) {
             throw ex;
+        }
+    }
+
+    private class ConnectMySQL extends AsyncTask<String, String, String>{
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected String doInBackground(String... params) {
+            int random = (int)(Math.random() * 5 + 1);
+//            String query = "Update deliveryorderdetail set is_checked = 1 " +
+//                            "Where delivery_order_id = '"+params[0]+"' and product_instance_id = '"+params[1]+"'";
+            String query1 = "Insert into productinstance (`product_instance_id`, `product_line_id`, `is_purcharsed`) " +
+                            "values('"+params[1]+"', 'SP00"+random+"', 0)";
+            conn.executeDatabase(query1);
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
         }
     }
 

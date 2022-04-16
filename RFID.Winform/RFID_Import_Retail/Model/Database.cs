@@ -11,7 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace RFID_Import_Retail.Model
 {
-    class ConnectDatabase
+    class Database
     {
         string host = @"192.168.100.26";
         string databasename = "rfid";
@@ -20,7 +20,7 @@ namespace RFID_Import_Retail.Model
         string password = "";
         MySqlConnection con;
 
-        public ConnectDatabase()
+        public Database()
         {
             string conStringLocal = @"Server=" + host + ";Database=" + databasename + ";port=" + port + ";User Id=" + username + ";password=" + password;
             con = new MySqlConnection(conStringLocal);

@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
             mDatabase = null;
         }
         mDatabase = FirebaseDatabase.getInstance().getReference();
-        mDatabase.child("Import").addValueEventListener(new ValueEventListener() {
+        mDatabase.child("ProductRFID").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 // get all of the children at this level.
@@ -56,8 +56,12 @@ public class MainActivity extends Activity {
 
                 // shake hands with each of them.'
                 for (DataSnapshot child : children) {
-                    ImportData specimenDTO = child.getValue(ImportData.class);
-                    dataModels.add(specimenDTO);
+                    Iterable<DataSnapshot> children1 = child.getChildren();
+
+                    for (DataSnapshot child1 : children1) {
+                        ImportData specimenDTO = child1.getValue(ImportData.class);
+                        dataModels.add(specimenDTO);
+                    }
                 }
                 adapter = new ImportApdapter(dataModels, getApplicationContext());
 

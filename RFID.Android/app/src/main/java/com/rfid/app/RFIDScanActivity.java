@@ -19,10 +19,13 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.rscja.deviceapi.BuildConfig;
 import com.rscja.deviceapi.DeviceConfiguration;
 import com.rscja.deviceapi.RFIDWithUHFUART;
 import com.rscja.deviceapi.entity.UHFTAGInfo;
 
+import java.io.File;
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -137,6 +140,7 @@ public class RFIDScanActivity extends Activity {
             catch (Exception ex){
                 return false;
             }
+//            return true;
         }
 
         @Override
@@ -194,7 +198,7 @@ public class RFIDScanActivity extends Activity {
      */
     private boolean addEPCToList(String epc, String rssi) {
         if (!TextUtils.isEmpty(epc)) {
-            int index = checkIsExist(epc);
+             int index = checkIsExist(epc);
 
             map = new HashMap<String, String>();
             map.put("tagUii", epc);
@@ -233,20 +237,28 @@ public class RFIDScanActivity extends Activity {
         @Override
         public void onClick(View v) {
             if (BtInventory.getText().equals(getString(R.string.btInventory))) {
+//                if (tagList.size() == 0 && false) {
                 if (tagList.size() == 0) {
                     UIHelper.ToastMessage(RFIDScanActivity.this, "No data");
                     return;
                 }
 
-                // save to SQL
+
                 // boolean re = FileImport.SaveSQL(tagList, RFIDScanActivity.this);
+                int delivery_order_id = 3;
+               FileImport fileImport = new FileImport();
+
 
                 try {
+                    // save to SQL
+//                    boolean re = fileImport.SaveSQL(tagList, RFIDScanActivity.this, delivery_order_id);
+                    fileImport.SaveSQL(tagList, RFIDScanActivity.this, delivery_order_id);
                     // save excel file
-                    boolean reXls = FileImport.SaveFileXls(tagList, "");
-                    boolean re = FileImport.SaveFileTxt(tagList, ""); // save txt file
-                    if (re) {
-                        fCurFilePath = FileImport.FilePathTxt;
+//                    boolean reXls = FileImport.SaveFileXls(tagList, "");
+//                    boolean re = FileImport.SaveFileTxt(tagList, ""); // save txt file
+//                    if (re) {
+                    if (true) {
+//                        fCurFilePath = FileImport.FilePathTxt;
                         UIHelper.ToastMessage(RFIDScanActivity.this, getString(R.string.uhf_msg_inventory_save_success));
                         tv_count.setText("0");
                         tagList.clear();
@@ -266,10 +278,10 @@ public class RFIDScanActivity extends Activity {
         @Override
         public void onClick(View v) {
             if (BtInventory.getText().equals(getString(R.string.btInventory))) {
-//                if (UIHelper.isNullOrEmpty(fCurFilePath)) {
-//                    UIHelper.ToastMessage(RFIDScanActivity.this, "No file!");
-//                    return;
-//                }
+                if (UIHelper.isNullOrEmpty(fCurFilePath)) {
+                    UIHelper.ToastMessage(RFIDScanActivity.this, "No file!");
+                    return;
+                }
                 Intent in = new Intent(RFIDScanActivity.this, RFIDViewActivity.class);
                 in.putExtra("IntentObject", fCurFilePath);
                 startActivity(in);
@@ -307,6 +319,7 @@ public class RFIDScanActivity extends Activity {
     private void readTag() {
         if (BtInventory.getText().equals(getString(R.string.btInventory)))
         {
+//            if (mReader == null && false) {
             if (mReader == null) {
                 UIHelper.ToastMessage(RFIDScanActivity.this, R.string.uhf_msg_sdk_open_fail);
                 return;
@@ -329,6 +342,7 @@ public class RFIDScanActivity extends Activity {
                 case 1://  .startInventoryTag((byte) 0, (byte) 0))
                 {
                     if (mReader.startInventoryTag()) {
+//                    if (true) {
                         BtInventory.setText(getString(R.string.title_stop_Inventory));
                         loopFlag = true;
                         setViewEnabled(false);
@@ -358,6 +372,7 @@ public class RFIDScanActivity extends Activity {
             loopFlag = false;
             setViewEnabled(true);
             if (mReader.stopInventory()) {
+//            if (true) {
                 BtInventory.setText(getString(R.string.btInventory));
             } else {
                 UIHelper.ToastMessage(RFIDScanActivity.this, R.string.uhf_msg_inventory_stop_fail);
@@ -387,7 +402,7 @@ public class RFIDScanActivity extends Activity {
         }
         return existFlag;
     }
-
+//    String[] temp = {"ABC11556236D1G", "UGF11556236D1G", "GHD11556236D1G"};
     private class TagThread extends Thread {
         public void run() {
             String strTid;
@@ -395,6 +410,7 @@ public class RFIDScanActivity extends Activity {
             UHFTAGInfo res = null;
             while (loopFlag) {
                 res = mReader.readTagFromBuffer();
+//                if (res != null || true) {
                 if (res != null) {
                     strTid = res.getTid();
                     if (strTid.length() != 0 && !strTid.equals("0000000" + "000000000") && !strTid.equals("000000000000000000000000")) {
@@ -405,11 +421,20 @@ public class RFIDScanActivity extends Activity {
 
                     Message msg = handler.obtainMessage();
                     msg.obj = strResult + res.getEPC() + "@" + res.getRssi();
-
+//                    int random = (int)(Math.random() * 3);
+//                    msg.obj = temp[random] + "@" + randomStr(14);
                     handler.sendMessage(msg);
                 }
             }
         }
     }
 
+    private String randomStr(int len){
+        String AB = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        SecureRandom rnd = new SecureRandom();
+        StringBuilder sb = new StringBuilder(len);
+        for(int i = 0; i < len; i++)
+            sb.append(AB.charAt(rnd.nextInt(AB.length())));
+        return sb.toString();
+    }
 }

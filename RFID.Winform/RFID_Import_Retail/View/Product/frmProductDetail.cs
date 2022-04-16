@@ -198,16 +198,6 @@ namespace RFID_Import_Retail.View.Product
             dragging = false;
         }
 
-        private void lbClose_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void lbClear_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void pnHeader_MouseMove(object sender, MouseEventArgs e)
         {
             if (dragging)

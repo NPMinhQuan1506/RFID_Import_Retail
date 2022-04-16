@@ -25,28 +25,14 @@ namespace RFID_Import_Retail.View.Imports
 
         //defind class
         Controller.Common func = new Controller.Common();
+        Model.Database conn = new Model.Database();
         //defind variable
         string query = "";
-        string emptyGridText = "Không có dữ liệu";
+        string emptyGridText = "Empty Data";
 
         //defind datatable
         DataTable dtMaster = new DataTable();
         DataTable dtDetail = new DataTable();
-        //defind generate instance 
-
-        //private static ctrImportsList _instance;
-
-        //public static ctrImportsList instance
-        //{
-        //    get
-        //    {
-        //        if (_instance == null)
-        //        {
-        //            _instance = new ctrImportsList();
-        //        }
-        //        return _instance;
-        //    }
-        //}
         #endregion
 
         #region //Contructor
@@ -80,11 +66,6 @@ namespace RFID_Import_Retail.View.Imports
             if (e.Column.Name == "NO")
             {
                 e.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            }
-
-            if (e.Column.Name == "ImportsName")
-            {
-                e.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             }
         }
 
@@ -120,13 +101,28 @@ namespace RFID_Import_Retail.View.Imports
             gvImports.DataController.AllowIEnumerableDetails = true;
         }
 
-        private async void loadData()
+        private void loadData()
         {
             //loadData Master
-            dtMaster = await BUS.ImportsBUS.Instance.loadData();
+            query = @"Select * from deliveryorder where order_status = 1 ";
+
+            dtMaster = conn.loadData(query + "order by delivery_order_date ASC");
             //loadDataDetail
-            dtDetail = await BUS.ImportDetailBUS.Instance.loadData();
+            string query1 = @"Select dod.*, p.*
+                                    From deliveryorderdetail as dod
+                                    Inner Join (Select pi.product_instance_id, pl.* 
+                                                From productinstance as pi 
+                                                Inner Join productline as pl 
+                                                On pi.product_line_id = pl.product_line_id) as p";
+            dtDetail = conn.loadData(query1);
             gcImports.DataSource = dtMaster;
+        }
+
+        private void loadData(string _query)
+        {
+            DataTable dtContent = new DataTable();
+            dtContent = conn.loadData(_query);
+            gcImports.DataSource = dtContent;
         }
 
         // If Master don't have Detail, a plus is enable
@@ -135,7 +131,7 @@ namespace RFID_Import_Retail.View.Imports
             if (gvImports.GetRowCellValue(e.RowHandle, ImportId) != null)
             {
                 string ID = gvImports.GetRowCellValue(e.RowHandle, ImportId).ToString();
-                e.IsEmpty = !dtDetail.AsEnumerable().Any(x => x.Field<string>("ImportId") == ID);
+                e.IsEmpty = !dtDetail.AsEnumerable().Any(x => x.Field<string>("delivery_order_id") == ID);
             }
         }
 
@@ -146,14 +142,14 @@ namespace RFID_Import_Retail.View.Imports
             {
                 string ID = gvImports.GetRowCellValue(e.RowHandle, ImportId).ToString();
                 e.ChildList = GetBatchFromItem(ID);
-                gvDetail.ViewCaption = "Chi Tiết Phiếu Nhập " + ID;
+                gvDetail.ViewCaption = "Import Detail " + ID;
             }
         }
 
         DataView GetBatchFromItem(string ID)
         {
             DataView dv = new DataView(dtDetail);
-            dv.RowFilter = String.Format(@"[ImportId] = '{0}'", ID);
+            dv.RowFilter = String.Format(@"[delivery_order_id] = '{0}'", ID);
             return dv;
         }
 
@@ -203,11 +199,11 @@ namespace RFID_Import_Retail.View.Imports
         {
             if (gvImports.FocusedColumn.Name == "Delete")
             {
-                if (getID("MaPN") != "")
+                if (getID("ImportId") != "")
                 {
-                    string ID = getID("MaPN");
+                    string ID = getID("ImportId");
                     MessageBoxButtons Bouton = MessageBoxButtons.YesNo;
-                    DialogResult Result = MyMessageBox.ShowMessage("Bạn Có Chắc Xóa Phiếu Nhập Này Không?", "Thông Báo!", Bouton, MessageBoxIcon.Question);
+                    DialogResult Result = MyMessageBox.ShowMessage("Are you sure delete this import?", "Notification!", Bouton, MessageBoxIcon.Question);
 
                     if (Result == DialogResult.Yes)
                     {
@@ -215,57 +211,26 @@ namespace RFID_Import_Retail.View.Imports
                     }
                     else if (Result == DialogResult.No)
                     {
-                        MyMessageBox.ShowMessage("Dữ liệu vẫn tồn tại!");
+                        MyMessageBox.ShowMessage("Data has still existed!");
                     }
-                }
-            }
-            else if (gvDetail.FocusedColumn.Name == "DetailDelete")
-            {
-                string ImportsID = getID("MaPN");
-                string SKU = getID("SKU");
-
-                MessageBoxButtons Bouton = MessageBoxButtons.YesNo;
-                DialogResult Result = MyMessageBox.ShowMessage("Bạn Có Chắc Xóa Chi Tiết Phiếu Nhập Này Không?", "Thông Báo!", Bouton, MessageBoxIcon.Question);
-
-                if (Result == DialogResult.Yes)
-                {
-                    if (checkConstraints(ImportsID) > 1)
-                    {
-                        delete(ImportsID, SKU);
-                    }
-                    else if (checkConstraints(ImportsID) == 1)
-                    {
-                        delete(ImportsID);
-                    }
-                }
-                else if (Result == DialogResult.No)
-                {
-                    MyMessageBox.ShowMessage("Dữ liệu vẫn tồn tại!");
                 }
             }
         }
 
         private void delete(string ID)
         {
-            string query_del = String.Format("Update ChiTietPhieuNhap Set HienThi = 0 Where MaPN = '{0}';", ID);
-            query_del += String.Format("Update PhieuNhap Set HienThi = 0 Where MaPN = '{0}'; ", ID);
+            string query_del = String.Format("Delete deliveryorderdetail Where delivery_order_id = '{0}';", ID);
+            query_del += String.Format("Delete deliveryorder Where delivery_order_id = '{0}'; ", ID);
 
-            MyMessageBox.ShowMessage("Xóa Dữ Liệu Thành Công!");
-            loadData();
-        }
-
-        private void delete(string ImportsID, string SKU)
-        {
-            string query_del = String.Format("Update ChiTietPhieuNhap Set HienThi = 0 Where MaPN = '{0}' and SKU = '{1}';", ImportsID, SKU);
-            MyMessageBox.ShowMessage("Xóa Dữ Liệu Thành Công!");
+            MyMessageBox.ShowMessage("Delete data successfully!");
             loadData();
         }
 
         private int checkConstraints(string ID)
         {
-            string query = String.Format("select count(MaPN)  as count from ChiTietPhieuNhap where MaPN = '{0}'", ID);
+            string query = String.Format("Select count(delivery_order_id)  as count1 from deliveryorderdetail where delivery_order_id = '{0}'", ID);
             DataTable dt = new DataTable();
-            return (int)(dt.Rows[0]["count"]);
+            return (int)(dt.Rows[0]["count1"]);
         }
         #endregion
 
@@ -304,39 +269,58 @@ namespace RFID_Import_Retail.View.Imports
             if (txtSearch.EditValue != null)
             {
                 string searchInfo = Regex.Replace(txtSearch.EditValue.ToString(), @"[\']+", "").Trim();
-                string field = func.removeUnicode((cbbField.Text).Replace("Phiếu Nhập", "PN"))
-                                                                  .Replace(" ", "");
+                string field = "";
+                switch (cbbField.Text)
+                {
+                    case "Import Id":
+                        field = "delivery_order_id";
+                        break;
+                    case "Import Date":
+                        field = "delivery_order_date";
+                        break;
+                    case "Product Name":
+                        field = "name";
+                        break;
+                    default:
+                        field = cbbField.Text.ToLower().Replace(" ", "_");
+                        break;
+                }
                 if (searchInfo != txtSearch.Properties.NullText && !string.IsNullOrWhiteSpace(searchInfo))
                 {
                     int index = cbbField.SelectedIndex;
                     if (index != 0)
                     {
-                        //string querySearch = "";
-                        if (field == "SanPham")
+                        string querySearch = "";
+                        if (field == "name")
                         {
-                            //querySearch = String.Format(@"Select * from ({0}) as t where t.MaPN In  (select MaPN from ChiTietPhieuNhap as ct
-																			         //                       inner join SanPham as sp on ct.SKU = sp.SKU
-																			         //                       where ct.HienThi = 1 and TenSP like N'%{1}%')",
-                            //                                                                                 query, searchInfo);
+                            querySearch = String.Format(@"Select * From ({0}) as t Where t.delivery_order_id In (Select pi.product_instance_id
+                                                                                                                From productinstance as pi
+                                                                                                                Inner Join productline as pl
+                                                                                                                On pi.product_line_id = pl.product_line_id
+																			                                    where pl.name Like N'%{1}%')",
+                                                                                                             query, searchInfo);
                         }
                         else
                         {
-                            //querySearch = String.Format(@"Select * from ({0}) as t where t.{1} like N'%{2}%'", query, field, searchInfo);
+                            querySearch = String.Format(@"Select * From ({0}) as t where t.{1} like N'%{2}%'", query, field, searchInfo);
                         }
 
-                      
+                        loadData(querySearch);
                     }
                     else
                     {
-                        //String querySearch = String.Format(@"Select * from ({0}) as t where CONCAT('',  
-                        //                                                                            MaPN, 
-                        //                                                                            t.NhaCungCap,
-                        //                                                                            t.NhanVien) like N'%{1}%' 
-                        //                                                                     or t.MaPN In  (select MaPN from ChiTietPhieuNhap as ct
-																			     //                           inner join SanPham as sp on ct.SKU = sp.SKU
-																			     //                           where ct.HienThi = 1 and TenSP like N'%{1}%')",
-                        //                                                                                     query, searchInfo);
-                        //loadData(querySearch);
+                        String querySearch = String.Format(@"Select * From ({0}) as t Where CONCAT('',  
+                                                                                                    delivery_order_id, 
+                                                                                                    t.expected_quantity,
+                                                                                                    t.actual_quantity,
+                                                                                                    t.delivery_order_data) Like N'%{1}%' 
+                                                                                             or t.delivery_order_id In  (Select pi.product_instance_id
+                                                                                                                        From productinstance as pi
+                                                                                                                        Inner Join productline as pl
+                                                                                                                        On pi.product_line_id = pl.product_line_id
+																			                                            where pl.name like N'%{1}%')",
+                                                                                                             query, searchInfo);
+                        loadData(querySearch);
                     }
                 }
                 else
@@ -357,65 +341,7 @@ namespace RFID_Import_Retail.View.Imports
         #region //Import and Export Data File
         private void btnInport_Click(object sender, EventArgs e)
         {
-            //using (OpenFileDialog openFileDialog = new OpenFileDialog() { Filter = "Excel (2010) (.xlsx)|*.xlsx|Excel (1997-2003)(.xls)|*.xls|CSV file (.csv)|*.csv" })
-            //{
-            //    if (openFileDialog.ShowDialog() == DialogResult.OK)
-            //    {
-            //        string fileName = openFileDialog.FileName;
-            //        DataTable dtMyExcel = Controller.MyExcel.GetDataTableFromExcel(fileName);
-            //        System.Data.DataView view = new System.Data.DataView(dtMyExcel);
-            //        System.Data.DataTable master = view.ToTable("MyTableMaster", false, "MaPN", "ISBN", "TenPN", "MaNCC", "MaHT", "MaTL", "NgonNgu", "PhienBan",
-            //            "SoLuongTon", "TonToiThieu", "DonViTinh", "GiaBan", "DanhGia", "MoTa");
-            //        ConvertColumnType(ref master, "DanhGia", typeof(float));
-            //        conn.executeDataSet("uspInsertImportss", master);
-            //        System.Data.DataTable detail = view.ToTable("MyTableDetail", false, "ISBN", "MaNXB", "MaTG", "NamXuatBanDauTien", "NamXuatBanMoiNhat", "SoTrang");
 
-
-            //        ConvertColumnType(ref detail, "NamXuatBanDauTien", typeof(DateTime));
-            //        ConvertColumnType(ref detail, "NamXuatBanMoiNhat", typeof(DateTime));
-            //        conn.executeDataSet("uspInsertImportsDetails", detail);
-            //    }
-            //}
-            //loadData();
-        }
-
-        public void ConvertColumnType(ref DataTable dt, string columnName, Type newType)
-        {
-            using (DataColumn dc = new DataColumn(columnName + "_new", newType))
-            {
-                // Add the new column which has the new type, and move it to the ordinal of the old column
-                int ordinal = dt.Columns[columnName].Ordinal;
-                dt.Columns.Add(dc);
-                dc.SetOrdinal(ordinal);
-
-                // Get and convert the values of the old column, and insert them into the new
-                foreach (DataRow dr in dt.Rows)
-                {
-                    if (newType == typeof(DateTime))
-                    {
-                        var x = dr[columnName].ToString();
-                        DateTime dtTemp = DateTime.ParseExact(dr[columnName].ToString(), "dd/MM/yyyy", null);
-                        dr[dc.ColumnName] = func.DateTimeToString(dtTemp);
-                        //Convert.ChangeType(dr[columnName], newType);
-                    }
-                    else
-                    {
-
-                        if (dr[columnName] != DBNull.Value)
-                        {
-                            dr[dc.ColumnName] = Convert.ChangeType(dr[columnName], newType);
-                        }
-
-                    }
-                }
-
-
-                // Remove the old column
-                dt.Columns.Remove(columnName);
-
-                // Give the new column the old column's name
-                dc.ColumnName = columnName;
-            }
         }
 
         private void btnExport_Click(object sender, EventArgs e)

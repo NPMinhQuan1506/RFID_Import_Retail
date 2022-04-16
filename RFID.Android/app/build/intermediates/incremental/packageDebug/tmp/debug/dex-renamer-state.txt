@@ -1,4 +1,4 @@
-#Sat Apr 02 03:48:29 ICT 2022
+#Sat Apr 16 09:10:44 ICT 2022
 base.2=C\:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
 path.2=classes2.dex
 base.1=C\:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

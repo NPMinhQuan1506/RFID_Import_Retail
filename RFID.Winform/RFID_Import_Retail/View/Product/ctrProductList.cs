@@ -27,7 +27,7 @@ namespace RFID_Import_Retail.View.Product
         Model.Database conn = new Model.Database();
         //defind variable
         string query = "";
-        string emptyGridText = "Không có dữ liệu";
+        string emptyGridText = "Empty Data";
 
         //defind datatable
         DataTable dtMaster = new DataTable();
