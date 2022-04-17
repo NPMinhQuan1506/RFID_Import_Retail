@@ -10,20 +10,12 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-
 import java.util.Date;
 import java.util.ArrayList;
 import java.util.Calendar;
 
 public class MainActivity extends Activity {
     private static final String TAG = "ReadAndWriteSnippets";
-    private DatabaseReference mDatabase;
     private Button btMapping;
     ArrayList<ImportData> dataModels;
     ListView listView;
@@ -39,45 +31,45 @@ public class MainActivity extends Activity {
         listView = (ListView) findViewById(R.id.list);
 
         dataModels = new ArrayList<>();
-        if (mDatabase != null) {
-            mDatabase = null;
-        }
-        mDatabase = FirebaseDatabase.getInstance().getReference();
-        mDatabase.child("ProductRFID").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // get all of the children at this level.
-                Iterable<DataSnapshot> children = dataSnapshot.getChildren();
-
-                ImportApdapter sampleAdapter = (ImportApdapter) listView.getAdapter();
-                if (sampleAdapter != null) {
-                    dataModels.clear();
-                }
-
-                // shake hands with each of them.'
-                for (DataSnapshot child : children) {
-                    Iterable<DataSnapshot> children1 = child.getChildren();
-
-                    for (DataSnapshot child1 : children1) {
-                        ImportData specimenDTO = child1.getValue(ImportData.class);
-                        dataModels.add(specimenDTO);
-                    }
-                }
-                adapter = new ImportApdapter(dataModels, getApplicationContext());
-
-                listView.setAdapter(adapter);
-                if (mDatabase != null) {
-                    mDatabase.removeEventListener(this);
-                    mDatabase = null;
-                }
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
+//        if (mDatabase != null) {
+//            mDatabase = null;
+//        }
+//        mDatabase = FirebaseDatabase.getInstance().getReference();
+//        mDatabase.child("ProductRFID").addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot dataSnapshot) {
+//                // get all of the children at this level.
+//                Iterable<DataSnapshot> children = dataSnapshot.getChildren();
+//
+//                ImportApdapter sampleAdapter = (ImportApdapter) listView.getAdapter();
+//                if (sampleAdapter != null) {
+//                    dataModels.clear();
+//                }
+//
+//                // shake hands with each of them.'
+//                for (DataSnapshot child : children) {
+//                    Iterable<DataSnapshot> children1 = child.getChildren();
+//
+//                    for (DataSnapshot child1 : children1) {
+//                        ImportData specimenDTO = child1.getValue(ImportData.class);
+//                        dataModels.add(specimenDTO);
+//                    }
+//                }
+//                adapter = new ImportApdapter(dataModels, getApplicationContext());
+//
+//                listView.setAdapter(adapter);
+//                if (mDatabase != null) {
+//                    mDatabase.removeEventListener(this);
+//                    mDatabase = null;
+//                }
+//
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError databaseError) {
+//
+//            }
+//        });
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -95,10 +87,10 @@ public class MainActivity extends Activity {
         @Override
         public void onClick(View v) {
 
-            FirebaseDatabase database = FirebaseDatabase.getInstance();
-            DatabaseReference myRef = database.getReference("message");
-
-            myRef.setValue("Hello, World!");
+//            FirebaseDatabase database = FirebaseDatabase.getInstance();
+//            DatabaseReference myRef = database.getReference("message");
+//
+//            myRef.setValue("Hello, World!");
         }
     }
 
