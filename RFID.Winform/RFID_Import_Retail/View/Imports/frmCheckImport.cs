@@ -12,7 +12,6 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using System.IO;
 using RFID_Import_Retail.View.Notification;
-using RFID_Import_Retail.BUS;
 using DevExpress.XtraGrid.Views.Grid;
 
 namespace RFID_Import_Retail.View.Imports
@@ -99,16 +98,16 @@ namespace RFID_Import_Retail.View.Imports
 
         private async void loadData()
         {
-            BUS.ImportsBUS.Instance.updateField(importId, "actualNumber", 0);
+            //BUS.ImportsBUS.Instance.updateField(importId, "actualNumber", 0);
             while (isWorking)
             {
                 await Task.Delay(1000);
                 //loadData Master
-                dtMaster = await BUS.ImportsBUS.Instance.loadDataById(importId);
+                //dtMaster = await BUS.ImportsBUS.Instance.loadDataById(importId);
                 txtTotalImport.Text = (dtMaster.Rows[0]["TotalImport"]).ToString();
                 txtActualImport.Text = (dtMaster.Rows[0]["ActualNumber"]).ToString();
                 //loadDataDetail
-                dtDetail = await BUS.ImportDetailBUS.Instance.loadDataById(importId);
+                //dtDetail = await BUS.ImportDetailBUS.Instance.loadDataById(importId);
                 gcImports.DataSource = dtDetail;
             }
         }

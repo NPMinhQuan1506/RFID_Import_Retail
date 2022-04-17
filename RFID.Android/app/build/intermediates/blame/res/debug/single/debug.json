@@ -1,174 +1,174 @@
 [
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_importlist_items.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\importlist_items.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_listtag_items.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\listtag_items.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\raw_serror.ogg.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\raw\\serror.ogg"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_columns.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\listview_columns.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_up2.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_up2.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_close.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\close.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_gray.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_gray.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_rb_bg.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\rb_bg.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg2.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg2.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_audio.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\audio.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_packed.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\packed.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_image.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\image.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sqlite.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\activity_sqlite.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cell_shape.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\cell_shape.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_text.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\text.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg3.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg3.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_video.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\video.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_up.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_up.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_card_press.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\card_press.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_down.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_down.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_check_text_color2.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\check_text_color2.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_down2.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_down2.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_card_normal.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\card_normal.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\raw_serror.ogg.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\raw\\serror.ogg"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_goroot.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\goroot.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg3.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg3.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rfid_view.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\activity_rfid_view.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_gray.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_gray.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scanner256.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\scanner256.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\raw_barcodebeep.ogg.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\raw\\barcodebeep.ogg"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_close.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\close.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_actionbar_back.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\actionbar_back.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_rectangle_bg2.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\rectangle_bg2.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_folder.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\folder.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_check_text_color2.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\check_text_color2.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_audio.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\audio.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_up3.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_up3.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_columns.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\listview_columns.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\raw_barcodebeep.ogg.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\raw\\barcodebeep.ogg"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_down2.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_down2.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg2.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg2.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_importlist_items.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\importlist_items.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_uponelevel.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\uponelevel.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_up2.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_up2.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_goroot.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\goroot.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rfid_scan.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\activity_rfid_scan.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_actionbar_back.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\actionbar_back.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_webtext.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\webtext.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_up.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_up.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_card_press.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\card_press.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_rb_bg.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\rb_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_video.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\video.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_webtext.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\webtext.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_rectangle_bg.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\rectangle_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\xml_filepaths.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\xml\\filepaths.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_down.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_down.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_check_text_color.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\check_text_color.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_listtag_items.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\listtag_items.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_rectangle_bg2.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\rectangle_bg2.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_down3.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_down3.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\xml_filepaths.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\xml\\filepaths.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_card_normal.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\card_normal.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_down3.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_down3.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_image.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\image.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_packed.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\packed.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_cell_shape.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\cell_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_text.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\text.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rfid_scan.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\activity_rfid_scan.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sqlite.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\activity_sqlite.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_scanner256.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\scanner256.png"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_rectangle_bg.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\rectangle_bg.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rfid_view.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\layout\\activity_rfid_view.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_check_text_color.xml.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\check_text_color.xml"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_button_bg_up3.xml.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-ldpi\\button_bg_up3.xml"
     },
     {
-        "merged": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_folder.png.flat",
-        "source": "C:\\Users\\Mou\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\folder.png"
+        "merged": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_uponelevel.png.flat",
+        "source": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\src\\main\\res\\drawable-hdpi\\uponelevel.png"
     }
 ]

@@ -114,8 +114,8 @@ public class FileImport {
                         id = entry.getValue().toString();
                         id = id.replace("EPC:", "");
                         id = id.replace("TID:", "");
-                        id = id.substring(0, 12);
-
+//                        id = id.substring(0, 12);
+                        id = id.substring(id.length() - 5, id.length());
                         RFID item = new RFID();
                         item.EPC = id;
                         String[] myTaskParams = { String.valueOf(deliveryOrderId), item.EPC };
