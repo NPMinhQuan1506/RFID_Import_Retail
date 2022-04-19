@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnAdd"
+    android:text="AddIntoProduct"
+    android:minHeight="50dp"
+    android:background="@drawable/button_bg"
+    android:textColor="@color/white"
+    >
+</Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddRFID"
+        android:text="AddIntoProductRFID"
+        android:minHeight="50dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        >
+    </Button>
+
+</LinearLayout>
