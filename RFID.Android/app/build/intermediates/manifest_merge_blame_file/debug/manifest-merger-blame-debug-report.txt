@@ -91,27 +91,27 @@
 45-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:30:13-41
 46            android:exported="true" >
 46-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:31:13-36
-47
-48            <!-- <intent-filter> -->
-49            <!-- <action android:name="android.intent.action.MAIN" /> -->
-50
-51
-52            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-53            <!-- </intent-filter> -->
-54        </activity>
-55        <activity android:name="com.rfid.app.RFIDScanActivity" >
-55-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:38:9-44:20
-55-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:38:19-51
-56            <intent-filter>
-56-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:39:13-43:29
-57                <action android:name="android.intent.action.MAIN" />
-57-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:40:17-69
-57-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:40:25-66
+47            <intent-filter>
+47-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:32:13-36:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:33:17-69
+48-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:33:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:35:17-77
+50-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:35:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.rfid.app.RFIDScanActivity" >
+53-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:38:9-44:20
+53-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:38:19-51
+54
+55            <!-- <intent-filter> -->
+56            <!-- <action android:name="android.intent.action.MAIN" /> -->
+57
 58
-59                <category android:name="android.intent.category.LAUNCHER" />
-59-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:42:17-77
-59-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:42:27-74
-60            </intent-filter>
+59            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+60            <!-- </intent-filter> -->
 61        </activity>
 62        <activity android:name="com.rfid.app.RFIDViewActivity" >
 62-->C:\Users\npmin\Desktop\RFID_Import_Retail\RFID.Android\app\src\main\AndroidManifest.xml:45:9-54:20

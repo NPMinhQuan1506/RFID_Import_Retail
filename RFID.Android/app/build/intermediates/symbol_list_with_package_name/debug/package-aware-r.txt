@@ -1249,6 +1249,8 @@ color black1
 color blue
 color blue1
 color blue2
+color blue3
+color blue4
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -2568,10 +2570,10 @@ drawable webtext
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BtBack
 id BtClear
 id BtImport
 id BtInventory
-id BtView
 id CTRL
 id FUNCTION
 id LvTags
@@ -2798,6 +2800,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id ibtRefresh
 id icon
 id icon_group
 id icon_only
@@ -3423,6 +3426,7 @@ string bottomsheet_action_expand_halfway
 string btAddD
 string btAddI
 string btAdd_Select
+string btBack
 string btBack1
 string btCalRange
 string btCancel
@@ -3453,7 +3457,6 @@ string btSetProtocol
 string btSetSession
 string btStop
 string btUii
-string btView
 string btWrite
 string bt_not_enabled_leaving
 string btn_choose_file
