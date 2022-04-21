@@ -3,71 +3,57 @@ package com.rfid.app;
 import java.util.Date;
 
 public class ImportData {
-    int IsEnable;
-    String Note;
-    int TotalImport;
-    int TotalPrice;
-
-    String CreatedDate;
+    String GrnId;
+    int TotalExpectedQuantity;
+    int TotalActualQuantity;
     String EmpId;
-    String ModifiedDate;
-    int ActualNumber;
-    String ImportId;
-
+    String Note;
+    int IsEnable;
+    String CreatedTime;
 
     public ImportData() {
+        GrnId = "";
+        TotalExpectedQuantity = 0;
+        TotalActualQuantity = -1;
+        EmpId = "";
+        Note = "";
+        IsEnable = 1;
+        CreatedTime = "";
     }
 
-    public ImportData(int isEnable, String note, int totalImport, int totalPrice, String createdDate, String empId, String modifiedDate, int actualNumber, String importId) {
-        IsEnable = isEnable;
-        Note = note;
-        TotalImport = totalImport;
-        TotalPrice = totalPrice;
-        CreatedDate = createdDate;
+
+    public ImportData(String grnId, int totalExpectedQuantity, int totalActualQuantity, String empId, String note, int isEnable, String createdTime) {
+        GrnId = grnId;
+        TotalExpectedQuantity = totalExpectedQuantity;
+        TotalActualQuantity = totalActualQuantity;
         EmpId = empId;
-        ModifiedDate = modifiedDate;
-        ActualNumber = actualNumber;
-        ImportId = importId;
-    }
-
-    public int getIsEnable() {
-        return IsEnable;
-    }
-
-    public void setIsEnable(int isEnable) {
-        IsEnable = isEnable;
-    }
-
-    public String getNote() {
-        return Note;
-    }
-
-    public void setNote(String note) {
         Note = note;
+        IsEnable = isEnable;
+        CreatedTime = createdTime;
     }
 
-    public int getTotalImport() {
-        return TotalImport;
+    public String getGrnId() {
+        return GrnId;
     }
 
-    public void setTotalImport(int totalImport) {
-        TotalImport = totalImport;
+    public void setGrnId(String grnId) {
+        GrnId = grnId;
     }
 
-    public int getTotalPrice() {
-        return TotalPrice;
+    public int getTotalExpectedQuantity() {
+        return TotalExpectedQuantity;
     }
 
-    public void setTotalPrice(int totalPrice) {
-        TotalPrice = totalPrice;
+    public void setTotalExpectedQuantity(int totalExpectedQuantity) {
+        TotalExpectedQuantity = totalExpectedQuantity;
     }
 
-    public String getCreatedDate() {
-        return CreatedDate;
+    public int getTotalActualQuantity() {
+        return TotalActualQuantity;
     }
 
-    public void setCreatedDate(String createdDate) {
-        CreatedDate = createdDate;
+    public void setTotalActualQuantity(int totalActualQuantity) {
+        TotalActualQuantity = totalActualQuantity;
     }
 
     public String getEmpId() {
@@ -78,27 +64,27 @@ public class ImportData {
         EmpId = empId;
     }
 
-    public String getModifiedDate() {
-        return ModifiedDate;
+    public String getNote() {
+        return Note;
     }
 
-    public void setModifiedDate(String modifiedDate) {
-        ModifiedDate = modifiedDate;
+    public void setNote(String note) {
+        Note = note;
     }
 
-    public int getActualNumber() {
-        return ActualNumber;
+    public int getIsEnable() {
+        return IsEnable;
     }
 
-    public void setActualNumber(int actualNumber) {
-        ActualNumber = actualNumber;
+    public void setIsEnable(int isEnable) {
+        IsEnable = isEnable;
     }
 
-    public String getImportId() {
-        return ImportId;
+    public String getCreatedTime() {
+        return CreatedTime;
     }
 
-    public void setImportId(String importId) {
-        ImportId = importId;
+    public void setCreatedTime(String createdTime) {
+        CreatedTime = createdTime;
     }
 }

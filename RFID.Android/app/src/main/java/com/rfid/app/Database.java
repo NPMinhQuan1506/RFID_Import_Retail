@@ -14,8 +14,8 @@ import java.util.ArrayList;
 
 public class Database {
     String classs = "com.mysql.jdbc.Driver";
-    private static final String url = "jdbc:mysql://192.168.100.25/rfid";
-    private static final String user = "userRFID";
+    private static final String url = "jdbc:mysql://192.168.100.27/rfid";
+    private static final String user = "urfid";
     private static final String pass = "123456";
     Connection con;
     public Database(){
@@ -68,15 +68,8 @@ public class Database {
             results = stmt.executeQuery(s);
 
             ResultSetMetaData rsmd = results.getMetaData();
-//            int columnCount = rsmd.getColumnCount();
-//
-//            ArrayList<String> hotelResultList = new ArrayList<>(columnCount);
-//            while (results.next()) {
-//                int i = 1;
-//                while(i <= columnCount) {
-//                    hotelResultList.add(results.getString(i++));
-//                }
-//            }
+
+            return results;
         }
         catch (Exception e){
             Log.e("ERR", e.getMessage());

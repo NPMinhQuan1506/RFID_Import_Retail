@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Set;
@@ -26,22 +27,22 @@ public class FileImport {
     static String xlsFilePath = Environment.getExternalStorageDirectory() + "/RfidData/";
     static String FilePathTxt = "";
     Database conn = new Database();
-    public static List<String> LoadFileScan(String fileName){
+
+    public static List<String> LoadFileScan(String fileName) {
         List<String> list = new ArrayList<>();
-        if (fileName.endsWith("xls") || fileName.endsWith("xlsx")){
+        if (fileName.endsWith("xls") || fileName.endsWith("xlsx")) {
             list = LoadFileXls(fileName);
-        }
-        else{
+        } else {
             list = LoadFileText(fileName);
         }
         return list;
     }
 
-    public static List<String> LoadFileXls(String fileName){
+    public static List<String> LoadFileXls(String fileName) {
         List<String> list = new ArrayList<>();
         try {
             ArrayList<HashMap<String, Object>> arrayLists = FileXls.readXLSmap(fileName);
-            for (HashMap<String, Object> item: arrayLists) {
+            for (HashMap<String, Object> item : arrayLists) {
                 list.add(Objects.requireNonNull(item.get("tagUii")).toString()); // xls only store field tagUii
             }
         } catch (Exception e) {
@@ -51,7 +52,7 @@ public class FileImport {
         return list;
     }
 
-    public static List<String> LoadFileText(String fileName){
+    public static List<String> LoadFileText(String fileName) {
         List<String> list = new ArrayList<>();
         try {
             File file = new File(fileName);
@@ -67,7 +68,7 @@ public class FileImport {
     }
 
     // save rfids to TXT
-    public static boolean SaveFileTxt(ArrayList<HashMap<String, String>> lists2, String fileName) throws Exception{
+    public static boolean SaveFileTxt(ArrayList<HashMap<String, String>> lists2, String fileName) throws Exception {
         try {
             if (fileName.isEmpty())
                 FilePathTxt = xlsFilePath + "txt" + GetTimesyyyymmddhhmmss() + ".txt";
@@ -88,7 +89,8 @@ public class FileImport {
                         str = str.replace("TID:", "");
 
                         lst.add(str);
-                    } else {}
+                    } else {
+                    }
                 }
             }
 
@@ -100,7 +102,7 @@ public class FileImport {
     }
 
     // save rfids to SQL
-    public boolean SaveSQL(ArrayList<HashMap<String, String>> lists2, Context cont, int deliveryOrderId) throws Exception{
+    public boolean SaveSQL(ArrayList<HashMap<String, String>> lists2, Context cont, String grnId, Boolean isMapping) throws Exception {
         try {
 //            SQLiteHelper db = new SQLiteHelper(cont);
             List<RFID> list = new ArrayList<>();
@@ -118,9 +120,9 @@ public class FileImport {
                         id = id.substring(id.length() - 5, id.length());
                         RFID item = new RFID();
                         item.EPC = id;
-                        String[] myTaskParams = { String.valueOf(deliveryOrderId), item.EPC };
-                        ConnectMySQL connectMySql = new ConnectMySQL();
-                        connectMySql.execute(myTaskParams);
+
+                        ConnectMySQL connectMySql = new ConnectMySQL(grnId, item.EPC, isMapping);
+                        connectMySql.execute();
                         list.add(item);
                     } else {
                     }
@@ -134,25 +136,40 @@ public class FileImport {
         }
     }
 
-    private class ConnectMySQL extends AsyncTask<String, String, String>{
+    private class ConnectMySQL extends AsyncTask<Void, Void, Void> {
+        String grnId, EPC;
+        Boolean isMapping;
+
+        public ConnectMySQL(String _grnId, String _EPC, Boolean _isMapping) {
+            this.grnId = _grnId;
+            this.EPC = _EPC;
+            this.isMapping = _isMapping;
+        }
+
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
         }
 
         @Override
-        protected String doInBackground(String... params) {
-            int random = (int)(Math.random() * 5 + 1);
-//            String query = "Update deliveryorderdetail set is_checked = 1 " +
-//                            "Where delivery_order_id = '"+params[0]+"' and product_instance_id = '"+params[1]+"'";
-            String query1 = "Insert into productinstance (`product_instance_id`, `product_line_id`, `is_purcharsed`) " +
-                            "values('"+params[1]+"', 'SP00"+random+"', 0)";
-            conn.executeDatabase(query1);
+        protected Void doInBackground(Void... params) {
+            String query = "";
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault());
+            String dtNow = sdf.format(new Date());
+            if (isMapping) {
+//                int random = (int) (Math.random() * 5 + 1);
+                query = "Insert into ProductRFID (`rfid`, `product_line_id`, `mapping_time`, `is_checked`) " +
+                        "values('" + EPC + "', (SELECT product_line_id FROM Product ORDER BY RAND() LIMIT 1), '" + dtNow + "' , '0')";
+            } else {
+                query = "Update GoodsReceiptNoteDetail Set is_checked = '1' " +
+                        "Where grn_id = '" + grnId + "' And product_line_id = (Select product_line_id from ProductRFID WHERE is_checked = 0 and rfid = '" + EPC + "')";
+            }
+            conn.executeDatabase(query);
             return null;
         }
 
         @Override
-        protected void onPostExecute(String s) {
+        protected void onPostExecute(Void s) {
             super.onPostExecute(s);
         }
     }

@@ -45,7 +45,7 @@ public class RFIDScanActivity extends Activity {
     private Button BtClear;
     private Button BtImport;
     private Button BtInventory;
-    private Button BtView;
+    private Button BtBack;
 
     private ListView LvTags;
     private HashMap<String, String> map;
@@ -54,6 +54,8 @@ public class RFIDScanActivity extends Activity {
     private String fCurFilePath = "";
     private boolean fIsEmulator = false;
 
+    private String grnId = "";
+    private boolean isMapping = false;
     @SuppressLint("HandlerLeak")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,13 +68,19 @@ public class RFIDScanActivity extends Activity {
 
             BtClear = (Button) findViewById(R.id.BtClear);
             BtImport = (Button) findViewById(R.id.BtImport);
-            BtView = (Button) findViewById(R.id.BtView);
+            BtBack = (Button) findViewById(R.id.BtBack);
             tv_count = (TextView) findViewById(R.id.tv_count);
             RgInventory = (RadioGroup) findViewById(R.id.RgInventory);
             RbInventorySingle = (RadioButton) findViewById(R.id.RbInventorySingle);
             RbInventoryLoop = (RadioButton) findViewById(R.id.RbInventoryLoop);
             BtInventory = (Button) findViewById(R.id.BtInventory);
             LvTags = (ListView) findViewById(R.id.LvTags);
+
+            Bundle bundle = getIntent().getExtras();
+            if (bundle != null) {
+                grnId = bundle.getString("grn_id");
+                isMapping = bundle.getBoolean("is_mapping");
+            }
 
             adapter = new SimpleAdapter(this, tagList, R.layout.listtag_items,
                     new String[]{"tagUii", "tagLen", "tagCount"},
@@ -82,7 +90,7 @@ public class RFIDScanActivity extends Activity {
             BtImport.setOnClickListener(new BtImportClickListener());
             RgInventory.setOnCheckedChangeListener(new RgInventoryCheckedListener());
             BtInventory.setOnClickListener(new BtInventoryClickListener());
-            BtView.setOnClickListener(new BtViewClickListener());
+            BtBack.setOnClickListener(new BtBackClickListener());
 
             LvTags.setAdapter(adapter);
             clearData();
@@ -252,12 +260,12 @@ public class RFIDScanActivity extends Activity {
                 try {
                     // save to SQL
 //                    boolean re = fileImport.SaveSQL(tagList, RFIDScanActivity.this, delivery_order_id);
-                    fileImport.SaveSQL(tagList, RFIDScanActivity.this, delivery_order_id);
+                    boolean re = fileImport.SaveSQL(tagList, RFIDScanActivity.this, grnId, isMapping);
                     // save excel file
 //                    boolean reXls = FileImport.SaveFileXls(tagList, "");
 //                    boolean re = FileImport.SaveFileTxt(tagList, ""); // save txt file
-//                    if (re) {
-                    if (true) {
+                    if (re) {
+//                    if (true) {
 //                        fCurFilePath = FileImport.FilePathTxt;
                         UIHelper.ToastMessage(RFIDScanActivity.this, getString(R.string.uhf_msg_inventory_save_success));
                         tv_count.setText("0");
@@ -274,20 +282,10 @@ public class RFIDScanActivity extends Activity {
         }
     }
 
-    private class BtViewClickListener implements View.OnClickListener {
+    private class BtBackClickListener implements View.OnClickListener {
         @Override
         public void onClick(View v) {
-            if (BtInventory.getText().equals(getString(R.string.btInventory))) {
-                if (UIHelper.isNullOrEmpty(fCurFilePath)) {
-                    UIHelper.ToastMessage(RFIDScanActivity.this, "No file!");
-                    return;
-                }
-                Intent in = new Intent(RFIDScanActivity.this, RFIDViewActivity.class);
-                in.putExtra("IntentObject", fCurFilePath);
-                startActivity(in);
-            } else {
-                UIHelper.ToastMessage(RFIDScanActivity.this, R.string.uhf_msg_inventory_save_wanrning);
-            }
+            finish();
         }
     }
 
@@ -402,7 +400,8 @@ public class RFIDScanActivity extends Activity {
         }
         return existFlag;
     }
-//    String[] temp = {"ABC11556236D1G", "UGF11556236D1G", "GHD11556236D1G"};
+//    String[] temp = {"ABC115562GFH82", "UGF11556236D1G", "GHD115562UGB43"};
+//String[] temp = {"ABC115562UY752", "UGF11556236D1G", "GHD115562UGB43"};
     private class TagThread extends Thread {
         public void run() {
             String strTid;

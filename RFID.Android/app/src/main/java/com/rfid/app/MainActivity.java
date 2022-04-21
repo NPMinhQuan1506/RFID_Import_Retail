@@ -3,13 +3,18 @@ package com.rfid.app;
 import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.Date;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -17,6 +22,8 @@ import java.util.Calendar;
 public class MainActivity extends Activity {
     private static final String TAG = "ReadAndWriteSnippets";
     private Button btMapping;
+    private ImageButton ibtRefresh;
+    Database conn = new Database();
     ArrayList<ImportData> dataModels;
     ListView listView;
     private static ImportApdapter adapter;
@@ -29,47 +36,14 @@ public class MainActivity extends Activity {
         btMapping = (Button) findViewById(R.id.btMapping);
         btMapping.setOnClickListener(new btMappingClickListener());
         listView = (ListView) findViewById(R.id.list);
+        ibtRefresh = (ImageButton) findViewById(R.id.ibtRefresh);
+        ibtRefresh.setOnClickListener(new ibtRefreshClickListener());
 
         dataModels = new ArrayList<>();
-//        if (mDatabase != null) {
-//            mDatabase = null;
-//        }
-//        mDatabase = FirebaseDatabase.getInstance().getReference();
-//        mDatabase.child("ProductRFID").addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(DataSnapshot dataSnapshot) {
-//                // get all of the children at this level.
-//                Iterable<DataSnapshot> children = dataSnapshot.getChildren();
-//
-//                ImportApdapter sampleAdapter = (ImportApdapter) listView.getAdapter();
-//                if (sampleAdapter != null) {
-//                    dataModels.clear();
-//                }
-//
-//                // shake hands with each of them.'
-//                for (DataSnapshot child : children) {
-//                    Iterable<DataSnapshot> children1 = child.getChildren();
-//
-//                    for (DataSnapshot child1 : children1) {
-//                        ImportData specimenDTO = child1.getValue(ImportData.class);
-//                        dataModels.add(specimenDTO);
-//                    }
-//                }
-//                adapter = new ImportApdapter(dataModels, getApplicationContext());
-//
-//                listView.setAdapter(adapter);
-//                if (mDatabase != null) {
-//                    mDatabase.removeEventListener(this);
-//                    mDatabase = null;
-//                }
-//
-//            }
-//
-//            @Override
-//            public void onCancelled(DatabaseError databaseError) {
-//
-//            }
-//        });
+        ConnectMySQL connectMySql = new ConnectMySQL();
+        connectMySql.execute("");
+        adapter = new ImportApdapter(dataModels, getApplicationContext());
+        listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -83,14 +57,66 @@ public class MainActivity extends Activity {
 
     }
 
+    private class ConnectMySQL extends AsyncTask<String, String, String> {
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected String doInBackground(String... params) {
+            String query = "Select grn_id, total_expected_quantity, created_time from GoodsReceiptNote " +
+                    "Where is_enable = 1 " +
+                    "and total_actual_quantity between 0 and total_expected_quantity - 1";
+
+            try {
+                ResultSet rs = conn.loadData(query);
+                while (rs.next()) {
+                    dataModels.add(
+                            new ImportData(
+                                    rs.getString(1).toString(),
+                                    Integer.parseInt(rs.getString(2).toString()),
+                                    0,
+                                    "",
+                                    "",
+                                    0,
+                                    rs.getString(3).toString()
+                            )
+                    );
+                }
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+        }
+    }
+
     private class btMappingClickListener implements View.OnClickListener {
         @Override
         public void onClick(View v) {
+            Bundle bundle = new Bundle();
+            bundle.putBoolean("is_mapping", true);
+            Intent intent = new Intent(MainActivity.this, RFIDScanActivity.class);
+            intent.putExtras(bundle);
+            startActivity(intent);
+        }
+    }
 
-//            FirebaseDatabase database = FirebaseDatabase.getInstance();
-//            DatabaseReference myRef = database.getReference("message");
-//
-//            myRef.setValue("Hello, World!");
+    private class ibtRefreshClickListener implements View.OnClickListener {
+        @Override
+        public void onClick(View v) {
+            dataModels.clear();
+            adapter.clearData();
+            ConnectMySQL connectMySql = new ConnectMySQL();
+            connectMySql.execute("");
+            adapter = new ImportApdapter(dataModels, getApplicationContext());
+            listView.setAdapter(adapter);
+            adapter.notifyDataSetChanged();
         }
     }
 
