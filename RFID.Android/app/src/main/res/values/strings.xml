@@ -123,7 +123,7 @@
     <string name="tvTagCount">Count</string>
     <string name="btClear">Clear</string>
     <string name="btImport">Save</string>
-    <string name="btView">View</string>
+    <string name="btBack">Back</string>
     <string name="tvTag">Tag</string>
     <string name="btMapping">Mapping</string>
     <string name="btCheck">Check</string>

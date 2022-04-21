@@ -19,7 +19,8 @@
             android:layout_weight="1"
             android:text="@string/rbInventorySingle"
             android:textColor="@drawable/check_text_color2"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:buttonTint="@color/blue4"/>
 
         <RadioButton
             android:id="@+id/RbInventoryLoop"
@@ -29,7 +30,8 @@
             android:checked="true"
             android:text="@string/rbInventoryLoop"
             android:textColor="@drawable/check_text_color2"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:buttonTint="@color/blue4"/>
 
     </RadioGroup>
 
@@ -52,7 +54,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:background="@drawable/button_bg"
+            android:background="@color/blue4"
             android:text="@string/btInventory"
             android:textColor="@color/white" />
 
@@ -62,7 +64,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
-            android:background="@drawable/button_bg"
+            android:background="@color/blue4"
             android:text="@string/btClear"
             android:textColor="@color/white"
             android:textSize="15sp" />
@@ -73,19 +75,19 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
-            android:background="@drawable/button_bg"
+            android:background="@color/blue4"
             android:text="@string/btImport"
             android:textColor="@color/white"
             android:textSize="15sp" />
 
         <Button
-            android:id="@+id/BtView"
+            android:id="@+id/BtBack"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
-            android:background="@drawable/button_bg"
-            android:text="@string/btView"
+            android:background="@color/blue4"
+            android:text="@string/btBack"
             android:textColor="@color/white"
             android:textSize="15sp" />
 
