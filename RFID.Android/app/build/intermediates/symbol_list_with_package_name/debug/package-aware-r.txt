@@ -3194,6 +3194,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_mapping
 layout activity_rfid_scan
 layout activity_rfid_view
 layout activity_sqlite
@@ -3216,6 +3217,7 @@ layout design_text_input_start_icon
 layout importlist_items
 layout listtag_items
 layout listview_columns
+layout mappinglist_items
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3444,6 +3446,7 @@ string btImport
 string btInventory
 string btKill
 string btLock
+string btMap
 string btMapping
 string btRead
 string btReadUii

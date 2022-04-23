@@ -27,140 +27,23 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+es+419/values-b+es+419.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h320dp-port-v13/values-h320dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v31/values-v31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-port-v13/values-w480dp-port-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/FileImport.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/FileImport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/MainActivity$btMappingClickListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/MainActivity$btMappingClickListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/ListViewExtAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/ListViewExtAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity$BtImportClickListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity$BtImportClickListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity$BtViewClickListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity$BtInventoryClickListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity$BtInventoryClickListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity$RgInventoryCheckedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity$RgInventoryCheckedListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity$TagThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity$TagThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDScanActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDViewActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/RFIDViewActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/SQLiteActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/javac/debug/classes/com/rfid/app/SQLiteActivity.class" afterDir="false" />
@@ -169,16 +52,14 @@
       <change beforePath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/FileImport.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/FileImport.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/MainActivity$btMappingClickListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/MainActivity$btMappingClickListener.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/ListViewExtAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/ListViewExtAdapter.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity$BtImportClickListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity$BtImportClickListener.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity$BtViewClickListener.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity$BtInventoryClickListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity$BtInventoryClickListener.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity$RgInventoryCheckedListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity$RgInventoryCheckedListener.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity$TagThread.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity$TagThread.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDScanActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDViewActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/RFIDViewActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/SQLiteActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/debug/out/com/rfid/app/SQLiteActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi_check_text_color2.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi_check_text_color2.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_rfid_scan.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout_activity_rfid_scan.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
@@ -187,18 +68,14 @@
       <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rfid/app/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rfid/app/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rfid/app/FileImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rfid/app/FileImport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rfid/app/ImportApdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rfid/app/ImportApdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rfid/app/ImportData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rfid/app/ImportData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rfid/app/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rfid/app/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rfid/app/RFIDScanActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rfid/app/RFIDScanActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-ldpi/check_text_color2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/drawable-ldpi/check_text_color2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_rfid_scan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_rfid_scan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/importlist_items.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/importlist_items.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/color.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/.vs/RFID_Import_Retail/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/.vs/RFID_Import_Retail/v17/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/Model/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/Model/Database.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/Properties/licenses.licx" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/Properties/licenses.licx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/Resources/Background_Spash.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/Resources/Background_Spash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Authority/frmSplashScreen.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Authority/frmSplashScreen.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Authority/frmSplashScreen.resx" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Authority/frmSplashScreen.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Imports/ctrImportsList.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Imports/ctrImportsList.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Imports/ctrImportsList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Imports/ctrImportsList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Imports/ctrImportsList.resx" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Imports/ctrImportsList.resx" afterDir="false" />
@@ -213,7 +90,13 @@
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Product/ctrProductList.resx" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Product/ctrProductList.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Product/frmProductDetail.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Product/frmProductDetail.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Product/frmProductDetail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/Product/frmProductDetail.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/frmMenu.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/frmMenu.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/frmMenu.resx" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/View/frmMenu.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.Properties.Resources.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.Properties.Resources.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.View.Authority.frmSplashScreen.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.View.Authority.frmSplashScreen.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.View.Imports.ctrImportsList.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.View.Imports.ctrImportsList.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.View.Imports.frmImportsDetail.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.View.Imports.frmImportsDetail.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.View.Product.ctrProductList.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.View.Product.ctrProductList.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../RFID.Winform/RFID_Import_Retail/obj/Debug/RFID_Import_Retail.csproj.AssemblyReference.cache" afterDir="false" />
@@ -235,8 +118,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -280,6 +163,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mou\Desktop\RFID_Import_Retail\RFID.Android\app\libs" />
       <recent name="C:\Users\Mou\Desktop\RFID.Android\RFID.Android\app" />
+    </key>
+    <key name="android.template.592074230">
+      <recent name="com.rfid.app" />
+      <recent name="com.rfid.app.filebrowser" />
     </key>
   </component>
   <component name="RunManager">
@@ -387,7 +274,17 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/rfid/app/Database.java</url>
           <line>51</line>
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rfid/app/MainActivity.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/rfid/app/Database.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

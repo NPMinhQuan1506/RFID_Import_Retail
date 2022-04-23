@@ -27,8 +27,11 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning" >
         <activity
+            android:name=".MappingActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,14 +39,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".RFIDScanActivity" >
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
-        <activity
-            android:name=".RFIDViewActivity">
+        <activity android:name=".RFIDViewActivity" >
             android:label="@string/form_scan_detail"
             android:parentActivityName=".RFIDViewActivity"
             android:windowSoftInputMode="stateAlwaysHidden"
@@ -55,8 +59,7 @@
         <activity
             android:name=".filebrowser.FileManagerActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
-        </activity>
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
 
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"

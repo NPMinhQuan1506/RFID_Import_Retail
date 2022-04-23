@@ -43,6 +43,9 @@
         android:testOnly="true"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.rfid.app.MappingActivity"
+            android:exported="false" />
+        <activity
             android:name="com.rfid.app.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -72,8 +75,7 @@
         <activity
             android:name="com.rfid.app.filebrowser.FileManagerActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
-        </activity>
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" />
 
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"

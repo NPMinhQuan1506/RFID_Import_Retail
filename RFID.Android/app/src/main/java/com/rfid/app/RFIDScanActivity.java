@@ -253,13 +253,11 @@ public class RFIDScanActivity extends Activity {
 
 
                 // boolean re = FileImport.SaveSQL(tagList, RFIDScanActivity.this);
-                int delivery_order_id = 3;
                FileImport fileImport = new FileImport();
 
 
                 try {
                     // save to SQL
-//                    boolean re = fileImport.SaveSQL(tagList, RFIDScanActivity.this, delivery_order_id);
                     boolean re = fileImport.SaveSQL(tagList, RFIDScanActivity.this, grnId, isMapping);
                     // save excel file
 //                    boolean reXls = FileImport.SaveFileXls(tagList, "");
@@ -402,6 +400,7 @@ public class RFIDScanActivity extends Activity {
     }
 //    String[] temp = {"ABC115562GFH82", "UGF11556236D1G", "GHD115562UGB43"};
 //String[] temp = {"ABC115562UY752", "UGF11556236D1G", "GHD115562UGB43"};
+//String[] temp = {"ABC115562UY752"};
     private class TagThread extends Thread {
         public void run() {
             String strTid;
@@ -420,7 +419,7 @@ public class RFIDScanActivity extends Activity {
 
                     Message msg = handler.obtainMessage();
                     msg.obj = strResult + res.getEPC() + "@" + res.getRssi();
-//                    int random = (int)(Math.random() * 3);
+//                    int random = (int)(Math.random() * 1);
 //                    msg.obj = temp[random] + "@" + randomStr(14);
                     handler.sendMessage(msg);
                 }

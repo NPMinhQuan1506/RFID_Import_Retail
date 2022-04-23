@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class Database {
     String classs = "com.mysql.jdbc.Driver";
-    private static final String url = "jdbc:mysql://192.168.100.27/rfid";
+    private static final String url = "jdbc:mysql://192.168.26.94/rfid?allowMultiQueries=true";
     private static final String user = "urfid";
     private static final String pass = "123456";
     Connection con;

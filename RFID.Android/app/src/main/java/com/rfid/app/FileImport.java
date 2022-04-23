@@ -161,8 +161,15 @@ public class FileImport {
                 query = "Insert into ProductRFID (`rfid`, `product_line_id`, `mapping_time`, `is_checked`) " +
                         "values('" + EPC + "', (SELECT product_line_id FROM Product ORDER BY RAND() LIMIT 1), '" + dtNow + "' , '0')";
             } else {
-                query = "Update GoodsReceiptNoteDetail Set is_checked = '1' " +
-                        "Where grn_id = '" + grnId + "' And product_line_id = (Select product_line_id from ProductRFID WHERE is_checked = 0 and rfid = '" + EPC + "')";
+                query = "Update GoodsReceiptNoteDetail Set is_checked = '1', actual_quantity =  actual_quantity + 1 " +
+                        "Where grn_id = '" + grnId + "' And product_line_id = (Select product_line_id from ProductRFID WHERE is_checked = 0 and rfid = '" + EPC + "') " +
+                        "And actual_quantity < expected_quantity; ";
+                query += "Update ProductRFID Set is_checked = '1' " +
+                        "WHERE rfid = '" + EPC + "'; ";
+                query += "Update GoodsReceiptNote Set total_actual_quantity = total_actual_quantity + 1 " +
+                        "Where grn_id = '" + grnId + "' and total_actual_quantity < total_expected_quantity;";
+                query += "Update GoodsReceiptNote Set note = 'Completed quantity' " +
+                        "Where grn_id = '" + grnId + "' and total_actual_quantity >= total_expected_quantity;";
             }
             conn.executeDatabase(query);
             return null;
