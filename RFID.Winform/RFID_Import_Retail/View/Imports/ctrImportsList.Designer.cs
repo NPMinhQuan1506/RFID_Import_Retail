@@ -28,23 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions7 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ctrImportsList));
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject25 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject26 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject27 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject28 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions8 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject29 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject30 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject31 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject32 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions9 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject33 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject34 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject35 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject36 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
@@ -60,8 +55,16 @@
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject18 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject19 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject20 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions6 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject21 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject22 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject23 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject24 = new DevExpress.Utils.SerializableAppearanceObject();
             this.gvDetail = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.ImportProduct = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.ProductName = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.ExpectedQuantity = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemSpinEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
+            this.ActutalQuantity = new DevExpress.XtraGrid.Columns.GridColumn();
             this.IsCheck = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.colImportID = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -69,21 +72,21 @@
             this.gcImports = new DevExpress.XtraGrid.GridControl();
             this.gvImports = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.NO = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.ImportId = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.TotalImport = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.ID = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.Employee = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.TotalExpectedQuantity = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemSpinEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
-            this.TotalPrice = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.ActualNumber = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.CreatedDate = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.TotalActualQuantity = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.CreatedTime = new DevExpress.XtraGrid.Columns.GridColumn();
             this.dteDate = new DevExpress.XtraEditors.Repository.RepositoryItemDateEdit();
+            this.Note = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.mmField = new DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit();
             this.Check = new DevExpress.XtraGrid.Columns.GridColumn();
             this.btnCheck = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.Delete = new DevExpress.XtraGrid.Columns.GridColumn();
             this.btnDelete = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
-            this.mmField = new DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit();
             this.peAvartar = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.repositoryItemRatingControl1 = new DevExpress.XtraEditors.Repository.RepositoryItemRatingControl();
-            this.repositoryItemSpinEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
             this.pnHeader = new DevExpress.XtraEditors.PanelControl();
             this.btnCancel = new DevExpress.XtraEditors.ButtonEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
@@ -93,18 +96,18 @@
             this.cbbField = new DevExpress.XtraEditors.ComboBoxEdit();
             this.txtSearch = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.gvDetail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcImports)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvImports)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dteDate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dteDate.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mmField)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCheck)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDelete)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mmField)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.peAvartar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemRatingControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnHeader)).BeginInit();
             this.pnHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCancel.Properties)).BeginInit();
@@ -120,10 +123,13 @@
             // gvDetail
             // 
             this.gvDetail.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.ImportProduct,
+            this.ProductName,
+            this.ExpectedQuantity,
+            this.ActutalQuantity,
             this.IsCheck,
             this.colImportID,
             this.colProductID});
+            this.gvDetail.DetailHeight = 467;
             this.gvDetail.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFullFocus;
             this.gvDetail.GridControl = this.gcImports;
             this.gvDetail.HorzScrollStep = 1;
@@ -138,32 +144,103 @@
             this.gvDetail.OptionsView.ShowIndicator = false;
             this.gvDetail.ViewCaption = "Chi Tiết";
             // 
-            // ImportProduct
+            // ProductName
             // 
-            this.ImportProduct.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.ImportProduct.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.ImportProduct.AppearanceCell.Options.UseFont = true;
-            this.ImportProduct.AppearanceCell.Options.UseForeColor = true;
-            this.ImportProduct.AppearanceCell.Options.UseTextOptions = true;
-            this.ImportProduct.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.ImportProduct.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.ImportProduct.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            this.ImportProduct.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.ImportProduct.AppearanceHeader.Options.UseFont = true;
-            this.ImportProduct.AppearanceHeader.Options.UseForeColor = true;
-            this.ImportProduct.AppearanceHeader.Options.UseTextOptions = true;
-            this.ImportProduct.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.ImportProduct.Caption = "Product Name";
-            this.ImportProduct.FieldName = "product_name";
-            this.ImportProduct.MinWidth = 250;
-            this.ImportProduct.Name = "ImportProduct";
-            this.ImportProduct.OptionsColumn.AllowEdit = false;
-            this.ImportProduct.OptionsColumn.AllowFocus = false;
-            this.ImportProduct.OptionsColumn.AllowMove = false;
-            this.ImportProduct.OptionsColumn.AllowSize = false;
-            this.ImportProduct.Visible = true;
-            this.ImportProduct.VisibleIndex = 0;
-            this.ImportProduct.Width = 250;
+            this.ProductName.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.ProductName.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.ProductName.AppearanceCell.Options.UseFont = true;
+            this.ProductName.AppearanceCell.Options.UseForeColor = true;
+            this.ProductName.AppearanceCell.Options.UseTextOptions = true;
+            this.ProductName.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.ProductName.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.ProductName.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.ProductName.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.ProductName.AppearanceHeader.Options.UseFont = true;
+            this.ProductName.AppearanceHeader.Options.UseForeColor = true;
+            this.ProductName.AppearanceHeader.Options.UseTextOptions = true;
+            this.ProductName.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.ProductName.Caption = "Product Name";
+            this.ProductName.FieldName = "product_name";
+            this.ProductName.MinWidth = 550;
+            this.ProductName.Name = "ProductName";
+            this.ProductName.OptionsColumn.AllowEdit = false;
+            this.ProductName.OptionsColumn.AllowFocus = false;
+            this.ProductName.OptionsColumn.AllowMove = false;
+            this.ProductName.OptionsColumn.AllowSize = false;
+            this.ProductName.Visible = true;
+            this.ProductName.VisibleIndex = 0;
+            this.ProductName.Width = 550;
+            // 
+            // ExpectedQuantity
+            // 
+            this.ExpectedQuantity.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.ExpectedQuantity.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.ExpectedQuantity.AppearanceCell.Options.UseFont = true;
+            this.ExpectedQuantity.AppearanceCell.Options.UseForeColor = true;
+            this.ExpectedQuantity.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.ExpectedQuantity.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.ExpectedQuantity.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.ExpectedQuantity.AppearanceHeader.Options.UseFont = true;
+            this.ExpectedQuantity.AppearanceHeader.Options.UseForeColor = true;
+            this.ExpectedQuantity.AppearanceHeader.Options.UseTextOptions = true;
+            this.ExpectedQuantity.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.ExpectedQuantity.Caption = "Expected Quantity";
+            this.ExpectedQuantity.ColumnEdit = this.repositoryItemSpinEdit2;
+            this.ExpectedQuantity.DisplayFormat.FormatString = "n0";
+            this.ExpectedQuantity.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.ExpectedQuantity.FieldName = "expected_quantity";
+            this.ExpectedQuantity.MinWidth = 200;
+            this.ExpectedQuantity.Name = "ExpectedQuantity";
+            this.ExpectedQuantity.OptionsColumn.AllowEdit = false;
+            this.ExpectedQuantity.OptionsColumn.AllowGroup = DevExpress.Utils.DefaultBoolean.False;
+            this.ExpectedQuantity.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.ExpectedQuantity.OptionsColumn.AllowMove = false;
+            this.ExpectedQuantity.OptionsColumn.AllowSize = false;
+            this.ExpectedQuantity.Visible = true;
+            this.ExpectedQuantity.VisibleIndex = 1;
+            this.ExpectedQuantity.Width = 200;
+            // 
+            // repositoryItemSpinEdit2
+            // 
+            this.repositoryItemSpinEdit2.AutoHeight = false;
+            this.repositoryItemSpinEdit2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemSpinEdit2.DisplayFormat.FormatString = "n0";
+            this.repositoryItemSpinEdit2.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.repositoryItemSpinEdit2.EditFormat.FormatString = "n0";
+            this.repositoryItemSpinEdit2.EditFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.repositoryItemSpinEdit2.MaskSettings.Set("mask", "n0");
+            this.repositoryItemSpinEdit2.Name = "repositoryItemSpinEdit2";
+            this.repositoryItemSpinEdit2.UseMaskAsDisplayFormat = true;
+            // 
+            // ActutalQuantity
+            // 
+            this.ActutalQuantity.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.ActutalQuantity.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.ActutalQuantity.AppearanceCell.Options.UseFont = true;
+            this.ActutalQuantity.AppearanceCell.Options.UseForeColor = true;
+            this.ActutalQuantity.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.ActutalQuantity.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.ActutalQuantity.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.ActutalQuantity.AppearanceHeader.Options.UseFont = true;
+            this.ActutalQuantity.AppearanceHeader.Options.UseForeColor = true;
+            this.ActutalQuantity.AppearanceHeader.Options.UseTextOptions = true;
+            this.ActutalQuantity.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.ActutalQuantity.Caption = "Actutal Quantity";
+            this.ActutalQuantity.ColumnEdit = this.repositoryItemSpinEdit2;
+            this.ActutalQuantity.DisplayFormat.FormatString = "n0";
+            this.ActutalQuantity.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.ActutalQuantity.FieldName = "actual_quantity";
+            this.ActutalQuantity.MinWidth = 200;
+            this.ActutalQuantity.Name = "ActutalQuantity";
+            this.ActutalQuantity.OptionsColumn.AllowEdit = false;
+            this.ActutalQuantity.OptionsColumn.AllowGroup = DevExpress.Utils.DefaultBoolean.False;
+            this.ActutalQuantity.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.ActutalQuantity.OptionsColumn.AllowMove = false;
+            this.ActutalQuantity.OptionsColumn.AllowSize = false;
+            this.ActutalQuantity.Visible = true;
+            this.ActutalQuantity.VisibleIndex = 2;
+            this.ActutalQuantity.Width = 200;
             // 
             // IsCheck
             // 
@@ -181,8 +258,8 @@
             this.IsCheck.Caption = "Checked";
             this.IsCheck.ColumnEdit = this.repositoryItemCheckEdit1;
             this.IsCheck.FieldName = "is_checked";
-            this.IsCheck.MaxWidth = 70;
-            this.IsCheck.MinWidth = 70;
+            this.IsCheck.MaxWidth = 130;
+            this.IsCheck.MinWidth = 130;
             this.IsCheck.Name = "IsCheck";
             this.IsCheck.OptionsColumn.AllowEdit = false;
             this.IsCheck.OptionsColumn.AllowFocus = false;
@@ -190,40 +267,43 @@
             this.IsCheck.OptionsColumn.AllowMove = false;
             this.IsCheck.OptionsColumn.AllowSize = false;
             this.IsCheck.Visible = true;
-            this.IsCheck.VisibleIndex = 1;
-            this.IsCheck.Width = 70;
+            this.IsCheck.VisibleIndex = 3;
+            this.IsCheck.Width = 130;
             // 
             // repositoryItemCheckEdit1
             // 
             this.repositoryItemCheckEdit1.AutoHeight = false;
             this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
             this.repositoryItemCheckEdit1.ReadOnly = true;
-            this.repositoryItemCheckEdit1.ValueChecked = ((short)(1));
-            this.repositoryItemCheckEdit1.ValueUnchecked = ((short)(0));
             // 
             // colImportID
             // 
             this.colImportID.Caption = "colImportID";
-            this.colImportID.FieldName = "delivery_order_id";
+            this.colImportID.FieldName = "grn_id";
+            this.colImportID.MinWidth = 24;
             this.colImportID.Name = "colImportID";
+            this.colImportID.Width = 92;
             // 
             // colProductID
             // 
-            this.colProductID.Caption = "product_instance_id";
-            this.colProductID.FieldName = "product_instance_id";
+            this.colProductID.FieldName = "product_line_id";
+            this.colProductID.MinWidth = 24;
             this.colProductID.Name = "colProductID";
+            this.colProductID.Width = 92;
             // 
             // gcImports
             // 
             this.gcImports.Dock = System.Windows.Forms.DockStyle.Fill;
-            gridLevelNode2.LevelTemplate = this.gvDetail;
-            gridLevelNode2.RelationName = "Detail";
+            this.gcImports.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
+            gridLevelNode1.LevelTemplate = this.gvDetail;
+            gridLevelNode1.RelationName = "Detail";
             this.gcImports.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode2});
-            this.gcImports.Location = new System.Drawing.Point(0, 84);
+            gridLevelNode1});
+            this.gcImports.Location = new System.Drawing.Point(0, 112);
             this.gcImports.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
             this.gcImports.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gcImports.MainView = this.gvImports;
+            this.gcImports.Margin = new System.Windows.Forms.Padding(4);
             this.gcImports.Name = "gcImports";
             this.gcImports.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.dteDate,
@@ -235,7 +315,7 @@
             this.repositoryItemRatingControl1,
             this.repositoryItemSpinEdit2,
             this.repositoryItemCheckEdit1});
-            this.gcImports.Size = new System.Drawing.Size(955, 448);
+            this.gcImports.Size = new System.Drawing.Size(1167, 597);
             this.gcImports.TabIndex = 1;
             this.gcImports.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvImports,
@@ -280,13 +360,15 @@
             this.gvImports.AppearancePrint.OddRow.Options.UseFont = true;
             this.gvImports.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.NO,
-            this.ImportId,
-            this.TotalImport,
-            this.TotalPrice,
-            this.ActualNumber,
-            this.CreatedDate,
+            this.ID,
+            this.Employee,
+            this.TotalExpectedQuantity,
+            this.TotalActualQuantity,
+            this.CreatedTime,
+            this.Note,
             this.Check,
             this.Delete});
+            this.gvImports.DetailHeight = 467;
             this.gvImports.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFullFocus;
             this.gvImports.GridControl = this.gcImports;
             this.gvImports.HorzScrollStep = 1;
@@ -326,70 +408,96 @@
             this.NO.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.NO.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
             this.NO.Caption = "NO";
-            this.NO.MaxWidth = 50;
-            this.NO.MinWidth = 50;
+            this.NO.MaxWidth = 61;
+            this.NO.MinWidth = 61;
             this.NO.Name = "NO";
             this.NO.OptionsColumn.AllowEdit = false;
             this.NO.OptionsColumn.AllowMove = false;
             this.NO.OptionsColumn.AllowSize = false;
             this.NO.Visible = true;
             this.NO.VisibleIndex = 0;
-            this.NO.Width = 50;
+            this.NO.Width = 61;
             // 
-            // ImportId
+            // ID
             // 
-            this.ImportId.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.ImportId.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.ImportId.AppearanceCell.Options.UseFont = true;
-            this.ImportId.AppearanceCell.Options.UseForeColor = true;
-            this.ImportId.AppearanceCell.Options.UseTextOptions = true;
-            this.ImportId.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.ImportId.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.ImportId.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            this.ImportId.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.ImportId.AppearanceHeader.Options.UseFont = true;
-            this.ImportId.AppearanceHeader.Options.UseForeColor = true;
-            this.ImportId.AppearanceHeader.Options.UseTextOptions = true;
-            this.ImportId.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.ImportId.Caption = "Import ID";
-            this.ImportId.FieldName = "delivery_order_id";
-            this.ImportId.MinWidth = 150;
-            this.ImportId.Name = "ImportId";
-            this.ImportId.OptionsColumn.AllowEdit = false;
-            this.ImportId.OptionsColumn.AllowFocus = false;
-            this.ImportId.OptionsColumn.AllowMove = false;
-            this.ImportId.OptionsColumn.AllowSize = false;
-            this.ImportId.Visible = true;
-            this.ImportId.VisibleIndex = 1;
-            this.ImportId.Width = 150;
+            this.ID.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.ID.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.ID.AppearanceCell.Options.UseFont = true;
+            this.ID.AppearanceCell.Options.UseForeColor = true;
+            this.ID.AppearanceCell.Options.UseTextOptions = true;
+            this.ID.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.ID.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.ID.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.ID.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.ID.AppearanceHeader.Options.UseFont = true;
+            this.ID.AppearanceHeader.Options.UseForeColor = true;
+            this.ID.AppearanceHeader.Options.UseTextOptions = true;
+            this.ID.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.ID.Caption = "ID";
+            this.ID.FieldName = "grn_id";
+            this.ID.MinWidth = 183;
+            this.ID.Name = "ID";
+            this.ID.OptionsColumn.AllowEdit = false;
+            this.ID.OptionsColumn.AllowFocus = false;
+            this.ID.OptionsColumn.AllowMove = false;
+            this.ID.OptionsColumn.AllowSize = false;
+            this.ID.Visible = true;
+            this.ID.VisibleIndex = 1;
+            this.ID.Width = 183;
             // 
-            // TotalImport
+            // Employee
             // 
-            this.TotalImport.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.TotalImport.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.TotalImport.AppearanceCell.Options.UseFont = true;
-            this.TotalImport.AppearanceCell.Options.UseForeColor = true;
-            this.TotalImport.AppearanceCell.Options.UseTextOptions = true;
-            this.TotalImport.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.TotalImport.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.TotalImport.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            this.TotalImport.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.TotalImport.AppearanceHeader.Options.UseFont = true;
-            this.TotalImport.AppearanceHeader.Options.UseForeColor = true;
-            this.TotalImport.AppearanceHeader.Options.UseTextOptions = true;
-            this.TotalImport.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.TotalImport.Caption = "Expected Quantity";
-            this.TotalImport.ColumnEdit = this.repositoryItemSpinEdit1;
-            this.TotalImport.FieldName = "expected_quantity";
-            this.TotalImport.MinWidth = 100;
-            this.TotalImport.Name = "TotalImport";
-            this.TotalImport.OptionsColumn.AllowEdit = false;
-            this.TotalImport.OptionsColumn.AllowFocus = false;
-            this.TotalImport.OptionsColumn.AllowMove = false;
-            this.TotalImport.OptionsColumn.AllowSize = false;
-            this.TotalImport.Visible = true;
-            this.TotalImport.VisibleIndex = 2;
-            this.TotalImport.Width = 100;
+            this.Employee.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.Employee.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.Employee.AppearanceCell.Options.UseFont = true;
+            this.Employee.AppearanceCell.Options.UseForeColor = true;
+            this.Employee.AppearanceCell.Options.UseTextOptions = true;
+            this.Employee.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.Employee.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.Employee.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.Employee.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.Employee.AppearanceHeader.Options.UseFont = true;
+            this.Employee.AppearanceHeader.Options.UseForeColor = true;
+            this.Employee.Caption = "Employee";
+            this.Employee.FieldName = "employee";
+            this.Employee.MinWidth = 250;
+            this.Employee.Name = "Employee";
+            this.Employee.OptionsColumn.AllowEdit = false;
+            this.Employee.OptionsColumn.AllowGroup = DevExpress.Utils.DefaultBoolean.False;
+            this.Employee.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.Employee.OptionsColumn.AllowMove = false;
+            this.Employee.OptionsColumn.AllowSize = false;
+            this.Employee.Visible = true;
+            this.Employee.VisibleIndex = 2;
+            this.Employee.Width = 250;
+            // 
+            // TotalExpectedQuantity
+            // 
+            this.TotalExpectedQuantity.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.TotalExpectedQuantity.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.TotalExpectedQuantity.AppearanceCell.Options.UseFont = true;
+            this.TotalExpectedQuantity.AppearanceCell.Options.UseForeColor = true;
+            this.TotalExpectedQuantity.AppearanceCell.Options.UseTextOptions = true;
+            this.TotalExpectedQuantity.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.TotalExpectedQuantity.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.TotalExpectedQuantity.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.TotalExpectedQuantity.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.TotalExpectedQuantity.AppearanceHeader.Options.UseFont = true;
+            this.TotalExpectedQuantity.AppearanceHeader.Options.UseForeColor = true;
+            this.TotalExpectedQuantity.AppearanceHeader.Options.UseTextOptions = true;
+            this.TotalExpectedQuantity.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.TotalExpectedQuantity.Caption = "Total Expected Quantity";
+            this.TotalExpectedQuantity.ColumnEdit = this.repositoryItemSpinEdit1;
+            this.TotalExpectedQuantity.FieldName = "total_expected_quantity";
+            this.TotalExpectedQuantity.MinWidth = 170;
+            this.TotalExpectedQuantity.Name = "TotalExpectedQuantity";
+            this.TotalExpectedQuantity.OptionsColumn.AllowEdit = false;
+            this.TotalExpectedQuantity.OptionsColumn.AllowFocus = false;
+            this.TotalExpectedQuantity.OptionsColumn.AllowMove = false;
+            this.TotalExpectedQuantity.OptionsColumn.AllowSize = false;
+            this.TotalExpectedQuantity.Visible = true;
+            this.TotalExpectedQuantity.VisibleIndex = 3;
+            this.TotalExpectedQuantity.Width = 180;
             // 
             // repositoryItemSpinEdit1
             // 
@@ -402,89 +510,61 @@
             this.repositoryItemSpinEdit1.Mask.UseMaskAsDisplayFormat = true;
             this.repositoryItemSpinEdit1.Name = "repositoryItemSpinEdit1";
             // 
-            // TotalPrice
+            // TotalActualQuantity
             // 
-            this.TotalPrice.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.TotalPrice.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.TotalPrice.AppearanceCell.Options.UseFont = true;
-            this.TotalPrice.AppearanceCell.Options.UseForeColor = true;
-            this.TotalPrice.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.TotalPrice.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            this.TotalPrice.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.TotalPrice.AppearanceHeader.Options.UseFont = true;
-            this.TotalPrice.AppearanceHeader.Options.UseForeColor = true;
-            this.TotalPrice.AppearanceHeader.Options.UseTextOptions = true;
-            this.TotalPrice.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.TotalPrice.Caption = "Total Import Price (VNĐ)";
-            this.TotalPrice.ColumnEdit = this.repositoryItemSpinEdit1;
-            this.TotalPrice.DisplayFormat.FormatString = "n0";
-            this.TotalPrice.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.TotalPrice.FieldName = "TotalPrice";
-            this.TotalPrice.MinWidth = 120;
-            this.TotalPrice.Name = "TotalPrice";
-            this.TotalPrice.OptionsColumn.AllowEdit = false;
-            this.TotalPrice.OptionsColumn.AllowFocus = false;
-            this.TotalPrice.OptionsColumn.AllowMove = false;
-            this.TotalPrice.OptionsColumn.AllowSize = false;
-            this.TotalPrice.Visible = true;
-            this.TotalPrice.VisibleIndex = 3;
-            this.TotalPrice.Width = 120;
+            this.TotalActualQuantity.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.TotalActualQuantity.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.TotalActualQuantity.AppearanceCell.Options.UseFont = true;
+            this.TotalActualQuantity.AppearanceCell.Options.UseForeColor = true;
+            this.TotalActualQuantity.AppearanceCell.Options.UseTextOptions = true;
+            this.TotalActualQuantity.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.TotalActualQuantity.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.TotalActualQuantity.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.TotalActualQuantity.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.TotalActualQuantity.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.TotalActualQuantity.AppearanceHeader.Options.UseFont = true;
+            this.TotalActualQuantity.AppearanceHeader.Options.UseForeColor = true;
+            this.TotalActualQuantity.AppearanceHeader.Options.UseTextOptions = true;
+            this.TotalActualQuantity.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.TotalActualQuantity.Caption = "Total Actual Quantity";
+            this.TotalActualQuantity.ColumnEdit = this.repositoryItemSpinEdit1;
+            this.TotalActualQuantity.FieldName = "total_actual_quantity";
+            this.TotalActualQuantity.MinWidth = 140;
+            this.TotalActualQuantity.Name = "TotalActualQuantity";
+            this.TotalActualQuantity.OptionsColumn.AllowEdit = false;
+            this.TotalActualQuantity.OptionsColumn.AllowFocus = false;
+            this.TotalActualQuantity.OptionsColumn.AllowMove = false;
+            this.TotalActualQuantity.Visible = true;
+            this.TotalActualQuantity.VisibleIndex = 4;
+            this.TotalActualQuantity.Width = 140;
             // 
-            // ActualNumber
+            // CreatedTime
             // 
-            this.ActualNumber.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.ActualNumber.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.ActualNumber.AppearanceCell.Options.UseFont = true;
-            this.ActualNumber.AppearanceCell.Options.UseForeColor = true;
-            this.ActualNumber.AppearanceCell.Options.UseTextOptions = true;
-            this.ActualNumber.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.ActualNumber.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.ActualNumber.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.ActualNumber.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            this.ActualNumber.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.ActualNumber.AppearanceHeader.Options.UseFont = true;
-            this.ActualNumber.AppearanceHeader.Options.UseForeColor = true;
-            this.ActualNumber.AppearanceHeader.Options.UseTextOptions = true;
-            this.ActualNumber.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.ActualNumber.Caption = " Actual Quantity";
-            this.ActualNumber.ColumnEdit = this.repositoryItemSpinEdit1;
-            this.ActualNumber.FieldName = "actual_quantity";
-            this.ActualNumber.MinWidth = 100;
-            this.ActualNumber.Name = "ActualNumber";
-            this.ActualNumber.OptionsColumn.AllowEdit = false;
-            this.ActualNumber.OptionsColumn.AllowFocus = false;
-            this.ActualNumber.OptionsColumn.AllowMove = false;
-            this.ActualNumber.Visible = true;
-            this.ActualNumber.VisibleIndex = 4;
-            this.ActualNumber.Width = 100;
-            // 
-            // CreatedDate
-            // 
-            this.CreatedDate.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.CreatedDate.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.CreatedDate.AppearanceCell.Options.UseFont = true;
-            this.CreatedDate.AppearanceCell.Options.UseForeColor = true;
-            this.CreatedDate.AppearanceCell.Options.UseTextOptions = true;
-            this.CreatedDate.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.CreatedDate.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.CreatedDate.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
-            this.CreatedDate.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
-            this.CreatedDate.AppearanceHeader.Options.UseFont = true;
-            this.CreatedDate.AppearanceHeader.Options.UseForeColor = true;
-            this.CreatedDate.AppearanceHeader.Options.UseTextOptions = true;
-            this.CreatedDate.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.CreatedDate.Caption = "Import Date";
-            this.CreatedDate.ColumnEdit = this.dteDate;
-            this.CreatedDate.FieldName = "delivery_order_date";
-            this.CreatedDate.MinWidth = 120;
-            this.CreatedDate.Name = "CreatedDate";
-            this.CreatedDate.OptionsColumn.AllowEdit = false;
-            this.CreatedDate.OptionsColumn.AllowFocus = false;
-            this.CreatedDate.OptionsColumn.AllowMove = false;
-            this.CreatedDate.OptionsColumn.AllowSize = false;
-            this.CreatedDate.Visible = true;
-            this.CreatedDate.VisibleIndex = 5;
-            this.CreatedDate.Width = 180;
+            this.CreatedTime.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.CreatedTime.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.CreatedTime.AppearanceCell.Options.UseFont = true;
+            this.CreatedTime.AppearanceCell.Options.UseForeColor = true;
+            this.CreatedTime.AppearanceCell.Options.UseTextOptions = true;
+            this.CreatedTime.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.CreatedTime.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.CreatedTime.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.CreatedTime.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.CreatedTime.AppearanceHeader.Options.UseFont = true;
+            this.CreatedTime.AppearanceHeader.Options.UseForeColor = true;
+            this.CreatedTime.AppearanceHeader.Options.UseTextOptions = true;
+            this.CreatedTime.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.CreatedTime.Caption = "Created Time";
+            this.CreatedTime.ColumnEdit = this.dteDate;
+            this.CreatedTime.FieldName = "created_time";
+            this.CreatedTime.MinWidth = 110;
+            this.CreatedTime.Name = "CreatedTime";
+            this.CreatedTime.OptionsColumn.AllowEdit = false;
+            this.CreatedTime.OptionsColumn.AllowFocus = false;
+            this.CreatedTime.OptionsColumn.AllowMove = false;
+            this.CreatedTime.OptionsColumn.AllowSize = false;
+            this.CreatedTime.Visible = true;
+            this.CreatedTime.VisibleIndex = 5;
+            this.CreatedTime.Width = 220;
             // 
             // dteDate
             // 
@@ -500,11 +580,41 @@
             this.dteDate.Mask.UseMaskAsDisplayFormat = true;
             this.dteDate.Name = "dteDate";
             // 
+            // Note
+            // 
+            this.Note.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.Note.AppearanceCell.Options.UseForeColor = true;
+            this.Note.AppearanceCell.Options.UseTextOptions = true;
+            this.Note.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.Note.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.Note.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.Note.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.Note.AppearanceHeader.Options.UseFont = true;
+            this.Note.AppearanceHeader.Options.UseForeColor = true;
+            this.Note.AppearanceHeader.Options.UseTextOptions = true;
+            this.Note.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.Note.Caption = "Note";
+            this.Note.ColumnEdit = this.mmField;
+            this.Note.FieldName = "note";
+            this.Note.MinWidth = 200;
+            this.Note.Name = "Note";
+            this.Note.OptionsColumn.AllowEdit = false;
+            this.Note.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.Note.OptionsColumn.AllowMove = false;
+            this.Note.OptionsColumn.AllowSize = false;
+            this.Note.Visible = true;
+            this.Note.VisibleIndex = 6;
+            this.Note.Width = 200;
+            // 
+            // mmField
+            // 
+            this.mmField.Name = "mmField";
+            // 
             // Check
             // 
             this.Check.ColumnEdit = this.btnCheck;
-            this.Check.MaxWidth = 70;
-            this.Check.MinWidth = 70;
+            this.Check.MaxWidth = 86;
+            this.Check.MinWidth = 86;
             this.Check.Name = "Check";
             this.Check.OptionsColumn.AllowMove = false;
             this.Check.OptionsColumn.AllowSize = false;
@@ -512,24 +622,24 @@
             this.Check.OptionsFilter.AllowAutoFilter = false;
             this.Check.OptionsFilter.AllowFilter = false;
             this.Check.Visible = true;
-            this.Check.VisibleIndex = 6;
-            this.Check.Width = 70;
+            this.Check.VisibleIndex = 7;
+            this.Check.Width = 86;
             // 
             // btnCheck
             // 
             this.btnCheck.AutoHeight = false;
-            editorButtonImageOptions7.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions7.SvgImage")));
+            editorButtonImageOptions1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions1.SvgImage")));
             this.btnCheck.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions7, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject25, serializableAppearanceObject26, serializableAppearanceObject27, serializableAppearanceObject28, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.btnCheck.Name = "btnCheck";
             this.btnCheck.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
-            this.btnCheck.Click += new System.EventHandler(this.btnEdit_Click);
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
             // Delete
             // 
             this.Delete.ColumnEdit = this.btnDelete;
-            this.Delete.MaxWidth = 70;
-            this.Delete.MinWidth = 70;
+            this.Delete.MaxWidth = 86;
+            this.Delete.MinWidth = 86;
             this.Delete.Name = "Delete";
             this.Delete.OptionsColumn.AllowMove = false;
             this.Delete.OptionsColumn.AllowSize = false;
@@ -537,22 +647,18 @@
             this.Delete.OptionsFilter.AllowAutoFilter = false;
             this.Delete.OptionsFilter.AllowFilter = false;
             this.Delete.Visible = true;
-            this.Delete.VisibleIndex = 7;
-            this.Delete.Width = 70;
+            this.Delete.VisibleIndex = 8;
+            this.Delete.Width = 86;
             // 
             // btnDelete
             // 
             this.btnDelete.AutoHeight = false;
-            editorButtonImageOptions8.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions8.SvgImage")));
+            editorButtonImageOptions2.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions2.SvgImage")));
             this.btnDelete.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions8, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject29, serializableAppearanceObject30, serializableAppearanceObject31, serializableAppearanceObject32, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.btnDelete.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.btnDelete_ButtonClick);
-            // 
-            // mmField
-            // 
-            this.mmField.Name = "mmField";
             // 
             // peAvartar
             // 
@@ -571,14 +677,6 @@
             this.repositoryItemRatingControl1.ReadOnly = true;
             this.repositoryItemRatingControl1.ShowToolTips = false;
             // 
-            // repositoryItemSpinEdit2
-            // 
-            this.repositoryItemSpinEdit2.AutoHeight = false;
-            this.repositoryItemSpinEdit2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.repositoryItemSpinEdit2.Mask.EditMask = "n0";
-            this.repositoryItemSpinEdit2.Name = "repositoryItemSpinEdit2";
-            // 
             // pnHeader
             // 
             this.pnHeader.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
@@ -591,16 +689,17 @@
             this.pnHeader.Location = new System.Drawing.Point(0, 0);
             this.pnHeader.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
             this.pnHeader.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.pnHeader.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pnHeader.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.pnHeader.Name = "pnHeader";
-            this.pnHeader.Size = new System.Drawing.Size(955, 84);
+            this.pnHeader.Size = new System.Drawing.Size(1167, 112);
             this.pnHeader.TabIndex = 0;
             // 
             // btnCancel
             // 
             this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancel.EditValue = "";
-            this.btnCancel.Location = new System.Drawing.Point(321, 24);
+            this.btnCancel.Location = new System.Drawing.Point(392, 32);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(202)))), ((int)(((byte)(203)))));
             this.btnCancel.Properties.Appearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
@@ -612,13 +711,13 @@
             this.btnCancel.Properties.Appearance.Options.UseForeColor = true;
             this.btnCancel.Properties.AutoHeight = false;
             this.btnCancel.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
-            editorButtonImageOptions9.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions9.SvgImage")));
+            editorButtonImageOptions3.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions3.SvgImage")));
             this.btnCancel.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, true, editorButtonImageOptions9, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject33, serializableAppearanceObject34, serializableAppearanceObject35, serializableAppearanceObject36, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, true, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.btnCancel.Properties.ReadOnly = true;
             this.btnCancel.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnCancel.Properties.UseReadOnlyAppearance = false;
-            this.btnCancel.Size = new System.Drawing.Size(41, 35);
+            this.btnCancel.Size = new System.Drawing.Size(50, 47);
             this.btnCancel.TabIndex = 4;
             this.btnCancel.ToolTipAnchor = DevExpress.Utils.ToolTipAnchor.Cursor;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -634,16 +733,18 @@
             this.panelControl1.Controls.Add(this.btnInport);
             this.panelControl1.Controls.Add(this.btnAdd);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelControl1.Location = new System.Drawing.Point(681, 2);
+            this.panelControl1.Location = new System.Drawing.Point(833, 2);
+            this.panelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(272, 80);
+            this.panelControl1.Size = new System.Drawing.Size(332, 108);
             this.panelControl1.TabIndex = 3;
             // 
             // btnExport
             // 
             this.btnExport.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExport.EditValue = "";
-            this.btnExport.Location = new System.Drawing.Point(51, 21);
+            this.btnExport.Location = new System.Drawing.Point(62, 28);
+            this.btnExport.Margin = new System.Windows.Forms.Padding(4);
             this.btnExport.Name = "btnExport";
             this.btnExport.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(202)))), ((int)(((byte)(203)))));
             this.btnExport.Properties.Appearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
@@ -655,13 +756,13 @@
             this.btnExport.Properties.Appearance.Options.UseForeColor = true;
             this.btnExport.Properties.AutoHeight = false;
             this.btnExport.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
-            editorButtonImageOptions3.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions3.SvgImage")));
+            editorButtonImageOptions4.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions4.SvgImage")));
             this.btnExport.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, true, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, true, editorButtonImageOptions4, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject13, serializableAppearanceObject14, serializableAppearanceObject15, serializableAppearanceObject16, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.btnExport.Properties.ReadOnly = true;
             this.btnExport.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnExport.Properties.UseReadOnlyAppearance = false;
-            this.btnExport.Size = new System.Drawing.Size(42, 35);
+            this.btnExport.Size = new System.Drawing.Size(51, 47);
             this.btnExport.TabIndex = 4;
             this.btnExport.ToolTipAnchor = DevExpress.Utils.ToolTipAnchor.Cursor;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
@@ -670,7 +771,8 @@
             // 
             this.btnInport.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInport.EditValue = "";
-            this.btnInport.Location = new System.Drawing.Point(3, 21);
+            this.btnInport.Location = new System.Drawing.Point(4, 28);
+            this.btnInport.Margin = new System.Windows.Forms.Padding(4);
             this.btnInport.Name = "btnInport";
             this.btnInport.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(202)))), ((int)(((byte)(203)))));
             this.btnInport.Properties.Appearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
@@ -682,13 +784,13 @@
             this.btnInport.Properties.Appearance.Options.UseForeColor = true;
             this.btnInport.Properties.AutoHeight = false;
             this.btnInport.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
-            editorButtonImageOptions4.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions4.SvgImage")));
+            editorButtonImageOptions5.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions5.SvgImage")));
             this.btnInport.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, true, editorButtonImageOptions4, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject13, serializableAppearanceObject14, serializableAppearanceObject15, serializableAppearanceObject16, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, true, editorButtonImageOptions5, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject17, serializableAppearanceObject18, serializableAppearanceObject19, serializableAppearanceObject20, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.btnInport.Properties.ReadOnly = true;
             this.btnInport.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnInport.Properties.UseReadOnlyAppearance = false;
-            this.btnInport.Size = new System.Drawing.Size(42, 35);
+            this.btnInport.Size = new System.Drawing.Size(51, 47);
             this.btnInport.TabIndex = 3;
             this.btnInport.ToolTipAnchor = DevExpress.Utils.ToolTipAnchor.Cursor;
             this.btnInport.Click += new System.EventHandler(this.btnInport_Click);
@@ -697,7 +799,8 @@
             // 
             this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAdd.EditValue = "Import";
-            this.btnAdd.Location = new System.Drawing.Point(114, 21);
+            this.btnAdd.Location = new System.Drawing.Point(139, 28);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(202)))), ((int)(((byte)(203)))));
             this.btnAdd.Properties.Appearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
@@ -709,13 +812,13 @@
             this.btnAdd.Properties.Appearance.Options.UseForeColor = true;
             this.btnAdd.Properties.AutoHeight = false;
             this.btnAdd.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
-            editorButtonImageOptions5.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions5.SvgImage")));
+            editorButtonImageOptions6.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions6.SvgImage")));
             this.btnAdd.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, true, editorButtonImageOptions5, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject17, serializableAppearanceObject18, serializableAppearanceObject19, serializableAppearanceObject20, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, true, editorButtonImageOptions6, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject21, serializableAppearanceObject22, serializableAppearanceObject23, serializableAppearanceObject24, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.btnAdd.Properties.ReadOnly = true;
             this.btnAdd.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.btnAdd.Properties.UseReadOnlyAppearance = false;
-            this.btnAdd.Size = new System.Drawing.Size(142, 35);
+            this.btnAdd.Size = new System.Drawing.Size(174, 47);
             this.btnAdd.TabIndex = 2;
             this.btnAdd.ToolTipAnchor = DevExpress.Utils.ToolTipAnchor.Cursor;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
@@ -723,8 +826,8 @@
             // cbbField
             // 
             this.cbbField.EditValue = "All";
-            this.cbbField.Location = new System.Drawing.Point(376, 24);
-            this.cbbField.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.cbbField.Location = new System.Drawing.Point(460, 32);
+            this.cbbField.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.cbbField.Name = "cbbField";
             this.cbbField.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(202)))), ((int)(((byte)(203)))));
             this.cbbField.Properties.Appearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
@@ -748,21 +851,21 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cbbField.Properties.Items.AddRange(new object[] {
             "All",
-            "Import ID",
-            "Expected Quantity",
-            "Actual Quantity",
-            "Import Date",
-            "Product Name"});
+            "GRN ID",
+            "Employee",
+            "Created Time",
+            "Product Name",
+            "Note"});
             this.cbbField.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
-            this.cbbField.Size = new System.Drawing.Size(145, 35);
+            this.cbbField.Size = new System.Drawing.Size(177, 47);
             this.cbbField.TabIndex = 1;
             this.cbbField.SelectedIndexChanged += new System.EventHandler(this.cbbField_SelectedIndexChanged);
             // 
             // txtSearch
             // 
-            this.txtSearch.EditValue = "Enter searching text";
-            this.txtSearch.Location = new System.Drawing.Point(17, 24);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtSearch.EditValue = "";
+            this.txtSearch.Location = new System.Drawing.Point(21, 32);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(202)))), ((int)(((byte)(203)))));
             this.txtSearch.Properties.Appearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
@@ -776,9 +879,9 @@
             this.txtSearch.Properties.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
             this.txtSearch.Properties.AutoHeight = false;
             this.txtSearch.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
-            this.txtSearch.Properties.NullText = "Nhập Thông Tin Tìm Kiếm";
+            this.txtSearch.Properties.NullText = "Enter searching text";
             this.txtSearch.Properties.Padding = new System.Windows.Forms.Padding(0, 0, 41, 0);
-            this.txtSearch.Size = new System.Drawing.Size(345, 35);
+            this.txtSearch.Size = new System.Drawing.Size(422, 47);
             this.txtSearch.TabIndex = 0;
             this.txtSearch.EditValueChanged += new System.EventHandler(this.txtSearch_EditValueChanged);
             // 
@@ -786,28 +889,28 @@
             // 
             this.Appearance.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.Appearance.Options.UseFont = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
             this.Controls.Add(this.gcImports);
             this.Controls.Add(this.pnHeader);
-            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.Name = "ctrImportsList";
-            this.Size = new System.Drawing.Size(955, 532);
+            this.Size = new System.Drawing.Size(1167, 709);
             ((System.ComponentModel.ISupportInitialize)(this.gvDetail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcImports)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvImports)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dteDate.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dteDate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mmField)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCheck)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDelete)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mmField)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.peAvartar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemRatingControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnHeader)).EndInit();
             this.pnHeader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnCancel.Properties)).EndInit();
@@ -829,11 +932,10 @@
         private DevExpress.XtraEditors.TextEdit txtSearch;
         private DevExpress.XtraGrid.GridControl gcImports;
         private DevExpress.XtraGrid.Views.Grid.GridView gvImports;
-        private DevExpress.XtraGrid.Columns.GridColumn ImportId;
+        private DevExpress.XtraGrid.Columns.GridColumn ID;
         private DevExpress.XtraGrid.Columns.GridColumn NO;
-        private DevExpress.XtraGrid.Columns.GridColumn CreatedDate;
-        private DevExpress.XtraGrid.Columns.GridColumn TotalPrice;
-        private DevExpress.XtraGrid.Columns.GridColumn ActualNumber;
+        private DevExpress.XtraGrid.Columns.GridColumn CreatedTime;
+        private DevExpress.XtraGrid.Columns.GridColumn TotalActualQuantity;
         private DevExpress.XtraGrid.Columns.GridColumn Check;
         private DevExpress.XtraGrid.Columns.GridColumn Delete;
         private DevExpress.XtraEditors.Repository.RepositoryItemDateEdit dteDate;
@@ -849,12 +951,16 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit repositoryItemSpinEdit1;
         private DevExpress.XtraEditors.Repository.RepositoryItemRatingControl repositoryItemRatingControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gvDetail;
-        private DevExpress.XtraGrid.Columns.GridColumn ImportProduct;
+        private DevExpress.XtraGrid.Columns.GridColumn ProductName;
         private DevExpress.XtraGrid.Columns.GridColumn colImportID;
         private DevExpress.XtraGrid.Columns.GridColumn colProductID;
-        private DevExpress.XtraGrid.Columns.GridColumn TotalImport;
+        private DevExpress.XtraGrid.Columns.GridColumn TotalExpectedQuantity;
         private DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit repositoryItemSpinEdit2;
         private DevExpress.XtraGrid.Columns.GridColumn IsCheck;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
+        private DevExpress.XtraGrid.Columns.GridColumn Note;
+        private DevExpress.XtraGrid.Columns.GridColumn Employee;
+        private DevExpress.XtraGrid.Columns.GridColumn ExpectedQuantity;
+        private DevExpress.XtraGrid.Columns.GridColumn ActutalQuantity;
     }
 }

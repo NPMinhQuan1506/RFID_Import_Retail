@@ -13,11 +13,11 @@ namespace RFID_Import_Retail.Model
 {
     class Database
     {
-        string host = @"192.168.100.26";
+        string host = @"localhost";
         string databasename = "rfid";
         int port = 3306;
-        string username = "root";
-        string password = "";
+        string username = "urfid";
+        string password = "123456";
         MySqlConnection con;
 
         public Database()

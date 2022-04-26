@@ -65,14 +65,18 @@ namespace RFID_Import_Retail.View.Product
             {
 
                 DataTable dtContent = new DataTable();
-                string query = String.Format(@"select * from product_line_id", this.id);
+                string query = String.Format(@"select * from Product Where is_enable = 1 and product_line_id = '{0}'", this.id);
                 dtContent = conn.loadData(query);
                 if (dtContent.Rows.Count > 0)
                 {
                     txtSKU.Text = (dtContent.Rows[0]["product_line_id"]).ToString();
                     txtProductName.Text = (dtContent.Rows[0]["name"]).ToString();
-                    spNumberStock.EditValue = Convert.ToUInt32((dtContent.Rows[0]["stock"]));
+                    txtType.Text = (dtContent.Rows[0]["type"]).ToString();
                     spPrice.EditValue = Convert.ToDecimal((dtContent.Rows[0]["price"]));
+                    spMinStock.EditValue = Convert.ToUInt32((dtContent.Rows[0]["min_stock_quantity"]));
+                    spStock.EditValue = Convert.ToUInt32((dtContent.Rows[0]["stock_quantity"]));
+                    cbbUnit.EditValue = (dtContent.Rows[0]["unit"]).ToString();
+                    mmeDescription.Text = (dtContent.Rows[0]["description"]).ToString();
                 }
             }
         }
@@ -98,12 +102,17 @@ namespace RFID_Import_Retail.View.Product
                 {
                     if (checkExistence())
                     {
-                        string query = String.Format(@"Insert into productline(product_line_id, name, price, stock) 
-                                                                              values(N'{0}', N'{1}', {2}, {3})", 
-                                                                                        txtSKU.Text, 
-                                                                                        txtProductName.Text, 
-                                                                                        (decimal)spPrice.EditValue, 
-                                                                                        Convert.ToInt32(spNumberStock.Value));
+                        string query = String.Format(@"Insert into Product(product_line_id, name, type, price, min_stock_quantity, stock_quantity, unit, description, is_enable, created_date) 
+                                                                              values('{0}', N'{1}', N'{2}', {3}, {4}, {5}, N'{6}', N'{7}', '1', '{8}')",
+                                                                                   txtSKU.Text,
+                                                                                   txtProductName.Text,
+                                                                                   txtType.Text,
+                                                                                   (decimal)spPrice.EditValue,
+                                                                                   Convert.ToInt32(spMinStock.Value),
+                                                                                   Convert.ToInt32(spStock.Value),
+                                                                                   cbbUnit.EditValue.ToString(),
+                                                                                   mmeDescription.Text,
+                                                                                   dtNow);
                         conn.executeDatabase(query);
                         MyMessageBox.ShowMessage("Insert product successfully!");
                         if (isAddImport && cif != null)
@@ -122,11 +131,25 @@ namespace RFID_Import_Retail.View.Product
                 // Event Update Data
                 else
                 {
-                    string query = String.Format(@"Update productline set name = N'{0}', price = {1}, stock = {2} where product_line_id = '{3}", 
-                                                                                        txtProductName.Text,
-                                                                                        (decimal)spPrice.EditValue,
-                                                                                        Convert.ToInt32(spNumberStock.Value),
-                                                                                        txtSKU.Text);
+                    string query = String.Format(@"Update Product set name = N'{0}',
+                                                                          type = N'{1}', 
+                                                                          price  = {2}, 
+                                                                          min_stock_quantity = {3}, 
+                                                                          stock_quantity = {4}, 
+                                                                          unit  = N'{5}', 
+                                                                          description = N'{6}', 
+                                                                          modified_date = '{7}'
+                                                   Where product_line_id = '{8}'",
+                                                                          txtProductName.Text,
+                                                                          txtType.Text,
+                                                                          (decimal)spPrice.EditValue,
+                                                                          Convert.ToInt32(spMinStock.Value),
+                                                                          Convert.ToInt32(spStock.Value),
+                                                                          cbbUnit.EditValue.ToString(),
+                                                                          mmeDescription.Text,
+                                                                          dtNow,
+                                                                          txtSKU.Text);
+                    conn.executeDatabase(query);
                     MyMessageBox.ShowMessage("Update data successfully!");
                     this.Close();
                 }
@@ -138,10 +161,10 @@ namespace RFID_Import_Retail.View.Product
         #region //Check existence data
         private bool checkExistence()
         {
-            string query = String.Format("select count(product_line_id) as count1 from productline where product_line_id = '{0}'", txtSKU.Text);
+            string query = String.Format("select count(product_line_id) as count1 from Product where product_line_id = '{0}'", txtSKU.Text);
             DataTable dt = new DataTable();
             dt = conn.loadData(query);
-            if ((int)(dt.Rows[0]["count1"]) > 0)
+            if (Convert.ToInt16(dt.Rows[0]["count1"]) > 0)
             {
                 return false;
             }
@@ -157,8 +180,12 @@ namespace RFID_Import_Retail.View.Product
                 txtSKU.Text = String.Empty;
             }
             txtProductName.Text = String.Empty;
-            spNumberStock.EditValue = null;
             spPrice.EditValue = null;
+            txtType.Text = "";
+            spMinStock.EditValue = null;
+            spStock.EditValue = null;
+            cbbUnit.EditValue = null;
+            mmeDescription.Text = "";
         }
         #endregion
 

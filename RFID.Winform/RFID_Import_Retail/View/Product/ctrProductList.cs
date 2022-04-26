@@ -1,18 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
 using System.Data;
-using System.Text;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.XtraEditors;
 using RFID_Import_Retail.View.Notification;
 using System.IO;
 using System.Text.RegularExpressions;
-using DevExpress.XtraGrid.Views.Grid;
-using DevExpress.Office.Utils;
 using DevExpress.XtraPrinting;
 using System.Diagnostics;
 
@@ -106,7 +98,7 @@ namespace RFID_Import_Retail.View.Product
 
         private void loadData()
         {
-            query = @"Select * from productline ";
+            query = @"Select * from Product Where is_enable = '1'";
             dtMaster = conn.loadData(query);
             gcProduct.DataSource = dtMaster;
         }
@@ -170,7 +162,7 @@ namespace RFID_Import_Retail.View.Product
         {
             if (checkConstraints(ID))
             {
-                string query = String.Format("Delete productline Where product_line_id = '{0}'", ID);
+                string query = String.Format("Update Product set is_enable = '0' Where product_line_id = '{0}'", ID);
                 conn.executeDatabase(query);
                 MyMessageBox.ShowMessage("Delete data successfully!");
                 loadData();
@@ -183,7 +175,7 @@ namespace RFID_Import_Retail.View.Product
 
                 if (Result == DialogResult.Yes)
                 {
-                    string query = String.Format("Delete productline Where product_line_id = '{0}'", ID);
+                    string query = String.Format("Update Product set is_enable = 0 Where product_line_id = '{0}'", ID);
                     conn.executeDatabase(query);
                     MyMessageBox.ShowMessage("Delete data successfully!");
                     loadData();
@@ -198,11 +190,11 @@ namespace RFID_Import_Retail.View.Product
         private bool checkConstraints(string ID)
         {
             string query = String.Format(@"select count(pt.product_line_id) as count1
-                                                    from productinstance as pt, 
+                                                    from ProductRFID as pt
                                             where pt.product_line_id = '{0}'", ID);
             DataTable dt = new DataTable();
             dt = conn.loadData(query);
-            if ((int)(dt.Rows[0]["count1"]) > 0)
+            if (Convert.ToInt16(dt.Rows[0]["count1"]) > 0)
             {
                 return false;
             }
@@ -252,8 +244,6 @@ namespace RFID_Import_Retail.View.Product
                         field = "product_line_id";
                         break;
                     default:
-                        //field = func.removeUnicode((cbbField.Text).Replace("Sản Phẩm", "SP"))
-                        //                                         .Replace(" ", "");
                         field = cbbField.Text.ToLower().Replace(" ", "");
                         break;
                 }
@@ -300,7 +290,7 @@ namespace RFID_Import_Retail.View.Product
                     string fileName = openFileDialog.FileName;
                     DataTable dtMyExcel = Controller.MyExcel.GetDataTableFromExcel(fileName);
                     System.Data.DataView view = new System.Data.DataView(dtMyExcel);
-                    System.Data.DataTable master = view.ToTable("MyTableMaster", false, "product_line_id", "name", "price", "stock");
+                    System.Data.DataTable master = view.ToTable("MyTableMaster", false, "product_line_id", "name", "price", "unit", "min_stock_quantity", "stock_quantity", "type", "description");
                     ConvertColumnType(ref master, "price", typeof(decimal));
                     //conn.executeDataSet("uspInsertProducts", master);
                 }

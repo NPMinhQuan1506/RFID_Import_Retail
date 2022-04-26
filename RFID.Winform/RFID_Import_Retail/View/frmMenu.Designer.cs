@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::RFID_Import_Retail.View.Authority.frmSplashScreen), true, true);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             this.pnContainer = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer();
@@ -67,9 +68,10 @@
             // pnContainer
             // 
             this.pnContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnContainer.Location = new System.Drawing.Point(289, 81);
+            this.pnContainer.Location = new System.Drawing.Point(382, 103);
+            this.pnContainer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnContainer.Name = "pnContainer";
-            this.pnContainer.Size = new System.Drawing.Size(884, 470);
+            this.pnContainer.Size = new System.Drawing.Size(1004, 602);
             this.pnContainer.TabIndex = 0;
             // 
             // acMenu
@@ -98,11 +100,12 @@
             this.acMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.acMenu.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.acgBusiness});
-            this.acMenu.Location = new System.Drawing.Point(0, 31);
+            this.acMenu.Location = new System.Drawing.Point(0, 39);
+            this.acMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.acMenu.Name = "acMenu";
             this.acMenu.RootDisplayMode = DevExpress.XtraBars.Navigation.AccordionControlRootDisplayMode.Footer;
             this.acMenu.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
-            this.acMenu.Size = new System.Drawing.Size(289, 520);
+            this.acMenu.Size = new System.Drawing.Size(382, 666);
             this.acMenu.TabIndex = 1;
             this.acMenu.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
@@ -125,7 +128,7 @@
             this.acgProduct.Expanded = true;
             this.acgProduct.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("acgProduct.ImageOptions.SvgImage")));
             this.acgProduct.Name = "acgProduct";
-            this.acgProduct.Text = "Quản Lý Sản Phẩm";
+            this.acgProduct.Text = "Product Management";
             // 
             // aceProduct
             // 
@@ -144,7 +147,7 @@
             this.aceProduct.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("aceProduct.ImageOptions.SvgImage")));
             this.aceProduct.Name = "aceProduct";
             this.aceProduct.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.aceProduct.Text = "Danh Sách Sản Phẩm";
+            this.aceProduct.Text = "Product List";
             this.aceProduct.Click += new System.EventHandler(this.aceProduct_Click);
             // 
             // accordionControlSeparator2
@@ -158,7 +161,7 @@
             this.acgInventory.Expanded = true;
             this.acgInventory.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("acgInventory.ImageOptions.SvgImage")));
             this.acgInventory.Name = "acgInventory";
-            this.acgInventory.Text = "Quản Lý Kho";
+            this.acgInventory.Text = "Stock Management";
             // 
             // aceImport
             // 
@@ -177,7 +180,7 @@
             this.aceImport.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("aceImport.ImageOptions.SvgImage")));
             this.aceImport.Name = "aceImport";
             this.aceImport.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.aceImport.Text = "Danh Sách Phiếu Nhập";
+            this.aceImport.Text = "Goods Note Receipt List";
             this.aceImport.Click += new System.EventHandler(this.aceImport_Click);
             // 
             // accordionControlSeparator1
@@ -188,8 +191,9 @@
             // 
             this.pnHeader.FluentDesignForm = this;
             this.pnHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnHeader.Name = "pnHeader";
-            this.pnHeader.Size = new System.Drawing.Size(1173, 31);
+            this.pnHeader.Size = new System.Drawing.Size(1386, 39);
             this.pnHeader.TabIndex = 2;
             this.pnHeader.TabStop = false;
             // 
@@ -199,9 +203,10 @@
             this.pnInfo.Controls.Add(this.pnIcon);
             this.pnInfo.Controls.Add(this.pnInfoItem);
             this.pnInfo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnInfo.Location = new System.Drawing.Point(289, 31);
+            this.pnInfo.Location = new System.Drawing.Point(382, 39);
+            this.pnInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnInfo.Name = "pnInfo";
-            this.pnInfo.Size = new System.Drawing.Size(884, 50);
+            this.pnInfo.Size = new System.Drawing.Size(1004, 64);
             this.pnInfo.TabIndex = 3;
             // 
             // pnIcon
@@ -210,8 +215,9 @@
             this.pnIcon.Controls.Add(this.lbCurrentListIcon);
             this.pnIcon.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnIcon.Location = new System.Drawing.Point(0, 0);
+            this.pnIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnIcon.Name = "pnIcon";
-            this.pnIcon.Size = new System.Drawing.Size(47, 50);
+            this.pnIcon.Size = new System.Drawing.Size(56, 64);
             this.pnIcon.TabIndex = 1;
             // 
             // lbCurrentListIcon
@@ -219,9 +225,10 @@
             this.lbCurrentListIcon.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lbCurrentListIcon.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.lbCurrentListIcon.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("lbCurrentListIcon.ImageOptions.SvgImage")));
-            this.lbCurrentListIcon.Location = new System.Drawing.Point(6, 7);
+            this.lbCurrentListIcon.Location = new System.Drawing.Point(7, 9);
+            this.lbCurrentListIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbCurrentListIcon.Name = "lbCurrentListIcon";
-            this.lbCurrentListIcon.Size = new System.Drawing.Size(34, 31);
+            this.lbCurrentListIcon.Size = new System.Drawing.Size(40, 40);
             this.lbCurrentListIcon.TabIndex = 0;
             // 
             // pnInfoItem
@@ -230,25 +237,28 @@
             this.pnInfoItem.Controls.Add(this.lbName);
             this.pnInfoItem.Controls.Add(this.peAvartar);
             this.pnInfoItem.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnInfoItem.Location = new System.Drawing.Point(609, 0);
+            this.pnInfoItem.Location = new System.Drawing.Point(562, 0);
+            this.pnInfoItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnInfoItem.Name = "pnInfoItem";
-            this.pnInfoItem.Size = new System.Drawing.Size(275, 50);
+            this.pnInfoItem.Size = new System.Drawing.Size(442, 64);
             this.pnInfoItem.TabIndex = 0;
             // 
             // lbName
             // 
             this.lbName.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.lbName.Location = new System.Drawing.Point(51, 6);
+            this.lbName.Location = new System.Drawing.Point(60, 8);
+            this.lbName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(212, 32);
+            this.lbName.Size = new System.Drawing.Size(251, 41);
             this.lbName.TabIndex = 1;
-            this.lbName.Text = "Tên";
+            this.lbName.Text = "Name";
             // 
             // peAvartar
             // 
-            this.peAvartar.Location = new System.Drawing.Point(6, 6);
+            this.peAvartar.Location = new System.Drawing.Point(7, 8);
+            this.peAvartar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.peAvartar.Name = "peAvartar";
-            this.peAvartar.Size = new System.Drawing.Size(38, 32);
+            this.peAvartar.Size = new System.Drawing.Size(45, 41);
             this.peAvartar.TabIndex = 0;
             this.peAvartar.TabStop = false;
             // 
@@ -311,18 +321,19 @@
             // 
             // frmMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1173, 551);
+            this.ClientSize = new System.Drawing.Size(1386, 705);
             this.ControlContainer = this.pnContainer;
             this.Controls.Add(this.pnContainer);
             this.Controls.Add(this.pnInfo);
             this.Controls.Add(this.acMenu);
             this.Controls.Add(this.pnHeader);
             this.FluentDesignFormControl = this.pnHeader;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmMenu";
             this.NavigationControl = this.acMenu;
-            this.Text = "Nhà Sách BaoBei";
+            this.Text = "RFID Import Retail - Team 14";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMenu_FormClosed);
             this.Load += new System.EventHandler(this.frmMenu_Load);

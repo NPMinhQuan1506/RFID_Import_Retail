@@ -27,7 +27,7 @@ namespace RFID_Import_Retail.View.Imports
         //Validation Rule
         Controller.Validation.Empty_Contain empty_ContainRule = new Controller.Validation.Empty_Contain();
         //defind variable
-        String ImpID = "", dtNow = "";
+        String GrnID = "", dtNow = "";
         string emptyGridText = "Empty Data";
         DataTable dtCart;
         //Move Panel
@@ -41,17 +41,17 @@ namespace RFID_Import_Retail.View.Imports
             InitializeComponent();
             loadDataProduct();
             initDatatable();
-            ImpID = InitImportID();
+            GrnID = InitImportID();
             dtNow = func.DateTimeToString(DateTime.Now);
         }
         #endregion
 
         #region //Load Product CardView
-        private async void loadDataProduct()
+        private void loadDataProduct()
         {
-            string query = @"select * from productline";
+            string query = @"select * from Product Where is_enable = 1";
             DataTable dtContent = new DataTable();
-            dtContent = conn.loadData();
+            dtContent = conn.loadData(query);
             if (dtContent.Rows.Count > 0)
             {
                 gcProduct.DataSource = dtContent;
@@ -64,7 +64,7 @@ namespace RFID_Import_Retail.View.Imports
         {
             dtCart = new DataTable();
 
-            DataColumn dc = new DataColumn("ImportId", typeof(String));
+            DataColumn dc = new DataColumn("GRN_ID", typeof(String));
             dtCart.Columns.Add(dc);
 
             dc = new DataColumn("SKU", typeof(String));
@@ -74,12 +74,6 @@ namespace RFID_Import_Retail.View.Imports
             dtCart.Columns.Add(dc);
 
             dc = new DataColumn("Amount", typeof(int));
-            dtCart.Columns.Add(dc);
-
-            dc = new DataColumn("ImportPrice", typeof(Decimal));
-            dtCart.Columns.Add(dc);
-
-            dc = new DataColumn("TotalPrice", typeof(Decimal));
             dtCart.Columns.Add(dc);
         }
         #endregion
@@ -104,11 +98,6 @@ namespace RFID_Import_Retail.View.Imports
             if (e.Column.Name == "NO")
             {
                 e.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            }
-
-            if (e.Column.Name == "ImportsName")
-            {
-                e.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             }
         }
 
@@ -144,47 +133,58 @@ namespace RFID_Import_Retail.View.Imports
 
             if (doValidate())
             {
-                var total = gvImport.Columns["TotalPrice"].SummaryItem.SummaryValue; 
-                var totalImport = gvImport.Columns["Amount"].SummaryItem.SummaryValue;
-                BUS.ImportsBUS.Instance.create(ImpID, "EMP001", Convert.ToInt32(totalImport), - 1, Convert.ToDecimal(total), mmeNote.Text);
-
+                var totalExpectedAmount = gvImport.Columns["Amount"].SummaryItem.SummaryValue;
+                //BUS.ImportsBUS.Instance.create(GrnID, "EMP001", Convert.ToInt32(totalImport), - 1, Convert.ToDecimal(total), mmeNote.Text);
+                string query = String.Format(@"Insert Into GoodsReceiptNote ( grn_id,
+                                                                        employee_id,
+                                                                        created_time, 
+                                                                        total_expected_quantity, 
+                                                                        total_actual_quantity, 
+                                                                        note) values( '{0}', Concat('EMP00',FLOOR(RAND()*(4-1+1)+1)), '{1}', {2}, -1, N'{3}');", 
+                                                                        GrnID, dtNow, Convert.ToInt32(totalExpectedAmount), mmeNote.EditValue.ToString());
+                conn.executeDatabase(query);
                 //Insert Detail
-                //dtCart.Columns.Remove("Product");
-                //dtCart.Columns.Remove("TotalPrice");
+                dtCart.Columns.Remove("Product");
                 //conn.executeDataSet("uspInsertImportDetails", dtCart);
 
                 //update stocknumber
-                foreach (DataRow dr_update in dtCart.Rows) // search whole table
-                {
-
-                    //String query1 = String.Format(@"UPDATE SanPham SET SoLuongTon = SoLuongTon + {0} WHERE SKU = '{1}'",
-                    //                                            (int)dr_update["SoLuong"], dr_update["SKU"].ToString());
-                    //conn.executeDatabase(query1);
-
-
-                }
-                MyMessageBox.ShowMessage("Thêm Dữ Liệu Thành Công!");
+                saveDetail();
+                MyMessageBox.ShowMessage("Insert data successfully!");
                 this.Close();
             }
             else
             {
-                MyMessageBox.ShowMessage("Vui Lòng Điền Thông Tin Đủ Và Hợp Lệ!");
+                MyMessageBox.ShowMessage("Please, Fill validation data!");
             }
         }
 
-        private void insertDetail(string impId, string proId, int amount, decimal impPrice)
+        private void saveDetail()
         {
-            BUS.ImportDetailBUS.Instance.create(impId, proId, amount, impPrice,0);
+            StringBuilder queryInsert = new StringBuilder("INSERT INTO GoodsReceiptNoteDetail (grn_id, product_line_id, expected_quantity) VALUES");
+            String queryUpdate = "";
+            List<String> Rows = new List<String>();
+            foreach (DataRow dr_update in dtCart.Rows) // search whole table
+            {
+
+                Rows.Add(String.Format(@"('{0}', '{1}', {2})",GrnID, dr_update["SKU"].ToString(), Convert.ToInt32(dr_update["Amount"])));
+                queryUpdate += String.Format(@"UPDATE Product SET stock_quantity = stock_quantity + {0} WHERE product_line_id = '{1}';", 
+                                                    Convert.ToInt32(dr_update["Amount"]), 
+                                                    dr_update["SKU"].ToString());
+            }
+            queryInsert.Append(string.Join(",", Rows));
+            queryInsert.Append(";");
+            string query = queryInsert.ToString() + queryUpdate;
+            conn.executeDatabase(query);
         }
 
         private string InitImportID()
         {
-            //string query = @"select top 1 MaPN from PhieuNhap order by MaPN desc";
+            string query = @"select grn_id from GoodsReceiptNote order by grn_id desc limit 1";
             DataTable dtContent = new DataTable();
-            //dtContent = conn.loadData(query);
+            dtContent = conn.loadData(query);
             if (dtContent.Rows.Count > 0)
             {
-                string OldID = (dtContent.Rows[0]["ImportId"]).ToString();
+                string OldID = (dtContent.Rows[0]["grn_id"]).ToString();
                 if (OldID.Length > 2)
                 {
                     return Regex.Replace(OldID, "\\d+", m => (int.Parse(m.Value) + 1).ToString(new string('0', m.Value.Length)));
@@ -213,20 +213,18 @@ namespace RFID_Import_Retail.View.Imports
             AddToCart(product_id);
         }
 
-        private async void AddToCart(string ID)
+        private void AddToCart(string ID)
         {
 
-            DataRow dataRow = await getProduct(ID);
+            DataRow dataRow = getProduct(ID);
             DataRow dr = dtCart.NewRow();
-            string strSKU = dataRow["SKU"].ToString();
+            string strSKU = dataRow["product_line_id"].ToString();
             if (checkExistenceCart(strSKU))
             {
-                dr[0] = ImpID;
+                dr[0] = GrnID;
                 dr[1] = strSKU;
-                dr[2] = dataRow["Product"].ToString();
+                dr[2] = dataRow["name"].ToString();
                 dr[3] = 1;
-                dr[4] = 100;
-                dr[5] = Convert.ToDecimal(((int)dr[3] * (Decimal)dr[4]));
 
                 dtCart.Rows.Add(dr);
             }
@@ -243,7 +241,6 @@ namespace RFID_Import_Retail.View.Imports
                         }
 
                         dr_update["Amount"] = amount + 1;
-                        dr_update["TotalPrice"] = Convert.ToDecimal(((int)dr_update["Amount"] * (Decimal)dr_update["ImportPrice"]));
                         break;
                     }
                 }
@@ -253,10 +250,11 @@ namespace RFID_Import_Retail.View.Imports
             //dtCart.Rows.InsertAt(dr, Position);
         }
 
-        private async Task<DataRow> getProduct(string strSKU)
+        private DataRow getProduct(string strSKU)
         {
             DataTable dtContent = new DataTable();
-            dtContent = await BUS.ProductBUS.Instance.loadDataById(strSKU);
+            string query = String.Format(@"Select * from Product Where product_line_id = '{0}' and is_enable = 1", strSKU);
+            dtContent = conn.loadData(query);
             if (dtContent.Rows.Count > 0)
             {
                 return dtContent.Rows[0];
@@ -275,38 +273,92 @@ namespace RFID_Import_Retail.View.Imports
             }
             SpinEdit s = sender as SpinEdit;
             amount = Convert.ToInt32(s.Text);
-            foreach (DataRow dr_update in dtCart.Rows) // search whole table
+            if (checkProductRFID(strSKU, amount))
             {
-                if (dr_update["SKU"].ToString() == strSKU)
+                foreach (DataRow dr_update in dtCart.Rows) // search whole table
                 {
-                    dr_update["Amount"] = amount;
-                    dr_update["TotalPrice"] = Convert.ToDecimal(((int)dr_update["Amount"] * (Decimal)dr_update["ImportPrice"]));
-                    break;
+                    if (dr_update["SKU"].ToString() == strSKU)
+                    {
+                        dr_update["Amount"] = amount;
+                        break;
+                    }
+                }
+                gcImport.DataSource = dtCart;
+            }
+            else
+            {
+                MessageBoxButtons Bouton = MessageBoxButtons.YesNo;
+                DialogResult Result = MyMessageBox.ShowMessage("Exceeding the amount of mapping! Do you want to continue?", "Notification!", Bouton, MessageBoxIcon.Question);
+                if (Result == DialogResult.Yes)
+                {
+                    Result = MyMessageBox.ShowMessage("Do you want to map using an excel file?", "Notification!", Bouton, MessageBoxIcon.Question);
+                    if (Result == DialogResult.Yes)
+                    {
+
+                    }
+                    else if (Result == DialogResult.No)
+                    {
+                        amount -= 1;
+                        s.EditValue = amount;
+                        MyMessageBox.ShowMessage("So let's map it with a RFID reader!");
+                    }
+                }
+                else if (Result == DialogResult.No)
+                {
+                    amount -= 1;
+                    s.EditValue = amount;
+                    MyMessageBox.ShowMessage("Quantity don't change!");
                 }
             }
-            gcImport.DataSource = dtCart;
+            
+        }
+
+        private Boolean checkProductRFID(string productId, int amount)
+        {
+            String query = String.Format("select count(product_line_id) as count1 from ProductRFID where product_line_id = '{0}' and is_checked = 0", productId);
+            DataTable dt = new DataTable();
+            dt = conn.loadData(query);
+            int count = Convert.ToInt16(dt.Rows[0]["count1"]);
+            if (amount >= count)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        private void mapRFIDByExcel()
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog() { Filter = "Excel (2010) (.xlsx)|*.xlsx|Excel (1997-2003)(.xls)|*.xls|CSV file (.csv)|*.csv" })
+            {
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string fileName = openFileDialog.FileName;
+                    DataTable dtMyExcel = Controller.MyExcel.GetDataTableFromExcel(fileName);
+                    System.Data.DataView view = new System.Data.DataView(dtMyExcel);
+                    System.Data.DataTable master = view.ToTable("MyTableMaster", false, "rfid", "product_line_id", "price", "unit", "min_stock_quantity", "stock_quantity", "type", "description");
+ 
+                    //conn.executeDataSet("uspInsertProducts", master);
+                }
+            }
+        }
+
+        private void saveProductRFID(DataTable dtMapping)
+        {
+            StringBuilder queryInsert = new StringBuilder("INSERT INTO ProductRFID (rfid, product_line_id, mapping_time) VALUES");
+            List<String> Rows = new List<String>();
+            foreach (DataRow dr_mapping in dtMapping.Rows) // search whole table
+            {
+
+                Rows.Add(String.Format(@"('{0}', '{1}', {2})", dr_mapping["rfid"].ToString(), dr_mapping["product_line_id"].ToString(), dtNow));
+            }
+            queryInsert.Append(string.Join(",", Rows));
+            queryInsert.Append(";");
+            conn.executeDatabase(queryInsert.ToString());
         }
 
         private void spPrice_EditValueChanged(object sender, EventArgs e)
         {
-            string strSKU = "";
-            decimal price = 0;
-            if (gvImport.GetRowCellValue(gvImport.FocusedRowHandle, ImpSKU) != null)
-            {
-                strSKU = gvImport.GetRowCellValue(gvImport.FocusedRowHandle, ImpSKU).ToString();
-            }
-            SpinEdit s = sender as SpinEdit;
-            price = (decimal)s.EditValue;
-            foreach (DataRow dr_update in dtCart.Rows) // search whole table
-            {
-                if (dr_update["SKU"].ToString() == strSKU)
-                {
-                    dr_update["ImportPrice"] = price;
-                    dr_update["TotalPrice"] = Convert.ToDecimal(((int)dr_update["Amount"] * (Decimal)dr_update["ImportPrice"]));
-                    break;
-                }
-            }
-            gcImport.DataSource = dtCart;
+  
         }
 
         //Delete product in cart
@@ -335,9 +387,9 @@ namespace RFID_Import_Retail.View.Imports
         private string getID()
         {
             string ID = "";
-            if (lvProduct.GetRowCellValue(lvProduct.FocusedRowHandle, "SKU") != null)
+            if (lvProduct.GetRowCellValue(lvProduct.FocusedRowHandle, "product_line_id") != null)
             {
-                ID = lvProduct.GetRowCellValue(lvProduct.FocusedRowHandle, "SKU").ToString();
+                ID = lvProduct.GetRowCellValue(lvProduct.FocusedRowHandle, "product_line_id").ToString();
             }
             return ID;
         }

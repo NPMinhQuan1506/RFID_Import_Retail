@@ -16,6 +16,9 @@ using DevExpress.Office.Utils;
 using DevExpress.XtraPrinting;
 using System.Diagnostics;
 using DevExpress.XtraGrid.Views.Base;
+using DevExpress.XtraEditors.Repository;
+using DevExpress.XtraGrid.Views.Grid.ViewInfo;
+using DevExpress.Utils.Drawing;
 
 namespace RFID_Import_Retail.View.Imports
 {
@@ -58,6 +61,16 @@ namespace RFID_Import_Retail.View.Imports
                     e.DisplayText = Convert.ToString(e.RowHandle + 1);
                 }
             }
+            if (e.Column != Check && e.Column != Delete)
+            {
+                if(Convert.ToInt32(dtMaster.Rows[e.RowHandle]["total_actual_quantity"]) >= Convert.ToInt32(dtMaster.Rows[e.RowHandle]["total_expected_quantity"]))
+                {
+                    e.Appearance.BackColor = Color.FromArgb(136, 198, 237);
+                    e.Appearance.ForeColor = Color.FromArgb(0, 0, 20);
+                    e.Appearance.FontStyleDelta = FontStyle.Bold;
+                }
+            }
+
         }
 
         //Setup Text Align For Grid Column
@@ -67,6 +80,21 @@ namespace RFID_Import_Retail.View.Imports
             {
                 e.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             }
+            if (e.Column == Check )
+            {
+                if(Convert.ToInt32(dtMaster.Rows[e.RowHandle]["total_actual_quantity"]) >= Convert.ToInt32(dtMaster.Rows[e.RowHandle]["total_expected_quantity"]))
+                {
+                    //e.Column.OptionsColumn.ReadOnly = true;
+                    //e.Column.OptionsColumn.AllowEdit = false;
+                    //e.Column.OptionsColumn.AllowFocus = true;
+                    //e.Column.ColumnEdit.ReadOnly = true;
+                }
+                else
+                {
+
+                }
+            }
+            
         }
 
         //Setup notify text when grid is nullable data
@@ -104,16 +132,16 @@ namespace RFID_Import_Retail.View.Imports
         private void loadData()
         {
             //loadData Master
-            query = @"Select * from deliveryorder where order_status = 1 ";
+            query = @"Select grn.*, e.name as employee from GoodsReceiptNote as grn
+                        Inner join Employee as e on grn.employee_id = e.employee_id
+                        where grn.is_enable = 1 ";
 
-            dtMaster = conn.loadData(query + "order by delivery_order_date ASC");
+            dtMaster = conn.loadData(query + "order by grn.created_time ASC");
             //loadDataDetail
-            string query1 = @"Select dod.*, p.*
-                                    From deliveryorderdetail as dod
-                                    Inner Join (Select pi.product_instance_id, pl.* 
-                                                From productinstance as pi 
-                                                Inner Join productline as pl 
-                                                On pi.product_line_id = pl.product_line_id) as p";
+            string query1 = @"Select d.*, p.name as product_name
+                                    From GoodsReceiptNoteDetail as d
+                                    Inner Join Product as p 
+                                    On d.product_line_id = p.product_line_id";
             dtDetail = conn.loadData(query1);
             gcImports.DataSource = dtMaster;
         }
@@ -128,19 +156,19 @@ namespace RFID_Import_Retail.View.Imports
         // If Master don't have Detail, a plus is enable
         private void gvImports_MasterRowEmpty(object sender, DevExpress.XtraGrid.Views.Grid.MasterRowEmptyEventArgs e)
         {
-            if (gvImports.GetRowCellValue(e.RowHandle, ImportId) != null)
+            if (gvImports.GetRowCellValue(e.RowHandle, ID) != null)
             {
-                string ID = gvImports.GetRowCellValue(e.RowHandle, ImportId).ToString();
-                e.IsEmpty = !dtDetail.AsEnumerable().Any(x => x.Field<string>("delivery_order_id") == ID);
+                string ID = gvImports.GetRowCellValue(e.RowHandle, this.ID).ToString();
+                e.IsEmpty = !dtDetail.AsEnumerable().Any(x => x.Field<string>("grn_id") == ID);
             }
         }
 
         //LoadData Detail
         private void gvImports_MasterRowGetChildList(object sender, DevExpress.XtraGrid.Views.Grid.MasterRowGetChildListEventArgs e)
         {
-            if (gvImports.GetRowCellValue(e.RowHandle, ImportId) != null)
+            if (gvImports.GetRowCellValue(e.RowHandle, ID) != null)
             {
-                string ID = gvImports.GetRowCellValue(e.RowHandle, ImportId).ToString();
+                string ID = gvImports.GetRowCellValue(e.RowHandle, this.ID).ToString();
                 e.ChildList = GetBatchFromItem(ID);
                 gvDetail.ViewCaption = "Import Detail " + ID;
             }
@@ -149,7 +177,7 @@ namespace RFID_Import_Retail.View.Imports
         DataView GetBatchFromItem(string ID)
         {
             DataView dv = new DataView(dtDetail);
-            dv.RowFilter = String.Format(@"[delivery_order_id] = '{0}'", ID);
+            dv.RowFilter = String.Format(@"[grn_id] = '{0}'", ID);
             return dv;
         }
 
@@ -167,14 +195,17 @@ namespace RFID_Import_Retail.View.Imports
         #endregion
 
         #region //Update
-        private void btnEdit_Click(object sender, EventArgs e)
+        private void btnCheck_Click(object sender, EventArgs e)
         {
-            update();
+            if (gvImports.FocusedColumn.Name == "Check" && Convert.ToInt32(getID("total_actual_quantity")) < Convert.ToInt32(getID("total_expected_quantity")))
+            {
+                update();
+            }
         }
 
         private void gvImports_DoubleClick(object sender, EventArgs e)
         {
-            if (gvImports.FocusedColumn.Name != "NO")
+            if (gvImports.FocusedColumn.Name != "NO" && Convert.ToInt32(getID("total_actual_quantity")) < Convert.ToInt32(getID("total_expected_quantity")))
             {
                 update();
             }
@@ -182,9 +213,9 @@ namespace RFID_Import_Retail.View.Imports
 
         private void update()
         {
-            if (getID("ImportId") != "")
+            if (getID("grn_id") != "")
             {
-                string ID = getID("ImportId");
+                string ID = getID("grn_id");
                 frmCheckImport frm = new frmCheckImport(ID);
                 frm.ShowDialog();
                 loadData();
@@ -199,12 +230,11 @@ namespace RFID_Import_Retail.View.Imports
         {
             if (gvImports.FocusedColumn.Name == "Delete")
             {
-                if (getID("ImportId") != "")
+                if (getID("grn_id") != "")
                 {
-                    string ID = getID("ImportId");
+                    string ID = getID("grn_id");
                     MessageBoxButtons Bouton = MessageBoxButtons.YesNo;
                     DialogResult Result = MyMessageBox.ShowMessage("Are you sure delete this import?", "Notification!", Bouton, MessageBoxIcon.Question);
-
                     if (Result == DialogResult.Yes)
                     {
                         delete(ID);
@@ -219,8 +249,8 @@ namespace RFID_Import_Retail.View.Imports
 
         private void delete(string ID)
         {
-            string query_del = String.Format("Delete deliveryorderdetail Where delivery_order_id = '{0}';", ID);
-            query_del += String.Format("Delete deliveryorder Where delivery_order_id = '{0}'; ", ID);
+            string query_del = String.Format("Update GoodsReceiptNote set is_enable = '0' Where grn_id = '{0}';", ID);
+            conn.executeDatabase(query_del);
 
             MyMessageBox.ShowMessage("Delete data successfully!");
             loadData();
@@ -228,7 +258,7 @@ namespace RFID_Import_Retail.View.Imports
 
         private int checkConstraints(string ID)
         {
-            string query = String.Format("Select count(delivery_order_id)  as count1 from deliveryorderdetail where delivery_order_id = '{0}'", ID);
+            string query = String.Format("Select count(grn_id)  as count1 from GoodsReceiptNoteDetail where grn_id = '{0}'", ID);
             DataTable dt = new DataTable();
             return (int)(dt.Rows[0]["count1"]);
         }
@@ -272,12 +302,6 @@ namespace RFID_Import_Retail.View.Imports
                 string field = "";
                 switch (cbbField.Text)
                 {
-                    case "Import Id":
-                        field = "delivery_order_id";
-                        break;
-                    case "Import Date":
-                        field = "delivery_order_date";
-                        break;
                     case "Product Name":
                         field = "name";
                         break;
@@ -293,11 +317,16 @@ namespace RFID_Import_Retail.View.Imports
                         string querySearch = "";
                         if (field == "name")
                         {
-                            querySearch = String.Format(@"Select * From ({0}) as t Where t.delivery_order_id In (Select pi.product_instance_id
-                                                                                                                From productinstance as pi
-                                                                                                                Inner Join productline as pl
-                                                                                                                On pi.product_line_id = pl.product_line_id
-																			                                    where pl.name Like N'%{1}%')",
+                            querySearch = String.Format(@"Select * From ({0}) as t Where t.grn_id In (Select d.grn_id
+                                                                                                                From GoodsReceiptNoteDetail as d
+                                                                                                                Inner Join Product as p 
+                                                                                                                On d.product_line_id = p.product_line_id
+																			                                    Where p.name Like N'%{1}%')",
+                                                                                                             query, searchInfo);
+                        }
+                        else if (field == "employee")
+                        {
+                            querySearch = String.Format(@"Select * From ({0}) as t Where t.employee Like N'%{1}%')",
                                                                                                              query, searchInfo);
                         }
                         else
@@ -310,15 +339,15 @@ namespace RFID_Import_Retail.View.Imports
                     else
                     {
                         String querySearch = String.Format(@"Select * From ({0}) as t Where CONCAT('',  
-                                                                                                    delivery_order_id, 
-                                                                                                    t.expected_quantity,
-                                                                                                    t.actual_quantity,
-                                                                                                    t.delivery_order_data) Like N'%{1}%' 
-                                                                                             or t.delivery_order_id In  (Select pi.product_instance_id
-                                                                                                                        From productinstance as pi
-                                                                                                                        Inner Join productline as pl
-                                                                                                                        On pi.product_line_id = pl.product_line_id
-																			                                            where pl.name like N'%{1}%')",
+                                                                                                    t.grn_id, 
+                                                                                                    t.created_time,
+                                                                                                    t.note,
+                                                                                                    t.employee) Like N'%{1}%' 
+                                                                                             or t.product_line_id In  (Select d.grn_id
+                                                                                                                        From GoodsReceiptNoteDetail as d
+                                                                                                                        Inner Join Product as p 
+                                                                                                                        On d.product_line_id = p.product_line_id
+																			                                            Where p.name Like N'%{1}%')",
                                                                                                              query, searchInfo);
                         loadData(querySearch);
                     }

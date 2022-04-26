@@ -21,9 +21,10 @@ namespace RFID_Import_Retail.View.Imports
         #region //Define Class and Variable
 
         Controller.Common func = new Controller.Common();
-        string emptyGridText = "Không có dữ liệu";
+        Model.Database conn = new Model.Database();
+        string emptyGridText = "Empty Data";
         //defind variable
-        String importId = "", dtNow = "";
+        String grnId = "", dtNow = "";
         private volatile bool isWorking = false;
         //defind datatable
         DataTable dtMaster = new DataTable();
@@ -40,9 +41,9 @@ namespace RFID_Import_Retail.View.Imports
             dtNow = func.DateTimeToString(DateTime.Now);
         }
 
-        public frmCheckImport(string importId) : this()
+        public frmCheckImport(string grnId) : this()
         {
-            this.importId = importId;
+            this.grnId = grnId;
             isWorking = true;
             loadData();
         }
@@ -68,11 +69,6 @@ namespace RFID_Import_Retail.View.Imports
             {
                 e.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             }
-
-            if (e.Column.Name == "ImportsName")
-            {
-                e.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            }
         }
 
         //Setup notify text when grid is nullable data
@@ -94,24 +90,42 @@ namespace RFID_Import_Retail.View.Imports
         private void gcImports_Load(object sender, EventArgs e)
         {
             gvImports.DataController.AllowIEnumerableDetails = true;
+            loadData();
         }
 
         private async void loadData()
         {
-            //BUS.ImportsBUS.Instance.updateField(importId, "actualNumber", 0);
+            string query = String.Format(@"Update GoodsReceiptNote set total_actual_quantity = 0 Where grn_id = '{0}' and total_actual_quantity = -1", grnId);
+            conn.executeDatabase(query);
             while (isWorking)
             {
                 await Task.Delay(1000);
                 //loadData Master
-                //dtMaster = await BUS.ImportsBUS.Instance.loadDataById(importId);
-                txtTotalImport.Text = (dtMaster.Rows[0]["TotalImport"]).ToString();
-                txtActualImport.Text = (dtMaster.Rows[0]["ActualNumber"]).ToString();
+                //dtMaster = await BUS.ImportsBUS.Instance.loadDataById(grnId);
+                query = String.Format(@"Select * from GoodsReceiptNote Where grn_id = '{0}'", grnId);
+                dtMaster = conn.loadData(query);
+                txtExpectedQuantity.Text = (dtMaster.Rows[0]["total_expected_quantity"]).ToString();
+                txtActualImport.Text = (dtMaster.Rows[0]["total_actual_quantity"]).ToString();
                 //loadDataDetail
-                //dtDetail = await BUS.ImportDetailBUS.Instance.loadDataById(importId);
+                //dtDetail = await BUS.ImportDetailBUS.Instance.loadDataById(grnId);
+                query = String.Format(@"Select g.*, p.name as product_name from GoodsReceiptNoteDetail as g 
+                                        Inner Join Product as p on g.product_line_id = p.product_line_id 
+                                        Where g.grn_id = '{0}'", grnId);
+                dtDetail = conn.loadData(query);
                 gcImports.DataSource = dtDetail;
             }
         }
 
+
+        private void txtActualImport_EditValueChanged(object sender, EventArgs e)
+        {
+            if (Convert.ToInt32(txtActualImport.Text) >= Convert.ToInt32(txtExpectedQuantity.Text))
+            {
+                isWorking = false;
+                MyMessageBox.ShowMessage("Checked product completely!");
+
+            }
+        }
         #endregion
 
         #region //Get Id
@@ -163,14 +177,6 @@ namespace RFID_Import_Retail.View.Imports
         private void pnHeader_MouseUp(object sender, MouseEventArgs e)
         {
             dragging = false;
-        }
-
-        private void txtActualImport_EditValueChanged(object sender, EventArgs e)
-        {
-            if(Convert.ToInt32(txtActualImport.Text) >= Convert.ToInt32(txtTotalImport.Text))
-            {
-                isWorking = false;
-            }
         }
 
         private void pnHeader_MouseMove(object sender, MouseEventArgs e)
