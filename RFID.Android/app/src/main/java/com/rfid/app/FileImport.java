@@ -102,7 +102,7 @@ public class FileImport {
     }
 
     // save rfids to SQL
-    public boolean SaveSQL(ArrayList<HashMap<String, String>> lists2, Context cont, String grnId, Boolean isMapping) throws Exception {
+    public boolean SaveSQL(ArrayList<HashMap<String, String>> lists2, Context cont, String grnId, String productId, Boolean isMapping) throws Exception {
         try {
 //            SQLiteHelper db = new SQLiteHelper(cont);
             List<RFID> list = new ArrayList<>();
@@ -121,7 +121,7 @@ public class FileImport {
                         RFID item = new RFID();
                         item.EPC = id;
 
-                        ConnectMySQL connectMySql = new ConnectMySQL(grnId, item.EPC, isMapping);
+                        ConnectMySQL connectMySql = new ConnectMySQL(grnId, productId, item.EPC, isMapping);
                         connectMySql.execute();
                         list.add(item);
                     } else {
@@ -137,11 +137,12 @@ public class FileImport {
     }
 
     private class ConnectMySQL extends AsyncTask<Void, Void, Void> {
-        String grnId, EPC;
+        String grnId, productId, EPC;
         Boolean isMapping;
 
-        public ConnectMySQL(String _grnId, String _EPC, Boolean _isMapping) {
+        public ConnectMySQL(String _grnId, String _productId, String _EPC, Boolean _isMapping) {
             this.grnId = _grnId;
+            this.productId = _productId;
             this.EPC = _EPC;
             this.isMapping = _isMapping;
         }
@@ -158,12 +159,17 @@ public class FileImport {
             String dtNow = sdf.format(new Date());
             if (isMapping) {
 //                int random = (int) (Math.random() * 5 + 1);
+//                query = "Insert into ProductRFID (`rfid`, `product_line_id`, `mapping_time`, `is_checked`) " +
+//                        "values('" + EPC + "', (SELECT product_line_id FROM Product ORDER BY RAND() LIMIT 1), '" + dtNow + "' , '0')";
                 query = "Insert into ProductRFID (`rfid`, `product_line_id`, `mapping_time`, `is_checked`) " +
-                        "values('" + EPC + "', (SELECT product_line_id FROM Product ORDER BY RAND() LIMIT 1), '" + dtNow + "' , '0')";
+                        "values('" + EPC + "', '"+productId+"', '" + dtNow + "' , '0')";
             } else {
-                query = "Update GoodsReceiptNoteDetail Set is_checked = '1', actual_quantity =  actual_quantity + 1 " +
+                query = "Update GoodsReceiptNoteDetail Set actual_quantity =  actual_quantity + 1 " +
                         "Where grn_id = '" + grnId + "' And product_line_id = (Select product_line_id from ProductRFID WHERE is_checked = 0 and rfid = '" + EPC + "') " +
                         "And actual_quantity < expected_quantity; ";
+                query += "Update GoodsReceiptNoteDetail Set is_checked = '1'" +
+                        "Where grn_id = '" + grnId + "' And product_line_id = (Select product_line_id from ProductRFID WHERE is_checked = 0 and rfid = '" + EPC + "') " +
+                        "And actual_quantity >= expected_quantity; ";
                 query += "Update ProductRFID Set is_checked = '1' " +
                         "WHERE rfid = '" + EPC + "'; ";
                 query += "Update GoodsReceiptNote Set total_actual_quantity = total_actual_quantity + 1 " +

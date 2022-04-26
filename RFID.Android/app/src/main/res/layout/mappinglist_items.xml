@@ -5,39 +5,41 @@
     android:padding="10dp">
 
     <TextView
-        android:id="@+id/import_id"
+        android:id="@+id/product_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="IMP0001"
+        android:text="PRO001"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@android:color/black"
         android:textStyle="bold" />
 
 
     <TextView
-        android:id="@+id/status"
+        android:id="@+id/price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="29dp"
-        android:layout_toEndOf="@+id/ly_total_import"
-        android:text="error"
-        android:textColor="@android:color/black"
+        android:layout_toEndOf="@+id/ly_product_name"
+        android:text="5.300.000 đ"
+        android:textColor="@color/blue3"
         android:textStyle="italic" />
 
     <TextView
-        android:id="@+id/create_date"
+        android:id="@+id/type"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ly_total_import"
-        android:layout_marginTop="15dp"
-        android:text="01-04-2022"
-        android:textColor="@android:color/black"
+        android:layout_below="@+id/ly_product_name"
+        android:layout_marginTop="3dp"
+        android:text="type product"
+        android:textColor="#DFA213"
+        android:textFontWeight="700"
+        android:textSize="12dp"
         android:textStyle="italic" />
 
     <Button
-        android:id="@+id/btCheck"
+        android:id="@+id/btMap"
         android:layout_width="70dp"
         android:layout_height="48dp"
         android:layout_alignParentEnd="true"
@@ -56,23 +58,18 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/import_id"
+        android:layout_below="@+id/product_id"
         android:layout_marginTop="10dp"
-        android:id="@+id/ly_total_import">
+        android:id="@+id/ly_product_name">
 
         <TextView
-            android:id="@+id/lb_total_import"
+            android:id="@+id/product_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Total Import: "
-            android:textColor="@android:color/black" />
-
-        <TextView
-            android:id="@+id/total_import"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="3"
-            android:textColor="@android:color/black"/>
+            android:maxWidth="150dp"
+            android:text="Apple AirPods 3 Bluetooth Headset"
+            android:textColor="@android:color/black"
+            />
 
     </LinearLayout>
 

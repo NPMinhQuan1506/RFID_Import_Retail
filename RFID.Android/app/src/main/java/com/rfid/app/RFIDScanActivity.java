@@ -45,7 +45,7 @@ public class RFIDScanActivity extends Activity {
     private Button BtClear;
     private Button BtImport;
     private Button BtInventory;
-    private Button BtBack;
+    private Button BtHome;
 
     private ListView LvTags;
     private HashMap<String, String> map;
@@ -55,6 +55,7 @@ public class RFIDScanActivity extends Activity {
     private boolean fIsEmulator = false;
 
     private String grnId = "";
+    private String productId = "";
     private boolean isMapping = false;
     @SuppressLint("HandlerLeak")
     @Override
@@ -68,7 +69,7 @@ public class RFIDScanActivity extends Activity {
 
             BtClear = (Button) findViewById(R.id.BtClear);
             BtImport = (Button) findViewById(R.id.BtImport);
-            BtBack = (Button) findViewById(R.id.BtBack);
+            BtHome = (Button) findViewById(R.id.BtHome);
             tv_count = (TextView) findViewById(R.id.tv_count);
             RgInventory = (RadioGroup) findViewById(R.id.RgInventory);
             RbInventorySingle = (RadioButton) findViewById(R.id.RbInventorySingle);
@@ -78,6 +79,7 @@ public class RFIDScanActivity extends Activity {
 
             Bundle bundle = getIntent().getExtras();
             if (bundle != null) {
+                productId = bundle.getString("product_id");
                 grnId = bundle.getString("grn_id");
                 isMapping = bundle.getBoolean("is_mapping");
             }
@@ -90,7 +92,7 @@ public class RFIDScanActivity extends Activity {
             BtImport.setOnClickListener(new BtImportClickListener());
             RgInventory.setOnCheckedChangeListener(new RgInventoryCheckedListener());
             BtInventory.setOnClickListener(new BtInventoryClickListener());
-            BtBack.setOnClickListener(new BtBackClickListener());
+            BtHome.setOnClickListener(new BtHomeClickListener());
 
             LvTags.setAdapter(adapter);
             clearData();
@@ -258,7 +260,7 @@ public class RFIDScanActivity extends Activity {
 
                 try {
                     // save to SQL
-                    boolean re = fileImport.SaveSQL(tagList, RFIDScanActivity.this, grnId, isMapping);
+                    boolean re = fileImport.SaveSQL(tagList, RFIDScanActivity.this, grnId, productId, isMapping);
                     // save excel file
 //                    boolean reXls = FileImport.SaveFileXls(tagList, "");
 //                    boolean re = FileImport.SaveFileTxt(tagList, ""); // save txt file
@@ -280,10 +282,13 @@ public class RFIDScanActivity extends Activity {
         }
     }
 
-    private class BtBackClickListener implements View.OnClickListener {
+    private class BtHomeClickListener implements View.OnClickListener {
         @Override
         public void onClick(View v) {
-            finish();
+//            finish();
+            Intent i= new Intent(RFIDScanActivity.this, MainActivity.class);
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
         }
     }
 
@@ -398,7 +403,7 @@ public class RFIDScanActivity extends Activity {
         }
         return existFlag;
     }
-//    String[] temp = {"ABC115562GFH82", "UGF11556236D1G", "GHD115562UGB43"};
+    String[] temp = {"ABC115562UDB99", "UGF115562AGN88", "GHD115562PP23H"};
 //String[] temp = {"ABC115562UY752", "UGF11556236D1G", "GHD115562UGB43"};
 //String[] temp = {"ABC115562UY752"};
     private class TagThread extends Thread {
@@ -419,7 +424,7 @@ public class RFIDScanActivity extends Activity {
 
                     Message msg = handler.obtainMessage();
                     msg.obj = strResult + res.getEPC() + "@" + res.getRssi();
-//                    int random = (int)(Math.random() * 1);
+//                    int random = (int)(Math.random() * 3);
 //                    msg.obj = temp[random] + "@" + randomStr(14);
                     handler.sendMessage(msg);
                 }

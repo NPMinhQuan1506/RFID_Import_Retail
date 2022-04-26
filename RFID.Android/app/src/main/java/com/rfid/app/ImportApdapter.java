@@ -90,7 +90,8 @@ public class ImportApdapter extends ArrayAdapter<ImportData> implements View.OnC
 //        lastPosition = position;
 
         viewHolder.txtImportId.setText(dataModel.getGrnId());
-//        viewHolder.txtStatus.setText(dataModel.getStatus());
+        String status = dataModel.getTotalActualQuantity() > 0 ? "Unfinished" : "New";
+        viewHolder.txtStatus.setText(status);
         viewHolder.txtCreatedDate.setText(dataModel.getCreatedTime());
         viewHolder.txtTotalImport.setText(String.valueOf(dataModel.getTotalExpectedQuantity()));
         viewHolder.btnCheck.setOnClickListener(new View.OnClickListener() {

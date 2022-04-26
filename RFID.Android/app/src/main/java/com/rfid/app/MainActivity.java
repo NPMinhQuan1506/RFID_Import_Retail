@@ -65,7 +65,7 @@ public class MainActivity extends Activity {
 
         @Override
         protected String doInBackground(String... params) {
-            String query = "Select grn_id, total_expected_quantity, created_time from GoodsReceiptNote " +
+            String query = "Select grn_id, total_expected_quantity, total_actual_quantity, created_time from GoodsReceiptNote " +
                     "Where is_enable = 1 " +
                     "and total_actual_quantity between 0 and total_expected_quantity - 1";
 
@@ -76,11 +76,11 @@ public class MainActivity extends Activity {
                             new ImportData(
                                     rs.getString(1).toString(),
                                     Integer.parseInt(rs.getString(2).toString()),
-                                    0,
+                                    Integer.parseInt(rs.getString(3).toString()),
                                     "",
                                     "",
                                     0,
-                                    rs.getString(3).toString()
+                                    rs.getString(4).toString()
                             )
                     );
                 }
@@ -99,10 +99,7 @@ public class MainActivity extends Activity {
     private class btMappingClickListener implements View.OnClickListener {
         @Override
         public void onClick(View v) {
-            Bundle bundle = new Bundle();
-            bundle.putBoolean("is_mapping", true);
-            Intent intent = new Intent(MainActivity.this, RFIDScanActivity.class);
-            intent.putExtras(bundle);
+            Intent intent = new Intent(MainActivity.this, MappingActivity.class);
             startActivity(intent);
         }
     }
