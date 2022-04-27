@@ -117,7 +117,7 @@ public class FileImport {
                         id = id.replace("EPC:", "");
                         id = id.replace("TID:", "");
 //                        id = id.substring(0, 12);
-                        id = id.substring(id.length() - 5, id.length());
+//                        id = id.substring(id.length() - 5, id.length());
                         RFID item = new RFID();
                         item.EPC = id;
 
@@ -167,7 +167,7 @@ public class FileImport {
                 query = "Update GoodsReceiptNoteDetail Set actual_quantity =  actual_quantity + 1 " +
                         "Where grn_id = '" + grnId + "' And product_line_id = (Select product_line_id from ProductRFID WHERE is_checked = 0 and rfid = '" + EPC + "') " +
                         "And actual_quantity < expected_quantity; ";
-                query += "Update GoodsReceiptNoteDetail Set is_checked = '1'" +
+                query += "Update GoodsReceiptNoteDetail Set is_checked = '1' " +
                         "Where grn_id = '" + grnId + "' And product_line_id = (Select product_line_id from ProductRFID WHERE is_checked = 0 and rfid = '" + EPC + "') " +
                         "And actual_quantity >= expected_quantity; ";
                 query += "Update ProductRFID Set is_checked = '1' " +
