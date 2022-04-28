@@ -23,15 +23,21 @@ namespace RFID_Import_Retail.View.Imports
         Controller.Common func = new Controller.Common();
         Model.Database conn = new Model.Database();
         string emptyGridText = "Empty Data";
-        //defind variable
+        //define variable
         String grnId = "", dtNow = "";
         private volatile bool isWorking = false;
-        //defind datatable
+        //define datatable
         DataTable dtMaster = new DataTable();
         DataTable dtDetail = new DataTable();
         //Move Panel
         Boolean dragging = false;
         Point startPoint = new Point(0, 0);
+        //define delegate
+        public delegate void RemoveIdInList(string _grnId);
+        public RemoveIdInList rif;
+
+        public delegate void ExportReport(string _grnId);
+        public ExportReport er;
         #endregion
 
         #region //Contructor
@@ -47,6 +53,7 @@ namespace RFID_Import_Retail.View.Imports
             isWorking = true;
             loadData();
         }
+
         #endregion
 
         #region //Setup GridView
@@ -122,8 +129,17 @@ namespace RFID_Import_Retail.View.Imports
             if (Convert.ToInt32(txtActualImport.Text) >= Convert.ToInt32(txtExpectedQuantity.Text))
             {
                 isWorking = false;
-                MyMessageBox.ShowMessage("Checked product completely!");
+                String query = String.Format(@"UPDATE GoodsReceiptNoteDetail SET actual_quantity = expected_quantity, is_checked = '1' Where grn_id = '{0}'; 
+                                               UPDATE GoodsReceiptNote SET note = 'Completed quantity' Where grn_id = '{0}'", grnId);
+                conn.executeDatabase(query);
+                query = String.Format(@"Select g.*, p.name as product_name from GoodsReceiptNoteDetail as g 
+                                        Inner Join Product as p on g.product_line_id = p.product_line_id 
+                                        Where g.grn_id = '{0}'", grnId);
+                dtDetail = conn.loadData(query);
+                gcImports.DataSource = dtDetail;
 
+                MyMessageBox.ShowMessage("The check has been completed!");
+                btnExport.Visible = true;
             }
         }
         #endregion
@@ -141,18 +157,87 @@ namespace RFID_Import_Retail.View.Imports
         }
         #endregion
 
-        #region //Close Button
+        #region //Window Button
         private void lbClose_Click(object sender, EventArgs e)
         {
-            isWorking = false;
-            this.Close();
+            exitForm();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            isWorking = false;
-            this.Close();
+            exitForm();
         }
+
+        private void exitForm()
+        {
+            if (Convert.ToInt32(txtActualImport.Text) < Convert.ToInt32(txtExpectedQuantity.Text))
+            {
+                MessageBoxButtons Bouton = MessageBoxButtons.YesNo;
+                DialogResult Result = MyMessageBox.ShowMessage("The check has not been completed, are you sure you want to exit?", "Notification!", Bouton, MessageBoxIcon.Question);
+                if (Result == DialogResult.Yes)
+                {
+
+                    isWorking = false;
+                    String query = String.Format(@"UPDATE GoodsReceiptNote SET note = 'Missing goods' Where grn_id = '{0}';", grnId);
+                    conn.executeDatabase(query);
+                    if (rif != null)
+                    {
+                        rif(grnId);
+                    }
+                    this.Close();
+                }
+                else if (Result == DialogResult.No)
+                {
+                    MyMessageBox.ShowMessage("The process is still going!");
+                }
+            }
+            else
+            {
+                isWorking = false;
+                if (rif != null)
+                {
+                    rif(grnId);
+                }
+                this.Close();
+            }
+        }
+
+        private void lbHiding_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+
+        private void lbMaxMin_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                lbMaxMin.ImageOptions.Image = global::RFID_Import_Retail.Properties.Resources.minimize;
+                btnCancel.Location = new Point(Screen.PrimaryScreen.Bounds.Width / 2 - btnCancel.Width / 2, btnCancel.Location.Y);
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                lbMaxMin.ImageOptions.Image = global::RFID_Import_Retail.Properties.Resources.maximize;
+                btnCancel.Location = new System.Drawing.Point(this.Bounds.Width / 4, btnCancel.Location.Y);
+                this.StartPosition = FormStartPosition.CenterParent;
+                this.WindowState = FormWindowState.Normal;
+            }
+            
+        }
+        #endregion
+
+        #region//Export report
+
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            if (er != null)
+            {
+                er(grnId);
+                this.Close();
+            }
+        }
+
         #endregion
 
         #region //Rounded Border Form 

@@ -40,6 +40,11 @@
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
             this.gvDetail = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.ImportProduct = new DevExpress.XtraGrid.Columns.GridColumn();
             this.Amount = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -67,11 +72,11 @@
             this.pnFooter = new DevExpress.XtraEditors.PanelControl();
             this.btnCancel = new System.Windows.Forms.Button();
             this.lbClose = new DevExpress.XtraEditors.LabelControl();
-            this.lbClear = new DevExpress.XtraEditors.LabelControl();
+            this.lbMaxMin = new DevExpress.XtraEditors.LabelControl();
             this.pnHeader = new DevExpress.XtraEditors.PanelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.lbHiding = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
@@ -79,6 +84,9 @@
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.txtActualImport = new DevExpress.XtraEditors.TextEdit();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
+            this.btnExport = new DevExpress.XtraEditors.ButtonEdit();
+            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             ((System.ComponentModel.ISupportInitialize)(this.gvDetail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemSpinEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDelete)).BeginInit();
@@ -102,6 +110,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtActualImport.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
+            this.panelControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExport.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.SuspendLayout();
             // 
             // gvDetail
@@ -298,9 +310,9 @@
             // 
             // gcImports
             // 
-            this.gcImports.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.gcImports.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gcImports.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
-            this.gcImports.Location = new System.Drawing.Point(0, 197);
+            this.gcImports.Location = new System.Drawing.Point(0, 206);
             this.gcImports.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(216)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
             this.gcImports.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gcImports.MainView = this.gvImports;
@@ -316,7 +328,7 @@
             this.repositoryItemRatingControl1,
             this.repositoryItemSpinEdit2,
             this.repositoryItemCheckEdit1});
-            this.gcImports.Size = new System.Drawing.Size(859, 398);
+            this.gcImports.Size = new System.Drawing.Size(1012, 420);
             this.gcImports.TabIndex = 2;
             this.gcImports.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvImports,
@@ -584,12 +596,12 @@
             // 
             this.pnFooter.Controls.Add(this.btnCancel);
             this.pnFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnFooter.Location = new System.Drawing.Point(0, 595);
+            this.pnFooter.Location = new System.Drawing.Point(0, 626);
             this.pnFooter.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
             this.pnFooter.LookAndFeel.UseDefaultLookAndFeel = false;
             this.pnFooter.Margin = new System.Windows.Forms.Padding(4);
             this.pnFooter.Name = "pnFooter";
-            this.pnFooter.Size = new System.Drawing.Size(859, 106);
+            this.pnFooter.Size = new System.Drawing.Size(1012, 106);
             this.pnFooter.TabIndex = 1;
             // 
             // btnCancel
@@ -598,12 +610,12 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnCancel.ForeColor = System.Drawing.Color.Black;
-            this.btnCancel.Location = new System.Drawing.Point(320, 22);
+            this.btnCancel.Location = new System.Drawing.Point(452, 24);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(112, 58);
             this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "Thoát";
+            this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -628,25 +640,27 @@
             this.lbClose.TabIndex = 2;
             this.lbClose.Click += new System.EventHandler(this.lbClose_Click);
             // 
-            // lbClear
+            // lbMaxMin
             // 
-            this.lbClear.Appearance.Font = new System.Drawing.Font("Segoe UI", 18F);
-            this.lbClear.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
-            this.lbClear.Appearance.Options.UseFont = true;
-            this.lbClear.Appearance.Options.UseForeColor = true;
-            this.lbClear.Appearance.Options.UseTextOptions = true;
-            this.lbClear.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.lbClear.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.lbClear.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.lbClear.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.lbClear.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("lbClear.ImageOptions.Image")));
-            this.lbClear.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbClear.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
-            this.lbClear.Location = new System.Drawing.Point(59, 15);
-            this.lbClear.Margin = new System.Windows.Forms.Padding(4);
-            this.lbClear.Name = "lbClear";
-            this.lbClear.Size = new System.Drawing.Size(35, 38);
-            this.lbClear.TabIndex = 3;
+            this.lbMaxMin.AccessibleName = " ";
+            this.lbMaxMin.Appearance.Font = new System.Drawing.Font("Segoe UI", 18F);
+            this.lbMaxMin.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
+            this.lbMaxMin.Appearance.Options.UseFont = true;
+            this.lbMaxMin.Appearance.Options.UseForeColor = true;
+            this.lbMaxMin.Appearance.Options.UseTextOptions = true;
+            this.lbMaxMin.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.lbMaxMin.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.lbMaxMin.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.lbMaxMin.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.lbMaxMin.ImageOptions.Image = global::RFID_Import_Retail.Properties.Resources.maximize;
+            this.lbMaxMin.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbMaxMin.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
+            this.lbMaxMin.Location = new System.Drawing.Point(59, 15);
+            this.lbMaxMin.Margin = new System.Windows.Forms.Padding(4);
+            this.lbMaxMin.Name = "lbMaxMin";
+            this.lbMaxMin.Size = new System.Drawing.Size(35, 38);
+            this.lbMaxMin.TabIndex = 3;
+            this.lbMaxMin.Click += new System.EventHandler(this.lbMaxMin_Click);
             // 
             // pnHeader
             // 
@@ -657,7 +671,7 @@
             this.pnHeader.LookAndFeel.UseDefaultLookAndFeel = false;
             this.pnHeader.Margin = new System.Windows.Forms.Padding(4);
             this.pnHeader.Name = "pnHeader";
-            this.pnHeader.Size = new System.Drawing.Size(859, 76);
+            this.pnHeader.Size = new System.Drawing.Size(1012, 76);
             this.pnHeader.TabIndex = 0;
             this.pnHeader.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnHeader_MouseDown);
             this.pnHeader.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnHeader_MouseMove);
@@ -666,13 +680,13 @@
             // panelControl1
             // 
             this.panelControl1.Controls.Add(this.labelControl2);
-            this.panelControl1.Controls.Add(this.labelControl1);
+            this.panelControl1.Controls.Add(this.lbHiding);
             this.panelControl1.Controls.Add(this.labelControl3);
-            this.panelControl1.Controls.Add(this.lbClear);
+            this.panelControl1.Controls.Add(this.lbMaxMin);
             this.panelControl1.Controls.Add(this.labelControl4);
             this.panelControl1.Controls.Add(this.lbClose);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelControl1.Location = new System.Drawing.Point(713, 2);
+            this.panelControl1.Location = new System.Drawing.Point(866, 2);
             this.panelControl1.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
             this.panelControl1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl1.Margin = new System.Windows.Forms.Padding(4);
@@ -703,25 +717,26 @@
             this.labelControl2.Size = new System.Drawing.Size(35, 38);
             this.labelControl2.TabIndex = 4;
             // 
-            // labelControl1
+            // lbHiding
             // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Segoe UI", 18F);
-            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Appearance.Options.UseTextOptions = true;
-            this.labelControl1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.labelControl1.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
-            this.labelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.labelControl1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("labelControl1.ImageOptions.Image")));
-            this.labelControl1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelControl1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
-            this.labelControl1.Location = new System.Drawing.Point(17, 15);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(4);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(35, 38);
-            this.labelControl1.TabIndex = 4;
+            this.lbHiding.Appearance.Font = new System.Drawing.Font("Segoe UI", 18F);
+            this.lbHiding.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
+            this.lbHiding.Appearance.Options.UseFont = true;
+            this.lbHiding.Appearance.Options.UseForeColor = true;
+            this.lbHiding.Appearance.Options.UseTextOptions = true;
+            this.lbHiding.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.lbHiding.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.lbHiding.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.lbHiding.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.lbHiding.ImageOptions.Image = global::RFID_Import_Retail.Properties.Resources.hiding;
+            this.lbHiding.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbHiding.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
+            this.lbHiding.Location = new System.Drawing.Point(17, 15);
+            this.lbHiding.Margin = new System.Windows.Forms.Padding(4);
+            this.lbHiding.Name = "lbHiding";
+            this.lbHiding.Size = new System.Drawing.Size(35, 38);
+            this.lbHiding.TabIndex = 4;
+            this.lbHiding.Click += new System.EventHandler(this.lbHiding_Click);
             // 
             // labelControl3
             // 
@@ -824,31 +839,86 @@
             // 
             // panelControl2
             // 
-            this.panelControl2.Controls.Add(this.txtActualImport);
-            this.panelControl2.Controls.Add(this.labelControl5);
+            this.panelControl2.Controls.Add(this.panelControl4);
             this.panelControl2.Controls.Add(this.labelControl6);
+            this.panelControl2.Controls.Add(this.labelControl5);
             this.panelControl2.Controls.Add(this.txtExpectedQuantity);
-            this.panelControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl2.Controls.Add(this.txtActualImport);
+            this.panelControl2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl2.Location = new System.Drawing.Point(0, 76);
+            this.panelControl2.MinimumSize = new System.Drawing.Size(0, 130);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(859, 121);
+            this.panelControl2.Size = new System.Drawing.Size(1012, 130);
             this.panelControl2.TabIndex = 10;
+            // 
+            // panelControl4
+            // 
+            this.panelControl4.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.panelControl4.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.panelControl4.Appearance.Options.UseBackColor = true;
+            this.panelControl4.Appearance.Options.UseBorderColor = true;
+            this.panelControl4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.panelControl4.Controls.Add(this.btnExport);
+            this.panelControl4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelControl4.Location = new System.Drawing.Point(781, 2);
+            this.panelControl4.Margin = new System.Windows.Forms.Padding(4);
+            this.panelControl4.Name = "panelControl4";
+            this.panelControl4.Size = new System.Drawing.Size(229, 126);
+            this.panelControl4.TabIndex = 10;
+            // 
+            // btnExport
+            // 
+            this.btnExport.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExport.EditValue = "Export Report";
+            this.btnExport.Location = new System.Drawing.Point(20, 58);
+            this.btnExport.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(202)))), ((int)(((byte)(203)))));
+            this.btnExport.Properties.Appearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.btnExport.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btnExport.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.btnExport.Properties.Appearance.Options.UseBackColor = true;
+            this.btnExport.Properties.Appearance.Options.UseBorderColor = true;
+            this.btnExport.Properties.Appearance.Options.UseFont = true;
+            this.btnExport.Properties.Appearance.Options.UseForeColor = true;
+            this.btnExport.Properties.AutoHeight = false;
+            this.btnExport.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
+            editorButtonImageOptions3.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions3.SvgImage")));
+            this.btnExport.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, true, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.btnExport.Properties.ReadOnly = true;
+            this.btnExport.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
+            this.btnExport.Properties.UseReadOnlyAppearance = false;
+            this.btnExport.Size = new System.Drawing.Size(196, 47);
+            this.btnExport.TabIndex = 4;
+            this.btnExport.ToolTipAnchor = DevExpress.Utils.ToolTipAnchor.Cursor;
+            this.btnExport.Visible = false;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            // 
+            // panelControl3
+            // 
+            this.panelControl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl3.Location = new System.Drawing.Point(0, 206);
+            this.panelControl3.Name = "panelControl3";
+            this.panelControl3.Size = new System.Drawing.Size(1012, 420);
+            this.panelControl3.TabIndex = 10;
             // 
             // frmCheckImport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(859, 701);
-            this.Controls.Add(this.panelControl2);
+            this.ClientSize = new System.Drawing.Size(1012, 732);
             this.Controls.Add(this.gcImports);
+            this.Controls.Add(this.panelControl3);
             this.Controls.Add(this.pnFooter);
+            this.Controls.Add(this.panelControl2);
             this.Controls.Add(this.pnHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmCheckImport";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chi Tiết Sản Phẩm";
             this.Shown += new System.EventHandler(this.frmProductDetail_Shown);
             this.Resize += new System.EventHandler(this.frmProductDetail_Resize);
@@ -876,6 +946,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             this.panelControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
+            this.panelControl4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnExport.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -908,11 +982,11 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemRatingControl repositoryItemRatingControl1;
         private DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit repositoryItemSpinEdit2;
         private DevExpress.XtraEditors.LabelControl lbClose;
-        private DevExpress.XtraEditors.LabelControl lbClear;
+        private DevExpress.XtraEditors.LabelControl lbMaxMin;
         private DevExpress.XtraEditors.PanelControl pnHeader;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.LabelControl lbHiding;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl5;
@@ -920,5 +994,8 @@
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.TextEdit txtActualImport;
         private DevExpress.XtraEditors.PanelControl panelControl2;
+        private DevExpress.XtraEditors.PanelControl panelControl3;
+        private DevExpress.XtraEditors.PanelControl panelControl4;
+        private DevExpress.XtraEditors.ButtonEdit btnExport;
     }
 }

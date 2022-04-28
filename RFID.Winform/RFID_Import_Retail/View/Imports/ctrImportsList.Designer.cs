@@ -65,6 +65,7 @@
             this.ExpectedQuantity = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemSpinEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemSpinEdit();
             this.ActutalQuantity = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.status = new DevExpress.XtraGrid.Columns.GridColumn();
             this.IsCheck = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.colImportID = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -126,6 +127,7 @@
             this.ProductName,
             this.ExpectedQuantity,
             this.ActutalQuantity,
+            this.status,
             this.IsCheck,
             this.colImportID,
             this.colProductID});
@@ -161,7 +163,7 @@
             this.ProductName.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
             this.ProductName.Caption = "Product Name";
             this.ProductName.FieldName = "product_name";
-            this.ProductName.MinWidth = 550;
+            this.ProductName.MinWidth = 450;
             this.ProductName.Name = "ProductName";
             this.ProductName.OptionsColumn.AllowEdit = false;
             this.ProductName.OptionsColumn.AllowFocus = false;
@@ -169,7 +171,7 @@
             this.ProductName.OptionsColumn.AllowSize = false;
             this.ProductName.Visible = true;
             this.ProductName.VisibleIndex = 0;
-            this.ProductName.Width = 550;
+            this.ProductName.Width = 557;
             // 
             // ExpectedQuantity
             // 
@@ -198,7 +200,7 @@
             this.ExpectedQuantity.OptionsColumn.AllowSize = false;
             this.ExpectedQuantity.Visible = true;
             this.ExpectedQuantity.VisibleIndex = 1;
-            this.ExpectedQuantity.Width = 200;
+            this.ExpectedQuantity.Width = 202;
             // 
             // repositoryItemSpinEdit2
             // 
@@ -240,7 +242,36 @@
             this.ActutalQuantity.OptionsColumn.AllowSize = false;
             this.ActutalQuantity.Visible = true;
             this.ActutalQuantity.VisibleIndex = 2;
-            this.ActutalQuantity.Width = 200;
+            this.ActutalQuantity.Width = 202;
+            // 
+            // status
+            // 
+            this.status.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.status.AppearanceCell.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.status.AppearanceCell.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.status.AppearanceCell.Options.UseFont = true;
+            this.status.AppearanceCell.Options.UseForeColor = true;
+            this.status.AppearanceCell.Options.UseTextOptions = true;
+            this.status.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.status.AppearanceHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.status.AppearanceHeader.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.status.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
+            this.status.AppearanceHeader.Options.UseFont = true;
+            this.status.AppearanceHeader.Options.UseForeColor = true;
+            this.status.AppearanceHeader.Options.UseTextOptions = true;
+            this.status.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.status.Caption = "Status";
+            this.status.FieldName = "status";
+            this.status.MinWidth = 250;
+            this.status.Name = "status";
+            this.status.OptionsColumn.AllowEdit = false;
+            this.status.OptionsColumn.AllowFocus = false;
+            this.status.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.status.OptionsColumn.AllowMove = false;
+            this.status.OptionsColumn.AllowSize = false;
+            this.status.Visible = true;
+            this.status.VisibleIndex = 3;
+            this.status.Width = 250;
             // 
             // IsCheck
             // 
@@ -266,8 +297,6 @@
             this.IsCheck.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
             this.IsCheck.OptionsColumn.AllowMove = false;
             this.IsCheck.OptionsColumn.AllowSize = false;
-            this.IsCheck.Visible = true;
-            this.IsCheck.VisibleIndex = 3;
             this.IsCheck.Width = 130;
             // 
             // repositoryItemCheckEdit1
@@ -408,6 +437,7 @@
             this.NO.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.NO.AppearanceHeader.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
             this.NO.Caption = "NO";
+            this.NO.FieldName = "no";
             this.NO.MaxWidth = 61;
             this.NO.MinWidth = 61;
             this.NO.Name = "NO";
@@ -793,6 +823,7 @@
             this.btnInport.Size = new System.Drawing.Size(51, 47);
             this.btnInport.TabIndex = 3;
             this.btnInport.ToolTipAnchor = DevExpress.Utils.ToolTipAnchor.Cursor;
+            this.btnInport.Visible = false;
             this.btnInport.Click += new System.EventHandler(this.btnInport_Click);
             // 
             // btnAdd
@@ -962,5 +993,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn Employee;
         private DevExpress.XtraGrid.Columns.GridColumn ExpectedQuantity;
         private DevExpress.XtraGrid.Columns.GridColumn ActutalQuantity;
+        private DevExpress.XtraGrid.Columns.GridColumn status;
     }
 }

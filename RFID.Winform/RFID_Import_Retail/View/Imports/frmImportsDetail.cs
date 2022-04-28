@@ -133,6 +133,7 @@ namespace RFID_Import_Retail.View.Imports
 
             if (doValidate())
             {
+                String strNote = mmeNote.EditValue == null ? "New GRN" : mmeNote.EditValue.ToString();
                 var totalExpectedAmount = gvImport.Columns["Amount"].SummaryItem.SummaryValue;
                 //BUS.ImportsBUS.Instance.create(GrnID, "EMP001", Convert.ToInt32(totalImport), - 1, Convert.ToDecimal(total), mmeNote.Text);
                 string query = String.Format(@"Insert Into GoodsReceiptNote ( grn_id,
@@ -140,8 +141,8 @@ namespace RFID_Import_Retail.View.Imports
                                                                         created_time, 
                                                                         total_expected_quantity, 
                                                                         total_actual_quantity, 
-                                                                        note) values( '{0}', Concat('EMP00',FLOOR(RAND()*(4-1+1)+1)), '{1}', {2}, -1, N'{3}');", 
-                                                                        GrnID, dtNow, Convert.ToInt32(totalExpectedAmount), mmeNote.EditValue.ToString());
+                                                                        note) values( '{0}', Concat('EMP00',FLOOR(RAND()*(4)+1)), '{1}', {2}, -1, N'{3}');", 
+                                                                        GrnID, dtNow, Convert.ToInt32(totalExpectedAmount), strNote);
                 conn.executeDatabase(query);
                 //Insert Detail
                 dtCart.Columns.Remove("Product");
@@ -239,8 +240,15 @@ namespace RFID_Import_Retail.View.Imports
                         {
                             amount = (int)dr_update["Amount"];
                         }
-
-                        dr_update["Amount"] = amount + 1;
+                        if (checkProductRFID(strSKU, amount + 1) == 0)
+                        {
+                            amount++;
+                        }
+                        else
+                        {
+                            amount = handleMappingQuantityException(strSKU, amount + 1);
+                        }
+                        dr_update["Amount"] = amount;
                         break;
                     }
                 }
@@ -273,7 +281,7 @@ namespace RFID_Import_Retail.View.Imports
             }
             SpinEdit s = sender as SpinEdit;
             amount = Convert.ToInt32(s.Text);
-            if (checkProductRFID(strSKU, amount))
+            if (checkProductRFID(strSKU, amount) == 0)
             {
                 foreach (DataRow dr_update in dtCart.Rows) // search whole table
                 {
@@ -287,43 +295,47 @@ namespace RFID_Import_Retail.View.Imports
             }
             else
             {
-                MessageBoxButtons Bouton = MessageBoxButtons.YesNo;
-                DialogResult Result = MyMessageBox.ShowMessage("Exceeding the amount of mapping! Do you want to continue?", "Notification!", Bouton, MessageBoxIcon.Question);
-                if (Result == DialogResult.Yes)
-                {
-                    Result = MyMessageBox.ShowMessage("Do you want to map using an excel file?", "Notification!", Bouton, MessageBoxIcon.Question);
-                    if (Result == DialogResult.Yes)
-                    {
-
-                    }
-                    else if (Result == DialogResult.No)
-                    {
-                        amount -= 1;
-                        s.EditValue = amount;
-                        MyMessageBox.ShowMessage("So let's map it with a RFID reader!");
-                    }
-                }
-                else if (Result == DialogResult.No)
-                {
-                    amount -= 1;
-                    s.EditValue = amount;
-                    MyMessageBox.ShowMessage("Quantity don't change!");
-                }
+              amount = handleMappingQuantityException(strSKU, amount);
             }
-            
+            s.EditValue = amount;
         }
 
-        private Boolean checkProductRFID(string productId, int amount)
+        private int checkProductRFID(string productId, int amount)
         {
             String query = String.Format("select count(product_line_id) as count1 from ProductRFID where product_line_id = '{0}' and is_checked = 0", productId);
             DataTable dt = new DataTable();
             dt = conn.loadData(query);
             int count = Convert.ToInt16(dt.Rows[0]["count1"]);
-            if (amount >= count)
+            if (amount > count)
             {
-                return false;
+                return count;
             }
-            return true;
+            return 0;
+        }
+
+        private int handleMappingQuantityException(string strSKU, int amount)
+        {
+            MessageBoxButtons Bouton = MessageBoxButtons.YesNo;
+            DialogResult Result = MyMessageBox.ShowMessage("Exceeding the amount of mapping! Do you want to continue?", "Notification!", Bouton, MessageBoxIcon.Question);
+            if (Result == DialogResult.Yes)
+            {
+                Result = MyMessageBox.ShowMessage("Do you want to map using an excel file?", "Notification!", Bouton, MessageBoxIcon.Question);
+                if (Result == DialogResult.Yes)
+                {
+                    mapRFIDByExcel();
+                }
+                else if (Result == DialogResult.No)
+                {
+                    amount = checkProductRFID(strSKU, amount);
+                    MyMessageBox.ShowMessage("So let's map it with a RFID reader!");
+                }
+            }
+            else if (Result == DialogResult.No)
+            {
+                amount = checkProductRFID(strSKU, amount);
+                MyMessageBox.ShowMessage("Quantity don't change!");
+            }
+            return amount;
         }
 
         private void mapRFIDByExcel()
@@ -335,9 +347,9 @@ namespace RFID_Import_Retail.View.Imports
                     string fileName = openFileDialog.FileName;
                     DataTable dtMyExcel = Controller.MyExcel.GetDataTableFromExcel(fileName);
                     System.Data.DataView view = new System.Data.DataView(dtMyExcel);
-                    System.Data.DataTable master = view.ToTable("MyTableMaster", false, "rfid", "product_line_id", "price", "unit", "min_stock_quantity", "stock_quantity", "type", "description");
- 
-                    //conn.executeDataSet("uspInsertProducts", master);
+                    System.Data.DataTable master = view.ToTable("MyTableMaster", false, "rfid", "product_line_id", "mapping_time");
+                    saveProductRFID(master);
+                    MyMessageBox.ShowMessage("Mapping successfully!");
                 }
             }
         }
@@ -349,7 +361,7 @@ namespace RFID_Import_Retail.View.Imports
             foreach (DataRow dr_mapping in dtMapping.Rows) // search whole table
             {
 
-                Rows.Add(String.Format(@"('{0}', '{1}', {2})", dr_mapping["rfid"].ToString(), dr_mapping["product_line_id"].ToString(), dtNow));
+                Rows.Add(String.Format(@"('{0}', '{1}', '{2}')", dr_mapping["rfid"].ToString(), dr_mapping["product_line_id"].ToString(), dtNow));
             }
             queryInsert.Append(string.Join(",", Rows));
             queryInsert.Append(";");

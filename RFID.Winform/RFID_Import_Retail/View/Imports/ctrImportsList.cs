@@ -32,7 +32,7 @@ namespace RFID_Import_Retail.View.Imports
         //defind variable
         string query = "";
         string emptyGridText = "Empty Data";
-
+        string grnIdList = "";
         //defind datatable
         DataTable dtMaster = new DataTable();
         DataTable dtDetail = new DataTable();
@@ -54,13 +54,13 @@ namespace RFID_Import_Retail.View.Imports
         //Create Serial No For GridView
         private void gvImports_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
         {
-            if (e.Column == NO)
-            {
-                if (e.RowHandle > -1)
-                {
-                    e.DisplayText = Convert.ToString(e.RowHandle + 1);
-                }
-            }
+            //if (e.Column == NO)
+            //{
+            //    if (e.RowHandle > -1)
+            //    {
+            //        e.DisplayText = Convert.ToString(e.RowHandle + 1);
+            //    }
+            //}
             if (e.Column != Check && e.Column != Delete)
             {
                 if(Convert.ToInt32(dtMaster.Rows[e.RowHandle]["total_actual_quantity"]) >= Convert.ToInt32(dtMaster.Rows[e.RowHandle]["total_expected_quantity"]))
@@ -80,21 +80,7 @@ namespace RFID_Import_Retail.View.Imports
             {
                 e.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             }
-            if (e.Column == Check )
-            {
-                if(Convert.ToInt32(dtMaster.Rows[e.RowHandle]["total_actual_quantity"]) >= Convert.ToInt32(dtMaster.Rows[e.RowHandle]["total_expected_quantity"]))
-                {
-                    //e.Column.OptionsColumn.ReadOnly = true;
-                    //e.Column.OptionsColumn.AllowEdit = false;
-                    //e.Column.OptionsColumn.AllowFocus = true;
-                    //e.Column.ColumnEdit.ReadOnly = true;
-                }
-                else
-                {
-
-                }
-            }
-            
+           
         }
 
         //Setup notify text when grid is nullable data
@@ -132,25 +118,28 @@ namespace RFID_Import_Retail.View.Imports
         private void loadData()
         {
             //loadData Master
-            query = @"Select grn.*, e.name as employee from GoodsReceiptNote as grn
+            query = @"Select @rownum:=@rownum+1 AS no, m.* FROM (SELECT grn.*, e.name as employee from (SELECT @rownum:=0) r, GoodsReceiptNote as grn
                         Inner join Employee as e on grn.employee_id = e.employee_id
-                        where grn.is_enable = 1 ";
+                        where grn.is_enable = 1 order by grn.created_time ASC) as m";
 
-            dtMaster = conn.loadData(query + "order by grn.created_time ASC");
+            dtMaster = conn.loadData(query);
             //loadDataDetail
-            string query1 = @"Select d.*, p.name as product_name
+            string query1 = @"Select d.*, CASE
+                                            WHEN is_checked THEN 'Enough quantity'
+                                            ELSE Concat('The missing quantity is ', expected_quantity - actual_quantity)
+                                           END AS status, 
+                                    p.name as product_name
                                     From GoodsReceiptNoteDetail as d
                                     Inner Join Product as p 
-                                    On d.product_line_id = p.product_line_id";
+                                    On d.product_line_id = p.product_line_id;";
             dtDetail = conn.loadData(query1);
             gcImports.DataSource = dtMaster;
         }
 
         private void loadData(string _query)
         {
-            DataTable dtContent = new DataTable();
-            dtContent = conn.loadData(_query);
-            gcImports.DataSource = dtContent;
+            dtMaster = conn.loadData(_query);
+            gcImports.DataSource = dtMaster;
         }
 
         // If Master don't have Detail, a plus is enable
@@ -194,12 +183,12 @@ namespace RFID_Import_Retail.View.Imports
         }
         #endregion
 
-        #region //Update
+        #region //Check
         private void btnCheck_Click(object sender, EventArgs e)
         {
             if (gvImports.FocusedColumn.Name == "Check" && Convert.ToInt32(getID("total_actual_quantity")) < Convert.ToInt32(getID("total_expected_quantity")))
             {
-                update();
+                check();
             }
         }
 
@@ -207,21 +196,45 @@ namespace RFID_Import_Retail.View.Imports
         {
             if (gvImports.FocusedColumn.Name != "NO" && Convert.ToInt32(getID("total_actual_quantity")) < Convert.ToInt32(getID("total_expected_quantity")))
             {
-                update();
+                check();
             }
         }
 
-        private void update()
+        private void check()
         {
             if (getID("grn_id") != "")
             {
                 string ID = getID("grn_id");
                 frmCheckImport frm = new frmCheckImport(ID);
-                frm.ShowDialog();
+                if (!grnIdList.Contains(ID)) {
+                    if (!frm.Visible)
+                    {
+                        grnIdList += ", " + ID;
+                        frm.rif = new frmCheckImport.RemoveIdInList(removeGrnIdInList);
+                        frm.er = new frmCheckImport.ExportReport(exportCheckingReport);
+                        frm.Show();
+                    }
+                }
+
                 loadData();
             }
         }
 
+        private void removeGrnIdInList(string _grnId)
+        {
+
+            grnIdList = grnIdList.Replace(_grnId, "");
+        }
+
+        private void exportCheckingReport(string _grnId)
+        {
+            string queryReport = String.Format(@"Select * From (Select @rownum:=1 AS no, m.* FROM (SELECT grn.*, e.name as employee from (SELECT @rownum:=0) r, GoodsReceiptNote as grn
+                        Inner join Employee as e on grn.employee_id = e.employee_id
+                        where grn.is_enable = 1 order by grn.created_time ASC) as m) as t Where t.grn_id = '{0}'", _grnId);
+            loadData(queryReport);
+            exportReport("Report_Checking_Imports_");
+            loadData(); 
+        }
         #endregion
 
         #region //Delete
@@ -343,7 +356,7 @@ namespace RFID_Import_Retail.View.Imports
                                                                                                     t.created_time,
                                                                                                     t.note,
                                                                                                     t.employee) Like N'%{1}%' 
-                                                                                             or t.product_line_id In  (Select d.grn_id
+                                                                                             or t.grn_id In  (Select d.grn_id
                                                                                                                         From GoodsReceiptNoteDetail as d
                                                                                                                         Inner Join Product as p 
                                                                                                                         On d.product_line_id = p.product_line_id
@@ -368,16 +381,11 @@ namespace RFID_Import_Retail.View.Imports
         #endregion
 
         #region //Import and Export Data File
-        private void btnInport_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnExport_Click(object sender, EventArgs e)
-        {
+        private void exportReport(string nameReport)
+        {  
             SaveFileDialog saveDialog = new SaveFileDialog();
             DateTime dtNow = DateTime.Now;
-            saveDialog.FileName = "Report_Imports_" + dtNow.Day.ToString() + "_" + dtNow.Month.ToString() + "_" + dtNow.Year.ToString()
+            saveDialog.FileName = nameReport + dtNow.Day.ToString() + "_" + dtNow.Month.ToString() + "_" + dtNow.Year.ToString()
                                                      + "_" + dtNow.Hour.ToString() + "_" + dtNow.Minute.ToString() + "_" + dtNow.Second.ToString();
             saveDialog.Filter = "Excel (2010) (.xlsx)|*.xlsx |Excel (1997-2003)(.xls)|*.xls|RichText File (.rtf)|*.rtf |Pdf File (.pdf)|*.pdf |Html File (.html)|*.html";
             if (saveDialog.ShowDialog() != DialogResult.Cancel)
@@ -439,7 +447,16 @@ namespace RFID_Import_Retail.View.Imports
                 }
 
             }
+        }
 
+        private void btnInport_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            exportReport("Report_Imports_");
         }
         #endregion
     }
