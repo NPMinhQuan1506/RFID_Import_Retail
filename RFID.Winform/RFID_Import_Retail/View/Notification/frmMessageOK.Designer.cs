@@ -51,8 +51,9 @@
             this.pnHeader.Location = new System.Drawing.Point(0, 0);
             this.pnHeader.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
             this.pnHeader.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.pnHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnHeader.Name = "pnHeader";
-            this.pnHeader.Size = new System.Drawing.Size(496, 59);
+            this.pnHeader.Size = new System.Drawing.Size(586, 76);
             this.pnHeader.TabIndex = 5;
             this.pnHeader.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnHeader_MouseDown);
             this.pnHeader.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnHeader_MouseMove);
@@ -72,9 +73,10 @@
             this.lbClose.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("lbClose.ImageOptions.Image")));
             this.lbClose.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lbClose.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
-            this.lbClose.Location = new System.Drawing.Point(449, 12);
+            this.lbClose.Location = new System.Drawing.Point(531, 15);
+            this.lbClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbClose.Name = "lbClose";
-            this.lbClose.Size = new System.Drawing.Size(30, 30);
+            this.lbClose.Size = new System.Drawing.Size(35, 38);
             this.lbClose.TabIndex = 10;
             this.lbClose.Click += new System.EventHandler(this.lbClose_Click);
             // 
@@ -83,9 +85,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(251)))), ((int)(((byte)(253)))));
-            this.label2.Location = new System.Drawing.Point(13, 17);
+            this.label2.Location = new System.Drawing.Point(15, 22);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 25);
+            this.label2.Size = new System.Drawing.Size(130, 32);
             this.label2.TabIndex = 9;
             this.label2.Text = "Thông Báo";
             // 
@@ -94,9 +97,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(251)))), ((int)(((byte)(253)))));
-            this.label1.Location = new System.Drawing.Point(-343, 111);
+            this.label1.Location = new System.Drawing.Point(-405, 142);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 25);
+            this.label1.Size = new System.Drawing.Size(130, 32);
             this.label1.TabIndex = 3;
             this.label1.Text = "Thông Báo";
             // 
@@ -104,9 +108,12 @@
             // 
             this.lbMessage.Appearance.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lbMessage.Appearance.Options.UseFont = true;
-            this.lbMessage.Location = new System.Drawing.Point(137, 95);
+            this.lbMessage.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.Vertical;
+            this.lbMessage.Location = new System.Drawing.Point(162, 122);
+            this.lbMessage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbMessage.MaximumSize = new System.Drawing.Size(390, 0);
             this.lbMessage.Name = "lbMessage";
-            this.lbMessage.Size = new System.Drawing.Size(61, 21);
+            this.lbMessage.Size = new System.Drawing.Size(390, 28);
             this.lbMessage.TabIndex = 9;
             this.lbMessage.Text = "Message";
             // 
@@ -115,18 +122,20 @@
             this.btnOK.Appearance.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.btnOK.Appearance.Options.UseFont = true;
             this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnOK.Location = new System.Drawing.Point(213, 177);
+            this.btnOK.Location = new System.Drawing.Point(252, 227);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 30);
+            this.btnOK.Size = new System.Drawing.Size(89, 38);
             this.btnOK.TabIndex = 8;
             this.btnOK.Text = "OK";
             // 
             // peNotifyIcon
             // 
             this.peNotifyIcon.Image = global::RFID_Import_Retail.Properties.Resources.Information;
-            this.peNotifyIcon.Location = new System.Drawing.Point(18, 78);
+            this.peNotifyIcon.Location = new System.Drawing.Point(21, 100);
+            this.peNotifyIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.peNotifyIcon.Name = "peNotifyIcon";
-            this.peNotifyIcon.Size = new System.Drawing.Size(98, 98);
+            this.peNotifyIcon.Size = new System.Drawing.Size(116, 125);
             this.peNotifyIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.peNotifyIcon.TabIndex = 7;
             this.peNotifyIcon.TabStop = false;
@@ -140,16 +149,17 @@
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.LookAndFeel.SkinMaskColor = System.Drawing.Color.Transparent;
             this.panelControl1.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.panelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(496, 231);
+            this.panelControl1.Size = new System.Drawing.Size(586, 296);
             this.panelControl1.TabIndex = 16;
             // 
             // frmMessageOK
             // 
             this.AcceptButton = this.btnOK;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(496, 231);
+            this.ClientSize = new System.Drawing.Size(586, 296);
             this.Controls.Add(this.lbMessage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOK);
@@ -159,6 +169,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(248)))), ((int)(((byte)(250)))));
             this.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmMessageOK";

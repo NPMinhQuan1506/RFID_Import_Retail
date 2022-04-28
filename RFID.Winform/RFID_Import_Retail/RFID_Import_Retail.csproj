@@ -301,6 +301,9 @@
     <None Include="Resources\Question.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\minimize.png" />
+    <None Include="Resources\hiding.png" />
+    <None Include="Resources\maximize.png" />
     <None Include="Resources\employee.png" />
     <None Include="Resources\Revenue.png" />
     <None Include="Resources\customer.jpg" />

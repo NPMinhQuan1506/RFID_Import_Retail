@@ -22,7 +22,7 @@ namespace RFID_Import_Retail.Model
 
         public Database()
         {
-            string conStringLocal = @"Server=" + host + ";Database=" + databasename + ";port=" + port + ";User Id=" + username + ";password=" + password;
+            string conStringLocal = @"Server=" + host + ";Database=" + databasename + ";port=" + port + ";User Id=" + username + ";password=" + password + ";Allow User Variables=True";
             con = new MySqlConnection(conStringLocal);
             con.Open();
 
