@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+            "outputFile": "D:\\RFID_Import_Retail\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\npmin\\.gradle\\caches\\transforms-2\\files-2.1\\104471a258bd33984a71ede2ce48c2fa\\material-1.5.0-alpha03\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\Lam\\.gradle\\caches\\transforms-2\\files-2.1\\104471a258bd33984a71ede2ce48c2fa\\material-1.5.0-alpha03\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

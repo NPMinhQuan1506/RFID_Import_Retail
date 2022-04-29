@@ -232,6 +232,15 @@ namespace RFID_Import_Retail.View.Imports
                         Inner join Employee as e on grn.employee_id = e.employee_id
                         where grn.is_enable = 1 order by grn.created_time ASC) as m) as t Where t.grn_id = '{0}'", _grnId);
             loadData(queryReport);
+            string query1 = @"Select d.*, CASE
+                                            WHEN is_checked THEN 'Enough quantity'
+                                            ELSE Concat('The missing quantity is ', expected_quantity - actual_quantity)
+                                           END AS status, 
+                                    p.name as product_name
+                                    From GoodsReceiptNoteDetail as d
+                                    Inner Join Product as p 
+                                    On d.product_line_id = p.product_line_id;";
+            dtDetail = conn.loadData(query1);
             exportReport("Report_Checking_Imports_");
             loadData(); 
         }

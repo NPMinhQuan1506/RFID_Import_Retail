@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "D:\\RFID_Import_Retail\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\npmin\\.gradle\\caches\\transforms-2\\files-2.1\\104471a258bd33984a71ede2ce48c2fa\\material-1.5.0-alpha03\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Lam\\.gradle\\caches\\transforms-2\\files-2.1\\104471a258bd33984a71ede2ce48c2fa\\material-1.5.0-alpha03\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,11,14,17,20,24",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\npmin\\.gradle\\caches\\transforms-2\\files-2.1\\ae69826ff88a15fd94dfc8cfc94451f7\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Lam\\.gradle\\caches\\transforms-2\\files-2.1\\ae69826ff88a15fd94dfc8cfc94451f7\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\npmin\\.gradle\\caches\\transforms-2\\files-2.1\\df355785a360d64e59c5aa83e4df0259\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Lam\\.gradle\\caches\\transforms-2\\files-2.1\\df355785a360d64e59c5aa83e4df0259\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

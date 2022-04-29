@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\npmin\\Desktop\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
+            "outputFile": "D:\\RFID_Import_Retail\\RFID_Import_Retail\\RFID.Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\npmin\\.gradle\\caches\\transforms-2\\files-2.1\\d0d26bd2e2ddf78dd5355aaef2d81db3\\core-1.7.0\\res\\values-gu\\values-gu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "106",
-                        "startColumns": "4",
-                        "startOffsets": "9531",
-                        "endColumns": "100",
-                        "endOffsets": "9627"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\npmin\\.gradle\\caches\\transforms-2\\files-2.1\\104471a258bd33984a71ede2ce48c2fa\\material-1.5.0-alpha03\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\Lam\\.gradle\\caches\\transforms-2\\files-2.1\\104471a258bd33984a71ede2ce48c2fa\\material-1.5.0-alpha03\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +23,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\npmin\\.gradle\\caches\\transforms-2\\files-2.1\\f2ad1aed787e6dcac5370d4af4c71f89\\jetified-play-services-basement-18.0.0\\res\\values-gu\\values.xml",
+                    "source": "C:\\Users\\Lam\\.gradle\\caches\\transforms-2\\files-2.1\\d0d26bd2e2ddf78dd5355aaef2d81db3\\core-1.7.0\\res\\values-gu\\values-gu.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "142",
-                        "endOffsets": "337"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "45",
+                        "startLines": "106",
                         "startColumns": "4",
-                        "startOffsets": "4323",
-                        "endColumns": "146",
-                        "endOffsets": "4465"
+                        "startOffsets": "9531",
+                        "endColumns": "100",
+                        "endOffsets": "9627"
                     }
                 },
                 {
-                    "source": "C:\\Users\\npmin\\.gradle\\caches\\transforms-2\\files-2.1\\df355785a360d64e59c5aa83e4df0259\\appcompat-1.4.1\\res\\values-gu\\values-gu.xml",
+                    "source": "C:\\Users\\Lam\\.gradle\\caches\\transforms-2\\files-2.1\\df355785a360d64e59c5aa83e4df0259\\appcompat-1.4.1\\res\\values-gu\\values-gu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\npmin\\.gradle\\caches\\transforms-2\\files-2.1\\935473820daeffb0ab23e94e1e189014\\jetified-play-services-base-18.0.1\\res\\values-gu\\values.xml",
+                    "source": "C:\\Users\\Lam\\.gradle\\caches\\transforms-2\\files-2.1\\935473820daeffb0ab23e94e1e189014\\jetified-play-services-base-18.0.1\\res\\values-gu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -88,6 +71,23 @@
                         "startOffsets": "3341,3449,3615,3740,3852,3990,4112,4223,4470,4618,4726,4890,5015,5158,5308,5369,5435",
                         "endColumns": "107,165,124,111,137,121,110,99,147,107,163,124,142,149,60,65,81",
                         "endOffsets": "3444,3610,3735,3847,3985,4107,4218,4318,4613,4721,4885,5010,5153,5303,5364,5430,5512"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lam\\.gradle\\caches\\transforms-2\\files-2.1\\f2ad1aed787e6dcac5370d4af4c71f89\\jetified-play-services-basement-18.0.0\\res\\values-gu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "142",
+                        "endOffsets": "337"
+                    },
+                    "to": {
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "4323",
+                        "endColumns": "146",
+                        "endOffsets": "4465"
                     }
                 }
             ]
