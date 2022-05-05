@@ -141,8 +141,8 @@ namespace RFID_Import_Retail.View.Imports
                                                                         created_time, 
                                                                         total_expected_quantity, 
                                                                         total_actual_quantity, 
-                                                                        note) values( '{0}', Concat('EMP00',FLOOR(RAND()*(4)+1)), '{1}', {2}, -1, N'{3}');", 
-                                                                        GrnID, dtNow, Convert.ToInt32(totalExpectedAmount), strNote);
+                                                                        note) values( '{0}', '{1}', '{2}', {3}, -1, N'{4}');", 
+                                                                        GrnID, Global.EmpId, dtNow, Convert.ToInt32(totalExpectedAmount), strNote);
                 conn.executeDatabase(query);
                 //Insert Detail
                 dtCart.Columns.Remove("Product");

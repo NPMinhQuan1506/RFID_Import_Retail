@@ -179,9 +179,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\Common.cs" />
+    <Compile Include="Controller\EncryptDecrypt.cs" />
+    <Compile Include="Controller\Global.cs" />
     <Compile Include="Controller\MyExcel.cs" />
     <Compile Include="Controller\Validation.cs" />
     <Compile Include="Model\Database.cs" />
+    <Compile Include="View\Authority\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Authority\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Imports\frmCheckImport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +252,9 @@
       <DependentUpon>frmMessageYesNo.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Notification\MyMessageBox.cs" />
+    <EmbeddedResource Include="View\Authority\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Imports\frmCheckImport.resx">
       <DependentUpon>frmCheckImport.cs</DependentUpon>
     </EmbeddedResource>

@@ -16,7 +16,7 @@ namespace RFID_Import_Retail
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new View.frmMenu());
+            Application.Run(new View.Authority.frmLogin());
         }
     }
 }

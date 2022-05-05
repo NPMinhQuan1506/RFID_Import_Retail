@@ -69,7 +69,7 @@
             // 
             this.pnContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnContainer.Location = new System.Drawing.Point(382, 103);
-            this.pnContainer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnContainer.Margin = new System.Windows.Forms.Padding(4);
             this.pnContainer.Name = "pnContainer";
             this.pnContainer.Size = new System.Drawing.Size(1004, 602);
             this.pnContainer.TabIndex = 0;
@@ -101,7 +101,7 @@
             this.acMenu.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.acgBusiness});
             this.acMenu.Location = new System.Drawing.Point(0, 39);
-            this.acMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.acMenu.Margin = new System.Windows.Forms.Padding(4);
             this.acMenu.Name = "acMenu";
             this.acMenu.RootDisplayMode = DevExpress.XtraBars.Navigation.AccordionControlRootDisplayMode.Footer;
             this.acMenu.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
@@ -191,7 +191,7 @@
             // 
             this.pnHeader.FluentDesignForm = this;
             this.pnHeader.Location = new System.Drawing.Point(0, 0);
-            this.pnHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnHeader.Margin = new System.Windows.Forms.Padding(4);
             this.pnHeader.Name = "pnHeader";
             this.pnHeader.Size = new System.Drawing.Size(1386, 39);
             this.pnHeader.TabIndex = 2;
@@ -204,7 +204,7 @@
             this.pnInfo.Controls.Add(this.pnInfoItem);
             this.pnInfo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnInfo.Location = new System.Drawing.Point(382, 39);
-            this.pnInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnInfo.Margin = new System.Windows.Forms.Padding(4);
             this.pnInfo.Name = "pnInfo";
             this.pnInfo.Size = new System.Drawing.Size(1004, 64);
             this.pnInfo.TabIndex = 3;
@@ -215,7 +215,7 @@
             this.pnIcon.Controls.Add(this.lbCurrentListIcon);
             this.pnIcon.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnIcon.Location = new System.Drawing.Point(0, 0);
-            this.pnIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnIcon.Margin = new System.Windows.Forms.Padding(4);
             this.pnIcon.Name = "pnIcon";
             this.pnIcon.Size = new System.Drawing.Size(56, 64);
             this.pnIcon.TabIndex = 1;
@@ -226,7 +226,7 @@
             this.lbCurrentListIcon.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.lbCurrentListIcon.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("lbCurrentListIcon.ImageOptions.SvgImage")));
             this.lbCurrentListIcon.Location = new System.Drawing.Point(7, 9);
-            this.lbCurrentListIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbCurrentListIcon.Margin = new System.Windows.Forms.Padding(4);
             this.lbCurrentListIcon.Name = "lbCurrentListIcon";
             this.lbCurrentListIcon.Size = new System.Drawing.Size(40, 40);
             this.lbCurrentListIcon.TabIndex = 0;
@@ -237,17 +237,17 @@
             this.pnInfoItem.Controls.Add(this.lbName);
             this.pnInfoItem.Controls.Add(this.peAvartar);
             this.pnInfoItem.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnInfoItem.Location = new System.Drawing.Point(562, 0);
-            this.pnInfoItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnInfoItem.Location = new System.Drawing.Point(514, 0);
+            this.pnInfoItem.Margin = new System.Windows.Forms.Padding(4);
             this.pnInfoItem.Name = "pnInfoItem";
-            this.pnInfoItem.Size = new System.Drawing.Size(442, 64);
+            this.pnInfoItem.Size = new System.Drawing.Size(490, 64);
             this.pnInfoItem.TabIndex = 0;
             // 
             // lbName
             // 
             this.lbName.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lbName.Location = new System.Drawing.Point(60, 8);
-            this.lbName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbName.Margin = new System.Windows.Forms.Padding(4);
             this.lbName.Name = "lbName";
             this.lbName.Size = new System.Drawing.Size(251, 41);
             this.lbName.TabIndex = 1;
@@ -256,7 +256,7 @@
             // peAvartar
             // 
             this.peAvartar.Location = new System.Drawing.Point(7, 8);
-            this.peAvartar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.peAvartar.Margin = new System.Windows.Forms.Padding(4);
             this.peAvartar.Name = "peAvartar";
             this.peAvartar.Size = new System.Drawing.Size(45, 41);
             this.peAvartar.TabIndex = 0;
@@ -330,7 +330,7 @@
             this.Controls.Add(this.acMenu);
             this.Controls.Add(this.pnHeader);
             this.FluentDesignFormControl = this.pnHeader;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMenu";
             this.NavigationControl = this.acMenu;
             this.Text = "RFID Import Retail - Team 14";

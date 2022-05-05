@@ -23,7 +23,7 @@ namespace RFID_Import_Retail.View
                 Thread.Sleep(70);
             }
             InitializeComponent();
-            lbName.Text = "Quân Nguyễn";
+            lbName.Text = Global.EmpName;
            
         }
 
