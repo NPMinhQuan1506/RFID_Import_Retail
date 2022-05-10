@@ -28,7 +28,7 @@
 - Project create with:
 - RFID technology (Chainway Reader C72 + RFID tag)
    - Chainway Reader C72 
-   ![Chainway Reader](./Image_demo/Picture1.jpg)
+   - ![Chainway Reader](./Image_demo/Picture1.jpg)
    - RFID tag 
    - ![RFID tag](./Image_demo/Picture2.jpg)
 - Winform C#
