@@ -66,17 +66,17 @@ You can read more analysis document in [[Design Analysis Document](https://drive
 **Review Feature**
 - Login Form
 
-![Login Form](./image_demo/login_Rfid.png)
+![Login Form](./Image_demo/login_Rfid.png)
 
 - Mapping RFID
 
-![Mapping RFID](./image_demo/MappingProduct.jpg)
-![Scan RFID](./image_demo/ScanRFID.jpg)
+![Mapping RFID](./Image_demo/MappingProduct.jpg)
+![Scan RFID](./Image_demo/ScanRFID.jpg)
 
 - Product List and CRUD
 
-![Product List](./image_demo/product_list.png)
-![Product List](./image_demo/SearchProduct.png)
+![Product List](./Image_demo/product_list.png)
+![Product List](./Image_demo/SearchProduct.png)
 
 You can read more review user interface in [[Design Analysis Document](https://drive.google.com/file/d/1RB1nEUCyh1hzJsW3QDAtAwFIqoHnptoB/view?usp=sharing)](From page 13)
 ## Build Process
