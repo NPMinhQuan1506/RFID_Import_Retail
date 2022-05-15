@@ -67,6 +67,10 @@ You can read more analysis document in [[Design Analysis Document](https://drive
 - Login Form
 
 ![Login Form](./Image_demo/login_Rfid.png)
+   |UserName | Pass    |  Role      |
+   | :------ | :------ | :-------- |
+   | admin1 | rfidteam14 | Management |
+
 
 - Mapping RFID
 
