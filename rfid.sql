@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 23, 2022 at 09:04 AM
+-- Generation Time: May 15, 2022 at 04:46 AM
 -- Server version: 10.4.24-MariaDB
--- PHP Version: 7.4.28
+-- PHP Version: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -33,6 +33,8 @@ CREATE TABLE `Employee` (
   `gender` varchar(10) NOT NULL,
   `date_of_birth` date NOT NULL,
   `department` varchar(30) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(200) NOT NULL,
   `is_enable` tinyint(1) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -40,11 +42,11 @@ CREATE TABLE `Employee` (
 -- Dumping data for table `Employee`
 --
 
-INSERT INTO `Employee` (`employee_id`, `name`, `gender`, `date_of_birth`, `department`, `is_enable`) VALUES
-('EMP001', 'Nguyễn Phạm Minh Quân', 'Male', '2000-01-06', 'Warehouse Manager', 1),
-('EMP002', 'Trần Chí Cường', 'Male', '1998-03-03', 'Warehouse Staff', 1),
-('EMP003', 'Charlotte J.William', 'Female', '1992-09-03', 'Sales Executive', 1),
-('EMP004', 'Nguyễn Thị Thanh Nguyệt', 'Female', '2001-09-01', 'Sales Staff', 1);
+INSERT INTO `Employee` (`employee_id`, `name`, `gender`, `date_of_birth`, `department`, `username`, `password`, `is_enable`) VALUES
+('EMP001', 'Nguyễn Phạm Minh Quân', 'Male', '2000-01-06', 'Warehouse Manager', 'admin1', '2bevi1vhEgW7EYM5ha+v7Q==', 1),
+('EMP002', 'Lương Vĩ Lâm', 'Male', '1998-03-03', 'Warehouse Staff', 'user2', '2bevi1vhEgW7EYM5ha+v7Q==', 1),
+('EMP003', 'Charlotte J.William', 'Female', '1992-09-03', 'Sales Executive', 'admin2', '2bevi1vhEgW7EYM5ha+v7Q==', 1),
+('EMP004', 'Nguyễn Thị Thanh Nguyệt', 'Female', '2001-09-01', 'Sales Staff', 'user1', '2bevi1vhEgW7EYM5ha+v7Q==', 1);
 
 -- --------------------------------------------------------
 
@@ -55,9 +57,11 @@ INSERT INTO `Employee` (`employee_id`, `name`, `gender`, `date_of_birth`, `depar
 CREATE TABLE `GoodsReceiptNote` (
   `grn_id` varchar(20) NOT NULL,
   `employee_id` varchar(20) NOT NULL,
+  `employee_check_id` varchar(20) DEFAULT NULL,
   `created_time` datetime NOT NULL,
   `total_expected_quantity` int(11) NOT NULL DEFAULT 0,
   `total_actual_quantity` int(11) NOT NULL DEFAULT -1,
+  `total_price` int(11) NOT NULL DEFAULT 0,
   `note` text DEFAULT NULL,
   `is_enable` tinyint(1) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -66,13 +70,12 @@ CREATE TABLE `GoodsReceiptNote` (
 -- Dumping data for table `GoodsReceiptNote`
 --
 
-INSERT INTO `GoodsReceiptNote` (`grn_id`, `employee_id`, `created_time`, `total_expected_quantity`, `total_actual_quantity`, `note`, `is_enable`) VALUES
-('GRN001', 'EMP001', '2022-04-19 04:57:46', 4, 4, 'Completed quantity', 1),
-('GRN002', 'EMP002', '2022-04-19 04:57:46', 5, 0, 'New GRN', 1),
-('GRN003', 'EMP003', '2022-04-19 04:57:46', 3, 3, 'Completed quantity', 1),
-('GRN004', 'EMP002', '2022-04-20 11:10:31', 3, 0, ' gnfg', 0),
-('GRN005', 'EMP004', '2022-04-20 11:14:39', 4, 3, 'mkmk', 1),
-('GRN006', 'EMP002', '2022-04-23 13:24:08', 6, 0, 'ss', 1);
+INSERT INTO `GoodsReceiptNote` (`grn_id`, `employee_id`, `employee_check_id`, `created_time`, `total_expected_quantity`, `total_actual_quantity`, `total_price`, `note`, `is_enable`) VALUES
+('GRN001', 'EMP001', 'EMP001', '2022-04-19 04:57:46', 4, 4, 0, 'Completed quantity', 1),
+('GRN002', 'EMP002', 'EMP001', '2022-04-19 04:57:46', 5, 0, 0, 'New GRN', 1),
+('GRN003', 'EMP003', 'EMP001', '2022-04-19 04:57:46', 3, 3, 0, 'Completed quantity', 1),
+('GRN004', 'EMP001', 'EMP001', '2022-04-20 11:10:31', 7, 7, 0, 'Completed quantity', 1),
+('GRN005', 'EMP004', 'EMP001', '2022-04-20 11:14:39', 4, 3, 0, 'Missing quantity', 1);
 
 -- --------------------------------------------------------
 
@@ -85,6 +88,7 @@ CREATE TABLE `GoodsReceiptNoteDetail` (
   `product_line_id` varchar(20) NOT NULL,
   `expected_quantity` int(11) NOT NULL DEFAULT 0,
   `actual_quantity` int(11) NOT NULL DEFAULT 0,
+  `import_price` int(11) NOT NULL DEFAULT 0,
   `is_checked` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -92,19 +96,20 @@ CREATE TABLE `GoodsReceiptNoteDetail` (
 -- Dumping data for table `GoodsReceiptNoteDetail`
 --
 
-INSERT INTO `GoodsReceiptNoteDetail` (`grn_id`, `product_line_id`, `expected_quantity`, `actual_quantity`, `is_checked`) VALUES
-('GRN001', 'AP.BA01', 2, 2, 1),
-('GRN001', 'LT.AG01', 1, 1, 1),
-('GRN001', 'MO.AE23', 1, 1, 1),
-('GRN002', 'MO.AE23', 1, 0, 0),
-('GRN002', 'ST.S501', 3, 0, 0),
-('GRN002', 'SW.XS01', 1, 0, 0),
-('GRN003', 'AP.BA01', 2, 2, 1),
-('GRN003', 'LT.AG01', 1, 1, 1),
-('GRN005', 'AP.BA01', 3, 3, 1),
-('GRN005', 'LT.AG01', 1, 0, 0),
-('GRN006', 'AP.BA01', 3, 0, 0),
-('GRN006', 'LT.AG01', 3, 0, 0);
+INSERT INTO `GoodsReceiptNoteDetail` (`grn_id`, `product_line_id`, `expected_quantity`, `actual_quantity`, `import_price`, `is_checked`) VALUES
+('GRN001', 'AP.BA01', 2, 2, 0, 1),
+('GRN001', 'LT.AG01', 1, 1, 0, 1),
+('GRN001', 'MO.AE23', 1, 1, 0, 1),
+('GRN002', 'MO.AE23', 1, 0, 0, 0),
+('GRN002', 'ST.S501', 3, 0, 0, 0),
+('GRN002', 'SW.XS01', 1, 0, 0, 0),
+('GRN003', 'AP.BA01', 2, 2, 0, 1),
+('GRN003', 'LT.AG01', 1, 1, 0, 1),
+('GRN004', 'AP.BA01', 2, 2, 0, 1),
+('GRN004', 'LT.AG01', 2, 2, 0, 1),
+('GRN004', 'MO.AE23', 3, 3, 0, 1),
+('GRN005', 'AP.BA01', 3, 3, 0, 1),
+('GRN005', 'LT.AG01', 1, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -189,7 +194,8 @@ ALTER TABLE `Employee`
 --
 ALTER TABLE `GoodsReceiptNote`
   ADD PRIMARY KEY (`grn_id`),
-  ADD KEY `employee_id` (`employee_id`);
+  ADD KEY `employee_id` (`employee_id`),
+  ADD KEY `employee_check_id` (`employee_check_id`);
 
 --
 -- Indexes for table `GoodsReceiptNoteDetail`
@@ -219,7 +225,8 @@ ALTER TABLE `ProductRFID`
 -- Constraints for table `GoodsReceiptNote`
 --
 ALTER TABLE `GoodsReceiptNote`
-  ADD CONSTRAINT `goodsreceiptnote_ibfk_1` FOREIGN KEY (`employee_id`) REFERENCES `Employee` (`employee_id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `goodsreceiptnote_ibfk_1` FOREIGN KEY (`employee_id`) REFERENCES `Employee` (`employee_id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `goodsreceiptnote_ibfk_2` FOREIGN KEY (`employee_check_id`) REFERENCES `Employee` (`employee_id`);
 
 --
 -- Constraints for table `GoodsReceiptNoteDetail`
